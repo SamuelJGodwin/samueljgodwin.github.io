@@ -1,0 +1,1230 @@
+/* -----------------------------------------
+ Editor Styles
+----------------------------------------- */
+@import "../inc/sass-variables";
+@import "../inc/theme-variables";
+@import "../inc/mixins/mixins";
+@import "../inc/mixins/grid";
+@import "../inc/grid";
+@import "../inc/archives";
+@import "../inc/pagination";
+
+//
+// Mixins
+//
+
+@mixin theme-input {
+	display: inline-block;
+	width: 100%;
+	max-width: 100%;
+	height: 50px;
+	padding: 10px 15px;
+	box-shadow: none;
+	line-height: normal;
+	border-radius: 0;
+	font-family: inherit;
+}
+
+@mixin widget-title {
+	font-size: 20px;
+	line-height: normal;
+	text-transform: none;
+	margin-bottom: $element-spacing-base;
+	font-weight: var(--ignition-font-weight-normal);
+}
+
+/* Base Styles
+=================================== */
+.editor-post-title__input {
+	color: var(--ignition-headings-color);
+
+	&::-webkit-input-placeholder {
+		color: currentColor;
+		opacity: .5
+	}
+
+	&:-moz-placeholder {
+		color: currentColor;
+		opacity: .5
+	}
+
+	&::-moz-placeholder {
+		color: currentColor;
+		opacity: .5
+	}
+
+	&:-ms-input-placeholder {
+		color: currentColor;
+		opacity: .5
+	}
+}
+
+p {
+	margin: 0 0 $element-spacing-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: normal;
+	clear: both;
+	margin: 0 0 $element-spacing-base;
+}
+
+strong {
+	font-weight: var(--ignition-font-weight-bold);
+}
+
+ul,
+ol {
+	padding-left: 20px;
+	margin: 0 0 $element-spacing-base 0;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1em;
+}
+
+pre {
+	margin: 0 0 $element-spacing-base;
+	padding: 15px;
+	overflow: auto;
+	background: var(--ignition-colors-grey);
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: monospace, serif;
+	hyphens: none;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+/* Editor Width
+=================================== */
+.wp-block {
+	max-width: 940px;
+}
+
+/* Global Block Styles
+=================================== */
+[class^="wp-block-"] {
+	> figcaption {
+		display: block;
+		font-size: 14px;
+		opacity: .8;
+		margin: 5px 0 0;
+		color: inherit;
+	}
+}
+
+/* Button Block
+=================================== */
+.gutenbee-block-button-link,
+.wp-block-button__link {
+	border-radius: 0;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:not([class*="has-"]) {
+	background: none;
+}
+
+/* Separator Block
+=================================== */
+.wp-block-separator {
+	width: 160px;
+	max-width: 100% !important;
+	margin: $content-element-spacing-base auto;
+	height: 1px !important;
+	clear: both;
+	border: 0;
+
+	&.is-style-dots {
+		width: 100%;
+		height: auto;
+	}
+
+	&.is-style-wide {
+		width: 100%;
+	}
+}
+
+/* Table Block
+=================================== */
+.wp-block-table {
+	thead {
+		border-bottom: 1px solid darken(#f1f1f1, 7%);
+		background-color: var(--ignition-colors-grey);
+	}
+
+	th,
+	td {
+		padding: 20px;
+		border: 0;
+		text-align: left;
+	}
+
+	tfoot {
+		border-top: 1px solid darken(#f1f1f1, 7%);
+		background-color: var(--ignition-colors-grey);
+	}
+
+	&.is-style-stripes {
+		border: 0;
+
+		tbody {
+			tr {
+				&:nth-child(odd) {
+					background: none;
+				}
+
+				&:nth-child(even) {
+					background-color: lighten(#f1f1f1, 2.2%);
+				}
+			}
+		}
+
+		.has-background {
+			thead {
+				background: rgba(#000, 0.05);
+			}
+
+			tfoot {
+				background: none;
+			}
+
+			tbody {
+				tr {
+					&:nth-child(even) {
+						background-color: rgba(#000, 0.03);
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Quote Block
+=================================== */
+.wp-block-quote {
+	border: 0;
+	padding: 0;
+	text-align: left;
+	font-style: normal;
+
+	&.has-text-align-left {
+		text-align: left;
+	}
+
+	&.has-text-align-center {
+		text-align: center;
+		border: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	&.has-text-align-right {
+		border-left: 0;
+		text-align: right;
+		padding-right: 15px;
+	}
+
+	&.is-style-large {
+		border: 0;
+		padding: 0;
+		margin-bottom: $content-element-spacing-base;
+		font-style: normal;
+
+		p {
+			font-style: normal;
+		}
+
+		cite {
+			text-align: inherit;
+			font-size: 1rem;
+		}
+
+		&::before {
+			display: none;
+		}
+	}
+}
+
+.wp-block-quote__citation,
+.wp-block-quote cite,
+.wp-block-quote footer {
+	font-style: normal;
+	text-align: inherit;
+	font-size: 1rem;
+	margin-top: 0;
+}
+
+/* Pullquote Block
+=================================== */
+.wp-block-pullquote {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+
+	blockquote {
+		padding: 0;
+		border: 0;
+		margin: 0;
+	}
+
+	p {
+		font-size: 24px;
+		font-style: normal;
+		line-height: normal;
+	}
+
+	&.is-style-solid-color {
+		border: 0;
+
+		blockquote {
+			margin-left: auto;
+			margin-right: auto;
+			text-align: left;
+			max-width: 80%;
+
+			p {
+				font-size: 24px;
+				line-height: normal;
+			}
+		}
+	}
+
+	.wp-block-pullquote__citation {
+		font-size: 1rem;
+		text-transform: none;
+		margin-top: $element-spacing-base;
+	}
+}
+
+/* Code Block / Preformattted / Verse
+=================================== */
+.wp-block-verse,
+.wp-block-preformatted,
+.wp-block-code {
+	background: var(--ignition-colors-grey);
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 1.625;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+	border-radius: 0;
+	border: 0;
+}
+
+/* Global Widget Block Styles
+=================================== */
+.wp-block-rss,
+.wp-block-archives,
+.wp-block-categories {
+	list-style: none;
+	padding-left: 0 !important;
+	font-size: 16px;
+
+	ul {
+		padding-left: 20px;
+		margin-left: 0;
+	}
+
+	> ul {
+		padding-left: 0;
+	}
+
+	li {
+		line-height: normal;
+		display: block;
+		position: relative;
+
+		a {
+			display: inline-block;
+			margin-bottom: 8px;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+/* Latest Comments Block
+=================================== */
+.wp-block-latest-comments {
+	margin-left: 0;
+	list-style: none;
+	padding-left: 0;
+	line-height: 1.5;
+
+	a {
+		color: currentColor;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.wp-block-latest-comments__comment {
+		font-size: 16px;
+		line-height: 1.5;
+		display: block;
+		padding: 0;
+		margin: 0 0 15px;
+	}
+
+	.wp-block-latest-comments__comment-date {
+		color: currentColor;
+		opacity: .7;
+	}
+
+	.wp-block-latest-comments__comment-excerpt {
+		p {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Search Widget Block
+=================================== */
+.wp-block-search {
+	position: relative;
+
+	.wp-block-search__button {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 50px;
+		padding: 16px 14px;
+		border: 0;
+		box-shadow: none;
+	}
+
+	.wp-block-search__input {
+		@include theme-input;
+	}
+}
+
+.wp-block-search__label {
+	@include widget-title;
+	margin-bottom: $element-spacing-base / 2;
+}
+
+/* Calendar Block
+=================================== */
+#wp-calendar {
+	width: 100%;
+
+	a {
+		font-weight: var(--ignition-font-weight-bold);
+		font-style: normal;
+		text-decoration: none;
+	}
+
+	caption {
+		text-align: left;
+		margin-top: 10px;
+		background: none repeat scroll 0 0 rgba(#000, .03);
+		padding: 9px;
+	}
+
+	thead {
+		font-size: 10px;
+		background: none;
+		border: 0;
+
+		th {
+			background: rgba(#000, .1);
+			font-weight: var(--ignition-font-weight-bold);
+			padding: 8px;
+		}
+	}
+
+	tbody {
+		td {
+			background: none;
+			text-align: center;
+			padding: 3px;
+			font-style: normal;
+		}
+
+		.pad {
+			background: none;
+		}
+	}
+
+	tfoot {
+		#next {
+			font-size: 10px;
+			text-transform: uppercase;
+			text-align: right;
+		}
+
+		#prev {
+			font-size: 10px;
+			text-transform: uppercase;
+			padding-top: 10px;
+		}
+	}
+}
+
+.wp-calendar-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Latest Posts block
+=================================== */
+.wp-block-latest-posts {
+	margin: 0;
+	padding: 0;
+	clear: both;
+
+	> li {
+		@include clearfix;
+		display: block;
+		margin-bottom: $element-spacing-base;
+
+		> a {
+			display: block;
+			margin: 0;
+			font-size: 20px;
+			line-height: 1.25;
+		}
+	}
+
+	.wp-block-latest-posts__post-author,
+	.wp-block-latest-posts__post-date {
+		font-size: 16px;
+		margin: 5px 0 0;
+		line-height: 1.55;
+		text-transform: none;
+		display: inline-block;
+	}
+
+	.wp-block-latest-posts__post-author {
+		+ .wp-block-latest-posts__post-date {
+			&::before {
+				content: "/";
+				margin: 0 4px;
+				opacity: .5;
+			}
+		}
+	}
+
+	.wp-block-latest-posts__featured-image {
+		margin-bottom: $element-spacing-base;
+	}
+
+	.wp-block-latest-posts__post-excerpt {
+		font-size: 16px;
+		margin: $element-spacing-base / 2 0 0;
+
+		> :last-child {
+			margin-bottom: 0;
+		}
+
+		&:empty {
+			display: none;
+		}
+	}
+
+	&.aligncenter {
+		text-align: center;
+	}
+
+	&.alignright {
+		text-align: right;
+	}
+
+	&.is-grid {
+		> li {
+			margin-bottom: $element-spacing-base * 2;
+		}
+	}
+}
+
+/* Tags
+=================================== */
+.tag-cloud-link {
+	display: inline-block;
+	padding: 6px 16px;
+	font-size: 12px;
+	margin: 3px 1px 3px 0;
+	border: 2px solid currentColor;
+	pointer-events: none;
+}
+
+/* Cover Block
+=================================== */
+.wp-block-cover,
+.wp-block-cover-image {
+	padding: $element-spacing-base;
+}
+
+/* Media & Text Block
+=================================== */
+.wp-block-media-text {
+	.wp-block-media-text__content {
+		padding-top: $element-spacing-base;
+		padding-bottom: $element-spacing-base;
+	}
+}
+
+/* File Block
+=================================== */
+.wp-block-file__content-wrapper {
+	display: flex;
+	align-items: center;
+
+	> a {
+		&:first-child {
+			margin-right: 15px;
+		}
+	}
+
+	.wp-block-file__button-richtext-wrapper {
+		margin-left: auto;
+		flex: none;
+	}
+
+	.wp-block-file__button {
+		border-radius: 0;
+	}
+}
+
+
+/* -----------------------------------------
+ GutenBee blocks
+----------------------------------------- */
+
+/* Post types
+=================================== */
+.row-items {
+	margin-bottom: 0;
+}
+
+// Products
+.entry-item-product {
+	list-style: none;
+	margin: 0 0 $element-spacing-base * 2;
+	text-align: center;
+	position: relative;
+
+	.entry-item-content {
+		text-align: center;
+	}
+
+	.entry-item-thumb {
+		position: relative;
+
+		img {
+			display: block;
+			margin: 0 auto $element-spacing-base;
+
+			&:nth-of-type(2) {
+				display: none;
+			}
+		}
+	}
+
+	.onsale {
+		z-index: 10;
+		position: absolute;
+		top: 0;
+		right: 0;
+		font-size: 14px;
+		text-align: center;
+		padding: 5px 12px;
+		color: var(--ignition-colors-white);
+		background: var(--ignition-colors-black);
+	}
+
+	.woocommerce-loop-product__link {
+		display: block;
+		text-decoration: none;
+		line-height: normal;
+		color: currentColor;
+	}
+
+	.woocommerce-loop-product__title {
+		margin: 0 0 $element-spacing-base;
+		font-size: 20px;
+		line-height: 1.25;
+		transition: color .18s ease;
+
+		+ .price {
+			margin-top: -#{$element-spacing-base / 1.2};
+		}
+
+		+ .star-rating {
+			margin-top: -#{$element-spacing-base / 1.2};
+		}
+	}
+
+	.price {
+		font-size: 16px;
+		margin: 5px 0 $element-spacing-base;
+		line-height: 1.55;
+		text-transform: none;
+		display: block;
+	}
+
+	.button {
+		position: relative;
+	}
+
+	.star-rating {
+		overflow: hidden;
+		position: relative;
+		width: 68px;
+		height: 13px;
+		line-height: 12px;
+		font-size: 12px;
+		font-family: star;
+		font-weight: 400;
+		display: block;
+		margin: 10px auto;
+		text-align: left;
+
+		&::before {
+			content: "\53\53\53\53\53";
+			top: 0;
+			left: 0;
+			right: 0;
+			position: absolute;
+			opacity: .5;
+			color: #aaa;
+			white-space: nowrap;
+		}
+
+		span {
+			overflow: hidden;
+			top: 0;
+			left: 0;
+			right: 0;
+			position: absolute;
+			padding-top: 1.5em;
+
+			&::before {
+				content: "\53\53\53\53\53";
+				top: 0;
+				left: 0;
+				right: 0;
+				position: absolute;
+				color: var(--ignition-colors-yellow);
+				white-space: nowrap;
+			}
+		}
+	}
+}
+
+.btn,
+.button {
+	@include button;
+	@include button-md;
+}
+
+/* Image block
+=================================== */
+.wp-block-gutenbee-image {
+	figure {
+		margin-top: 0;
+	}
+
+	figcaption {
+		display: block !important;
+		font-size: 14px;
+		color: inherit;
+		margin: 5px 0 0;
+		opacity: .7;
+		text-align: center;
+	}
+}
+
+[data-type="gutenbee/image"] {
+	&[data-align="full"],
+	&[data-align="wide"] {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+/* Maps block
+=================================== */
+[data-type="gutenbee/google-maps"] {
+	[data-align="full"] &,
+	[data-align="wide"] & {
+		max-width: none !important;
+	}
+}
+
+
+/* -----------------------------------------
+ WooCommerce blocks
+----------------------------------------- */
+
+/* WooCommerce - General
+=================================== */
+.wc-block-component-title {
+	@include widget-title;
+	margin-bottom: 0;
+}
+
+/* WooCommerce - Product Listings
+=================================== */
+.wc-block-grid__products {
+	padding: 0;
+
+	.wc-block-grid__product {
+		list-style: none;
+		text-align: center;
+		position: relative;
+
+		.wc-block-grid__product-image {
+			display: block;
+			margin: 0 auto $element-spacing-base !important;
+		}
+
+		.wc-block-grid__product-onsale {
+			z-index: 10;
+			position: absolute;
+			top: 0 !important;
+			right: 0 !important;
+			left: auto !important;
+			text-align: center;
+			border: 0;
+			border-radius: 0;
+			margin: 0;
+			font-size: 14px;
+			background-color: var(--ignition-colors-black);
+			color: var(--ignition-colors-white);
+			padding: 5px 12px;
+			text-transform: none;
+			font-weight: var(--ignition-font-weight-normal);
+		}
+
+		.wc-block-grid__product-link {
+			display: block;
+			text-decoration: none;
+			line-height: normal;
+			color: currentColor;
+		}
+
+		.wc-block-grid__product-title {
+			font-size: 20px;
+			margin: 0 0 5px;
+			font-weight: var(--ignition-font-weight-normal);
+		}
+
+		.wc-block-grid__product-price {
+			font-size: 16px;
+			margin: 5px 0 $element-spacing-base;
+
+			ins {
+				text-decoration: none;
+			}
+
+			del,
+			.wc-block-grid__product-price__regular {
+				display: inline-block;
+				margin: 0 4px 0 0;
+				color: currentColor;
+				font-size: inherit;
+				letter-spacing: 0;
+				opacity: .65;
+			}
+
+			.wc-block-grid__product-price__value {
+				letter-spacing: 0;
+				font-weight: var(--ignition-font-weight-normal);
+				display: inline-block;
+				font-size: inherit;
+			}
+		}
+
+		.wp-block-button {
+			margin: 2px 3px 0 0;
+			display: inline-block;
+
+			.button {
+				display: block;
+			}
+		}
+
+		.button,
+		.wp-block-button__link {
+			position: relative;
+			border: 0;
+			padding: 11px 26px;
+			font-size: 16px;
+
+			&:hover {
+				background: none;
+			}
+		}
+
+		.star-rating,
+		.wc-block-grid__product-rating {
+			display: block;
+			margin: -25px auto $element-spacing-base;
+			font-size: 12px;
+
+			span {
+				&::before {
+					color: var(--ignition-colors-yellow);
+				}
+			}
+		}
+	}
+}
+
+/* BLOCK: Products Block Pagination
+========================================= */
+.wc-block-pagination {
+	text-align: center;
+	margin: 0;
+
+	.wc-block-pagination-page {
+		cursor: pointer;
+		display: inline-block;
+		padding: 12px 21px;
+		font-size: 16px;
+		margin-right: 10px;
+		margin-bottom: 3px;
+		border: 2px solid;
+	}
+}
+
+/* WC BLOCK: Sort Select Element
+========================================= */
+.wc-block-sort-select {
+	margin-bottom: $element-spacing-base;
+
+	.wc-block-sort-select__select {
+		@include theme-input;
+		width: auto;
+		display: inline-block;
+		height: auto;
+	}
+}
+
+.wc-block-product-sort-select {
+	text-align: right;
+}
+
+/* WC BLOCK: Reviews
+========================================= */
+.wc-block-review-list {
+	padding: 0;
+	margin: 0;
+
+	.wc-block-review-list-item__item {
+		margin-bottom: $element-spacing-base;
+	}
+
+	.wc-block-review-list-item__rating__stars {
+		height: 1em;
+		width: 68px;
+		line-height: normal;
+		font-size: 12px;
+		vertical-align: baseline;
+	}
+
+	.wc-block-review-list-item__author,
+	.wc-block-review-list-item__published-date {
+		font-size: 15px;
+	}
+
+	.wc-block-review-list-item__info {
+		margin-bottom: 10px;
+	}
+
+	.wc-block-review-list-item__text {
+		font-size: 16px;
+		line-height: 1.44;
+	}
+}
+
+/* BLOCK: Filter by Price
+========================================= */
+.wc-block-price-filter {
+	.wc-block-price-filter__range-text {
+		font-size: 0.875rem;
+	}
+}
+
+/* WC BLOCK: Search
+========================================= */
+.wc-block-product-search__label {
+	@include widget-title;
+}
+
+.wc-block-product-search__fields {
+	position: relative;
+
+	.wc-block-product-search__field {
+		padding: 0;
+		margin: 0;
+
+		.components-base-control__field {
+			margin: 0;
+		}
+
+		input {
+			@include theme-input;
+		}
+	}
+
+	.wc-block-product-search__button {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		height: 100%;
+
+		&:hover {
+			// Unfortunately we have to use !important here as WooCommerce
+			// is using terribly specific selectors (with :not).
+			background: none !important;
+			box-shadow: none !important;
+			border: 0;
+		}
+	}
+}
+
+/* WC BLOCK: Product Categories
+========================================= */
+.wc-block-product-categories-list {
+	list-style: none;
+	margin: 0 !important;
+	padding: 0;
+	font-size: 16px;
+
+	ul {
+		margin-left: 15px;
+	}
+
+	li {
+		line-height: normal;
+		display: block;
+		position: relative;
+
+		a {
+			display: inline-block;
+			margin-bottom: 8px;
+		}
+	}
+}
+
+.wc-block-product-categories {
+	&.is-dropdown {
+		display: flex;
+
+		.wc-block-product-categories__dropdown {
+			flex: auto;
+		}
+
+		select {
+			@include theme-input;
+			width: 100%;
+			border-right: 0;
+		}
+
+		.wc-block-product-categories__button {
+			border: 1px solid;
+			border-left: 0;
+			border-radius: 0;
+
+			&:hover {
+				box-shadow: none;
+			}
+		}
+	}
+}
+
+/* WC BLOCK: Attribute Filters
+========================================= */
+.wc-block-attribute-filter {
+	margin-bottom: 0;
+
+	.wc-block-attribute-filter-list {
+		font-size: 16px;
+
+		li {
+			text-decoration: none;
+			line-height: normal;
+			display: block;
+			position: relative;
+			margin: 0;
+		}
+
+		[type="checkbox"] {
+			display: none;
+
+			&:checked + label {
+				font-weight: var(--ignition-font-weight-bold);
+
+				&::before {
+					content: "\00d7";
+					margin-right: 5px;
+					font-size: 14px;
+					color: var(--ignition-colors-red);
+				}
+			}
+		}
+
+		label {
+			display: inline-block;
+			align-items: center;
+			width: 100%;
+			margin: 0 0 8px;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.wc-block-attribute-filter-list-count {
+			float: none;
+			display: inline-block;
+			margin-left: 5px;
+		}
+	}
+}
+
+/* WC BLOCK: Active Filters
+========================================= */
+.wc-block-active-filters {
+	margin-bottom: 0;
+
+	.wc-block-active-filters__clear-all {
+		font-size: .975rem;
+		text-decoration: none;
+		margin: 0;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.wc-block-active-filters-list-item__type {
+		text-transform: capitalize;
+		margin-right: 3px;
+	}
+
+	.wc-block-active-filters__list:not(.wc-block-active-filters__list--chips) {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: block;
+
+		> li {
+			display: flex;
+			flex-direction: column;
+			padding: 0;
+			margin: 0 0 10px;
+
+			.wc-block-active-filters__list-item-type {
+				text-transform: capitalize;
+				letter-spacing: 0;
+				font-size: 1rem;
+				font-weight: var(--ignition-font-weight-bold);
+				margin-bottom: 5px !important;
+				display: block;
+			}
+
+			.wc-block-active-filters__list-item {
+				display: block;
+				margin-bottom: 5px;
+				font-weight: var(--ignition-font-weight-normal);
+				font-size: 16px;
+			}
+
+			.wc-block-active-filters__list-item-name {
+				font-weight: var(--ignition-font-weight-normal);
+				display: flex;
+				align-items: center;
+			}
+		}
+	}
+
+	.wc-block-active-filters__list.wc-block-active-filters__list--chips {
+		margin: 0;
+		padding: 0;
+
+		li.wc-block-active-filters__list-item {
+			.wc-block-active-filters__list-item-name {
+				font-size: 16px;
+				font-weight: var(--ignition-font-weight-normal);
+			}
+
+			.wc-block-components-chip {
+				cursor: pointer;
+				display: inline-flex;
+				align-content: center;
+				padding: 6px 16px;
+				font-size: 12px;
+				margin: 3px 1px 3px 0;
+				color: currentColor;
+				border: 2px solid currentColor;
+				border-radius: 0;
+				background: none;
+				font-weight: var(--ignition-font-weight-normal);
+			}
+
+			button {
+				margin-left: 5px;
+
+				&::before {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.wc-block-active-filters__list {
+		li.wc-block-active-filters__list-item {
+			button {
+				cursor: pointer;
+				color: var(--ignition-colors-red);
+				width: 16px;
+				height: 16px;
+				margin-left: auto;
+				display: inline-block;
+
+				&::before {
+					width: 16px;
+					height: 16px;
+					border-radius: 50%;
+					line-height: 1;
+					font-weight: bold;
+					background: var(--ignition-colors-red);
+					color: var(--ignition-colors-white);
+					content: "\00d7";
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+
+/* Theme Colors
+ * Imported last to avoid conflicts
+========================================= */
+@import "../inc/colors";

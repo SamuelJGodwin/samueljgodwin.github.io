@@ -1,0 +1,160 @@
+/* -----------------------------------------
+ Content Styles
+----------------------------------------- */
+
+/* Content
+========================================= */
+.entry-content {
+	> * {
+		margin-bottom: 30px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-bottom: 20px;
+	}
+
+	.entry-title {
+		margin-bottom: 0;
+	}
+
+	> &:last-child {
+		margin-bottom: 0;
+	}
+}
+
+/* Entry navigation
+========================================= */
+.entry-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.entry-prev,
+.entry-next {
+	width: 50%;
+	line-height: normal;
+
+	> span {
+		display: block;
+		text-transform: uppercase;
+		color: var(--ignition-secondary-text-color);
+		font-size: 14px;
+		letter-spacing: -.015em;
+	}
+
+	&:hover {
+		> span {
+			color: var(--ignition-text-color);
+		}
+	}
+}
+
+.entry-prev {
+	text-align: right;
+	margin-right: 15px;
+
+	&:only-child {
+		margin-right: auto;
+	}
+}
+
+.entry-next {
+	margin-left: 15px;
+
+	&:only-child {
+		margin-left: auto;
+	}
+}
+
+.entry-navigation-title {
+	font-size: 20px;
+	line-height: normal;
+	margin: 0;
+	letter-spacing: -.015em;
+	color: var(--ignition-text-color);
+	font-weight: 700;
+
+	@include media-breakpoint-down(sm) {
+		font-size: 16px;
+	}
+}
+
+/* MashShare Plugin
+========================================= */
+.mashsb-container {
+	.entry-content & {
+		margin: 25px 0;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Alignwide styling in default post templates
+============================================== */
+.post-template-default,
+.post-template-template-content-sidebar,
+.post-template-template-sidebar-content {
+	.entry-content,
+	.entry-tags,
+	.entry-section {
+		@include media-breakpoint-up(xl) {
+			padding-left: 75px;
+		}
+	}
+
+	.alignwide {
+		@include  media-breakpoint-up(xl) {
+			margin-left: -75px;
+		}
+	}
+}
+
+/* Entry tags
+================================================= */
+.entry-tags {
+	display: flex;
+	flex-wrap: wrap;
+
+	a {
+		display: inline-block;
+		color: var(--ignition-colors-white);
+		padding: 3px 10px;
+		font-size: 12px;
+		margin: 0 3px 3px 0;
+	}
+}
+
+/* Entry author
+====================================== */
+.entry-author-desc {
+	font-size: 16px;
+	line-height: 1.65;
+}
+
+/* Content colors per category
+====================================== */
+.entry-content > p > a,
+.entry-content blockquote,
+.entry-rating-scores {
+	color: var(--ignition-secondary-color);
+}
+
+.entry-tags a {
+	background-color: var(--ignition-secondary-color);
+}

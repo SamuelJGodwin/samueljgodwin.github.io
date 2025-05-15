@@ -1,0 +1,33 @@
+/* -----------------------------------------
+ Base theme styles
+----------------------------------------- */
+
+/* Main
+========================================= */
+.container {
+	@include media-breakpoint-down(xs) {
+		width: 100%;
+	}
+}
+
+.main {
+	padding: 40px 0 50px;
+}
+
+/* Buttons
+========================================= */
+.btn,
+.button,
+.gutenbee-block-button-link,
+.wp-block-button__link,
+input[type="submit"],
+input[type="reset"],
+button[type="submit"] {
+	padding: 12px 25px;
+	font-size: 14px;
+	line-height: normal;
+}
+
+.comment-reply-link {
+	font-size: 14px;
+}

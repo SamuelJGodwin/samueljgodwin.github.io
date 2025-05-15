@@ -1,0 +1,76 @@
+/* -----------------------------------------
+ Layout
+----------------------------------------- */
+
+/* Main layout
+========================================= */
+body {
+	overflow-x: hidden;
+}
+
+.page-wrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.site-content-wrap {
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+}
+
+.main {
+	flex: auto;
+
+	.ignition-no-main-padding-on & {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+.layout-reverse {
+	flex-direction: row-reverse;
+}
+
+.layout-reverse-mobile {
+	@include media-breakpoint-down(md) {
+		flex-direction: column-reverse;
+
+		.sidebar:not(.sidebar-drawer) {
+			margin-top: 0;
+			margin-bottom: $element-spacing-base * 2;
+		}
+	}
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+// Extra left/right spacing in content wrappers
+// ==============================================
+.has-sidebar {
+	&:not(.layout-reverse) {
+		> [class^="col"] {
+			&:first-child {
+				@include media-breakpoint-up(xl) {
+					padding-right: $grid-gutter-width-base * 2;
+				}
+			}
+		}
+	}
+
+	&.layout-reverse {
+		> [class^="col"] {
+			&:first-child {
+				@include media-breakpoint-up(xl) {
+					padding-left: $grid-gutter-width-base * 2;
+				}
+			}
+		}
+	}
+}

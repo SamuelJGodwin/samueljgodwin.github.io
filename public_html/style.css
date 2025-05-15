@@ -1,0 +1,131 @@
+body {
+
+  background-color: #fbfbfb;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  color: #333;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.inner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: 80%;
+
+  border-bottom: 1px solid rgb(0, 0, 0); /*fallback border-bottom*/
+  border-bottom: 1px solid rgba(0, 0, 0, .3); /*px border bottom*/
+  border-top: 1px solid rgb(0, 0, 0); /*fallback border-top*/
+  border-top: 1px solid rgba(0, 0, 0, .3); /*px border top*/
+}
+
+.inner img {
+  margin-left: 1vw;
+  width: 25vh;
+  height: auto;
+  flex-grow: 0;
+  border-radius: 50%; /*circular*/
+  border: 8px solid #fff; /*px for border*/
+  box-shadow: 0 0 20px #bbb; /*px for box shadow*/
+}
+
+.inner .text-wrapper {
+
+  margin-right: 1vw;
+  flex-grow: 0;
+
+}
+
+h1 {
+
+  font-size: 4rem;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+p.media-links a {
+  color: rgb(0, 0, 0); /*fallback color for devices without rgba*/
+  color: rgba(0, 0, 0, .4);
+  padding: 0 1.5rem;
+  margin-top: 1rem;
+  text-decoration: none;
+
+}
+
+p.media-links a:hover {
+
+  color: #ff9900;
+}
+
+@media only screen and (max-width: 920px) {
+
+  .inner {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .inner .text-wrapper {
+
+    flex-direction: column;
+    margin: 0;
+    margin-top: -2.5%;
+    height: auto;
+  }
+
+  .inner img {
+    width: 25vh;
+    margin-top: 4%;
+    margin-bottom: 0;
+
+  }
+}
+
+.container {
+
+    display: inline-flex;
+
+}
+.container p {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+}
+.container p .typed-text {
+
+  display: inline-flex;
+}
+
+.container p .cursor {
+
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.17rem;
+  width: 0.1rem;
+  animation: blink 1s infinite;
+}
+.container p .typing {
+
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #333; }
+  49% { background-color: #333; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #333; }
+}

@@ -1,0 +1,8 @@
+/* -----------------------------------------
+	Layout
+----------------------------------------- */
+@include media-breakpoint-up(xl) {
+	.has-sidebar:not(.layout-reverse) > [class^="col"]:first-child {
+		padding-right: 30px;
+	}
+}

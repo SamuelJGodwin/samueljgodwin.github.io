@@ -1,0 +1,266 @@
+/* -----------------------------------------
+ Archive Styles
+----------------------------------------- */
+
+/* Base entry style listing
+=================================== */
+
+.entry-header {
+	margin-bottom: $element-spacing-base;
+}
+
+.entry-title {
+	display: block;
+	line-height: 1;
+	font-size: 32px;
+	margin: 0;
+
+	a {
+		color: inherit;
+	}
+
+	.row-columns-2 &,
+	.row-columns-3 & {
+		font-size: 24px;
+	}
+}
+
+.entry-meta {
+	font-size: 16px;
+	margin: 5px 0 0;
+	line-height: 1.55;
+	text-transform: none;
+
+	a {
+		color: inherit;
+	}
+
+	span {
+		&::after {
+			content: "/";
+			margin: 0 4px;
+			opacity: .5;
+		}
+
+		&:last-child {
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	.entry-header & {
+		.row-columns-2 &,
+		.row-columns-3 & {
+			font-size: 14px;
+		}
+	}
+
+	.sidebar & {
+		margin-bottom: $content-element-spacing-base;
+
+		.entry-meta-item {
+			display: flex;
+			padding: 20px 0;
+			border-bottom: 1px solid;
+		}
+
+		.entry-meta-item-label {
+			display: inline-block;
+			min-width: 120px;
+
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	.ignition-star-rating {
+		margin-left: auto;
+		vertical-align: middle;
+	}
+}
+
+.entry-thumb {
+	margin: 0 0 $element-spacing-base;
+	text-align: center;
+
+	&.alignnone,
+	&.alignleft,
+	&.alignright,
+	&.aligncenter {
+		margin-top: 0;
+	}
+}
+
+.entry-item {
+	margin: 0 0 $element-spacing-base * 2;
+}
+
+.entry-item-media {
+	text-align: left;
+
+	@include media-breakpoint-up(md) {
+		display: flex;
+		align-items: flex-start;
+
+		.entry-thumb {
+			flex: none;
+			max-width: 200px;
+			margin-right: $grid-gutter-width-base;
+			margin-bottom: 0;
+		}
+	}
+
+	@include media-breakpoint-up(xl) {
+		.entry-thumb {
+			max-width: 250px;
+		}
+	}
+}
+
+.entry-item-content-wrap {
+	min-width: 1px;
+	flex: auto;
+
+	p {
+		margin-bottom: $element-spacing-base;
+	}
+}
+
+.entry-item-excerpt {
+	font-size: 16px;
+	margin: 0 0 $element-spacing-base;
+
+	p {
+		&:last-child {
+			margin: 0;
+		}
+	}
+
+	.entry-item-media & {
+		font-size: 1rem;
+	}
+
+	// In post items we want excerpts to have the text color.
+	.entry-item.type-post & {
+		color: currentColor;
+	}
+}
+
+/* Custom items (CPT / Related)
+=================================== */
+
+.row-items {
+	> :last-child {
+		.entry-item {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Nullify bottom margins for different columns */
+.row-columns-2 {
+	@include media-breakpoint-up(md) {
+		> :nth-last-child(-n+2) {
+			.entry-item {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.row-columns-3 {
+	@include media-breakpoint-up(xl) {
+		> :nth-last-child(-n+3) {
+			.entry-item {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	@include media-breakpoint-up(md) {
+		> :nth-last-child(-n+2) {
+			.entry-item {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.row-columns-4 {
+	@include media-breakpoint-up(xl) {
+		> :nth-last-child(-n+4) {
+			.entry-item {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	@include media-breakpoint-up(md) {
+		> :nth-last-child(-n+2) {
+			.entry-item {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.entry-item-thumb {
+	position: relative;
+	margin: 0 0 $element-spacing-base;
+	text-align: center;
+}
+
+.entry-item-content {
+	text-align: center;
+}
+
+.entry-item-title {
+	margin: 0 0 $element-spacing-base;
+	font-size: 20px;
+	line-height: 1.25;
+
+	+ .entry-item-excerpt {
+		margin-top: -#{$element-spacing-base / 1.2};
+	}
+
+	+ .entry-meta {
+		margin: -#{$element-spacing-base / 1.2} 0 $element-spacing-base;
+	}
+
+	a {
+		color: inherit;
+	}
+}
+
+.entry-item-list-meta {
+	padding: 0;
+	list-style: none;
+}
+
+/* Item Category Filters
+=================================== */
+.ci-item-filters {
+	margin-bottom: $content-element-spacing-base;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ci-item-filter {
+	@include button-sm;
+	margin: 0 5px 5px 0;
+
+	&.filter-active {
+		background: none;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	@include media-breakpoint-down(md) {
+		margin: 1px;
+		flex: 1 0 49%;
+	}
+}

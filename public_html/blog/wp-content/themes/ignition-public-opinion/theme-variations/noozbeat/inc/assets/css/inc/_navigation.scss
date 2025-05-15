@@ -1,0 +1,24 @@
+/* -----------------------------------------
+	Navigation
+----------------------------------------- */
+
+/* Main Navigation
+========================================= */
+.navigation-main {
+	> li {
+		&:after {
+			content: "";
+			border-top: 3px solid transparent;
+			position: absolute;
+			width: 100%;
+			top: auto;
+			bottom: 0;
+		}
+
+		> a {
+			padding: 12px 20px;
+			border-right: 0;
+		}
+	}
+	
+}

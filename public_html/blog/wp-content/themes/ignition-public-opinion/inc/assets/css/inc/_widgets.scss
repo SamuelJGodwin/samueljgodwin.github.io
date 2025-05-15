@@ -1,0 +1,62 @@
+/* -----------------------------------------
+ Widgets
+----------------------------------------- */
+
+/* General
+=================================== */
+.widget-title {
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* List Widgets
+=================================== */
+.widget_meta,
+.widget_pages,
+.widget_categories,
+.widget_archive,
+.widget_nav_menu,
+.widget_product_categories,
+.widget_rating_filter,
+.widget_ignition-page-children-menu,
+.woocommerce-widget-layered-nav {
+	ul {
+		li {
+			text-transform: uppercase;
+			font-weight: var(--ignition-font-weight-normal);
+		}
+	}
+}
+
+/* Item Widget
+=================================== */
+.ignition-widget-item {
+	display: flex;
+
+	.ignition-widget-item-thumb {
+		width: 80px;
+		margin-right: 10px;
+		flex: none;
+	}
+
+	.ignition-widget-item-content {
+		min-width: 1px;
+	}
+
+	.ignition-widget-item-title {
+		font-size: 16px;
+
+		a {
+			color: currentColor;
+		}
+	}
+
+	.ignition-widget-item-subtitle {
+		margin-top: 0;
+		font-size: 13px;
+		text-transform: uppercase;
+		font-weight: var(--ignition-font-weight-normal);
+		color: var(--ignition-secondary-text-color);
+	}
+}

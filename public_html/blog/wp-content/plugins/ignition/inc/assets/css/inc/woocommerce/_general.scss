@@ -1,0 +1,143 @@
+/* -----------------------------------------
+	WooCommerce General Styles
+----------------------------------------- */
+
+.woocommerce {
+	@include clearfix;
+}
+
+.woocommerce-store-notice {
+	position: fixed;
+	bottom: 0;
+	z-index: 150;
+	width: 100%;
+	background-color: var(--ignition-colors-grey);
+	text-align: center;
+	margin: 0;
+	line-height: normal;
+	padding: 15px 25px;
+
+	a {
+		text-decoration: underline;
+		display: inline-block;
+		margin-left: 3px;
+	}
+}
+
+.woocommerce-page {
+	.entry-content a {
+		text-decoration: none;
+	}
+
+	.shop_table {
+		border: 1px solid;
+		border-bottom: 0;
+		border-right: 0;
+		margin-top: 0;
+
+		th, td {
+			padding: 10px;
+			border-bottom: 1px solid;
+			border-right: 1px solid;
+		}
+
+		th {
+			line-height: normal;
+			width: 25%;
+
+			&.product-remove {
+				width: 6%;
+			}
+		}
+	}
+}
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error,
+.woocommerce-noreviews,
+.woocommerce-thankyou-order-received,
+p.no-comments {
+	@include clearfix;
+	padding: 15px 20px;
+	margin-bottom: 30px;
+	background: none;
+	margin-left: 0;
+	clear: both;
+	border: 0;
+	font-size: 16px;
+	line-height: 1.75;
+	background: #C0E5FF;
+	color: var(--ignition-colors-black);
+
+	.button {
+		float: right;
+		background: none;
+		box-shadow: none;
+		line-height: 1.718;
+		margin-left: 1em;
+		width: auto;
+		min-width: 0;
+		border: 0;
+		text-transform: none;
+		text-decoration: none !important;
+		padding: 5px 12px;
+		font-size: 13px;
+		display: flex;
+		align-items: center;
+
+		&::after {
+			@include ci-icon(\E00C);
+			margin-left: 6px;
+		}
+	}
+
+	pre {
+		background-color: rgba(#000, 0.1);
+	}
+}
+
+.woocommerce-error {
+	list-style: none;
+	background: #FFC0C6;
+}
+
+
+/* Grid overrides
+========================================= */
+.woocommerce {
+	.col2-set {
+		> .col-1,
+		> .col-2 {
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			flex: 0;
+			max-width: 100%;
+		}
+	}
+}
+
+/* Login / General forms
+========================================= */
+.woocommerce-form-register,
+.woocommerce-ResetPassword,
+.woocommerce-form-coupon,
+.woocommerce-form-login {
+	padding: $element-spacing-base;
+	border: 1px solid;
+	margin-bottom: $element-spacing-base;
+}
+
+.woocommerce-form-login__rememberme,
+.woocommerce-LostPassword {
+	margin: 25px 0;
+}
+
+/* Breadcrumb
+========================================= */
+.woocommerce-breadcrumb {
+	margin: 0;
+	color: currentColor;
+	font-size: inherit;
+}

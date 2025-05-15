@@ -1,0 +1,31 @@
+//
+// Header sections
+//
+.ignition-control-notice {
+	background: #fff;
+	padding: 10px 12px;
+	margin: 0 -15px 0;
+	border-radius: 3px;
+	border-left: solid 3px #1f8ec2;
+	box-shadow: 0 2px 0 rgba(0,0,0,0.05);
+
+	&.ignition-control-notice-info {
+		border-left: 10px solid #1f8ec2;
+	}
+
+	&.ignition-control-notice-warning {
+		border-left: 10px solid #fcb901;
+	}
+
+	&.ignition-control-notice-error {
+		border-left: 10px solid red;
+	}
+}
+
+.ignition-control-notice-label  {
+	margin: 0 0 5px;
+}
+
+.ignition-control-notice-description {
+	margin: 0;
+}

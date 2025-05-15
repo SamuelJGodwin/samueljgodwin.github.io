@@ -1,0 +1,32 @@
+/* -----------------------------------------
+	WooCommerce Styling
+--------------------------------------------
+
+.. General
+.. Shop Listing
+.. Product Page
+.. Cart
+.. Checkout
+.. Order Confirmation
+.. Progress Bar
+.. Account Pages
+.. Widgets
+.. Blocks
+.. Theme Colors
+*/
+
+@import "inc/sass-variables";
+@import "inc/mixins/grid";
+@import "inc/mixins/mixins";
+
+@import "inc/woocommerce/general";
+@import "inc/woocommerce/shop";
+@import "inc/woocommerce/single-product";
+@import "inc/woocommerce/cart";
+@import "inc/woocommerce/checkout";
+@import "inc/woocommerce/order-confirmation";
+@import "inc/woocommerce/progress";
+@import "inc/woocommerce/account";
+@import "inc/woocommerce/widgets";
+@import "inc/woocommerce/blocks";
+@import "inc/woocommerce/colors";

@@ -1,0 +1,40 @@
+/* -----------------------------------------
+	Theme Accessibility
+----------------------------------------- */
+
+/* Screen reader text
+=================================== */
+.sr-only,
+.screen-reader-text {
+  @include sr-only;
+}
+
+.sr-only-focusable,
+.screen-reader-text-focusable {
+  @include sr-only-focusable;
+}
+
+/* Skip link
+=================================== */
+.skip-link {
+	left: -9999rem;
+	top: 2.5rem;
+	z-index: 100000;
+	background-color: var(--ignition-colors-grey);
+	color: var(--ignition-colors-black);
+	box-shadow: 0 0 10px rgba(#000, .15);
+
+	&:focus {
+		position: fixed;
+		display: block;
+		left: 6px;
+		top: 7px;
+		right: auto;
+		font-size: 14px;
+		font-weight: 600;
+		text-decoration: none;
+		line-height: normal;
+		padding: 15px 23px 14px;
+		z-index: 100000;
+	}
+}

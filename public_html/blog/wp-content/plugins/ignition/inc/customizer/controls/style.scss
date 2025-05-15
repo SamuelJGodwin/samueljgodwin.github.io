@@ -1,0 +1,75 @@
+@import "section-header/style";
+@import "range/style";
+@import "color/style";
+@import "color-gradient/style";
+@import "typography/style";
+@import "spacing/style";
+@import "image-bg/style";
+@import "file-select/style";
+@import "notice/style";
+
+//
+// Responsive Controls
+//
+.ignition-responsive-controls-tablet,
+.ignition-responsive-controls-mobile {
+	display: none;
+}
+
+.button-group-devices {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	button {
+		cursor: pointer;
+		background: 0 0;
+		border: none;
+		height: 26px;
+		padding: 0 1px;
+		margin: 0;
+		box-shadow: none;
+		border: 0;
+
+		&:focus,
+		&:active {
+			box-shadow: none;
+		}
+
+		&::before {
+			display: inline-block;
+			-webkit-font-smoothing: antialiased;
+			font: normal 15px/17px dashicons;
+			vertical-align: top;
+			margin: 0 0;
+			padding: 2px 4px;
+			color: #656a6f;
+		}
+	}
+
+	.active {
+		&::before {
+			color: #3498d8;
+		}
+	}
+
+	.preview-desktop {
+		&::before {
+			content: "\f472";
+		}
+	}
+
+	.preview-tablet {
+		&::before {
+			content: "\f471";
+		}
+	}
+
+	.preview-mobile {
+		&::before {
+			content: "\f470";
+		}
+	}
+}

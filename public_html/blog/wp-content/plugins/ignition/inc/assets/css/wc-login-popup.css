@@ -1,0 +1,38 @@
+/* -----------------------------------------
+    WooCommerce Login Popup
+----------------------------------------- */
+
+.ignition-wc-login-popup.mfp-bg {
+  background-color: var(--ignition-body-background-color);
+}
+
+.ignition-wc-login-popup .mfp-content {
+  max-width: 35vw;
+  background-color: var(--ignition-body-background-color);
+  padding: 30px;
+  border: 1px solid var(--ignition-border-color);
+}
+
+.ignition-wc-login-popup .mfp-content .ignition-wc-login-notices {
+  margin-bottom: 10px;
+}
+
+.ignition-wc-login-popup .mfp-content .ignition-wc-login-notices .failure {
+  color: var(--ignition-colors-red);
+}
+
+.ignition-wc-login-popup .mfp-content .woocommerce-form-login {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.ignition-wc-login-popup .mfp-content .woocommerce-form-login .error {
+  border-color: var(--ignition-colors-red);
+}
+
+@media (max-width: 1229px) {
+  .ignition-wc-login-popup .mfp-content {
+    max-width: 50vw;
+  }
+}

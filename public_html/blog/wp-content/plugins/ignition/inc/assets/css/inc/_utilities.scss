@@ -1,0 +1,67 @@
+/* -----------------------------------------
+  Theme Utility Modules
+----------------------------------------- */
+
+/* Button to top
+========================================= */
+.btn-to-top {
+	position: fixed;
+	display: flex;
+	bottom: 30px;
+	right: 30px;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: 0;
+	font-size: 24px;
+	cursor: pointer;
+	user-select: none;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity .18s ease;
+	z-index: 200;
+
+	.is-customize-preview & {
+		opacity: 1 !important;
+		pointer-events: auto !important;
+		display: flex !important;
+	}
+
+	&:active,
+	&:focus {
+		outline: 0;
+	}
+}
+
+.btn-to-top-visible {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+/* Hooks display
+=================================== */
+.ignition-visible-hook {
+	text-align: center;
+	padding: 8px;
+	margin: 5px;
+	border-radius: 4px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	background: #aeecf9;
+}
+
+/* Responsive Visibility
+=================================== */
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+		$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+		@each $value in (block, none) {
+			.d#{$infix}-#{$value} { display: $value !important; }
+		}
+	}
+}

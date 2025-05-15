@@ -1,0 +1,47 @@
+{
+  "wpforms": {
+    "2" : "https://shareasale.com/r.cfm?b=834775&u=2165093&m=64312&urllink=wpforms%2Ecom%2Flite%2Dupgrade%2F&afftrack=wpstarter_wpforms_uk",
+    "3" : "https://shareasale.com/r.cfm?b=834775&u=2167744&m=64312&urllink=wpforms%2Ecom%2Flite%2Dupgrade%2F&afftrack=wpstarter_wpforms_es",
+    "4" : "https://shareasale.com/r.cfm?b=834775&u=2131496&m=64312&urllink=wpforms%2Ecom%2Flite%2Dupgrade&afftrack=wpstarter"
+  },
+  "neve": {
+    "2" : "https://www.siteground.com/tracking/wpstarter_themeisle_uk",
+    "3" : "https://www.siteground.com/tracking/wpstarter_themeisle_es",
+    "4" : "https://www.siteground.com/tracking/wpstarter_themeisle"
+  },
+  "google-analytics-for-wordpress": {
+    "2" : "2165093",
+    "3" : "2167744",
+    "4" : "2131496"
+  },
+  "optinmonster": {
+    "2" : "https://www.siteground.com/tracking/wpstarter_optinmonster_uk",
+    "3" : "https://www.siteground.com/tracking/wpstarter_optinmonster_es",
+    "4" : "https://www.siteground.com/tracking/wpstarter_optinmonster"
+  },
+  "envira-gallery-lite": {
+    "2" : "2165093",
+    "3" : "2167744",
+    "4" : "2131496"
+  },
+  "astra" : {
+    "2" : "https://www.siteground.com/tracking/wpstarter_wpastra_uk",
+    "3" : "https://www.siteground.com/tracking/wpstarter_wpastra_es",
+    "4" : "https://www.siteground.com/tracking/wpstarter_wpastra_us"
+  },
+  "translatepress-multilingual": {
+    "2" : "89",
+    "3" : "87",
+    "4" : "88"
+  },
+  "all-in-one-seo-pack": {
+    "2" : "https://shareasale.com/r.cfm?b=1491200&u=2165093&m=94778&urllink=&afftrack=",
+    "3" : "https://shareasale.com/r.cfm?b=1491200&u=2167744&m=94778&urllink=&afftrack=",
+    "4" : "https://shareasale.com/r.cfm?b=1491200&u=2131496&m=94778&urllink=&afftrack="
+  },
+  "kubio": {
+    "2" : "upgrade/?a_aid=63dcf4f74f5d0",
+    "3" : "upgrade/?a_aid=63dcf5a8db9a2",
+    "4" : "upgrade/?a_aid=63dcf42b40f69 "
+  }
+}

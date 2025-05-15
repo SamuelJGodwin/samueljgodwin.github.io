@@ -1,0 +1,22 @@
+.wsrw-loading-spinner {
+	z-index: ;
+	animation: wsrw-spinner-rotation 0.8s linear infinite;
+	background-image: url("../admin/images/spinner.svg");
+	background-repeat: no-repeat;
+	background-size: 16px 16px;
+	display: none;
+	height: 16px;
+	margin: 0 10px;
+	position: absolute;
+	width: 16px;
+	z-index: 9999;
+}
+
+@keyframes wsrw-spinner-rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

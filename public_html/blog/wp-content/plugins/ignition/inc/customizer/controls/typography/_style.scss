@@ -1,0 +1,67 @@
+//
+// Typography control
+//
+
+.customize-control-ignition-typography {
+	margin-bottom: 25px;
+}
+
+.ignition-typography-control-wrap {
+	position: relative;
+	margin-bottom: 12px;
+}
+
+.ignition-typography-control-split {
+	display: flex;
+	margin: 0 -3px 12px;
+
+	.ignition-typography-control-wrap {
+		width: 50%;
+		margin: 0 3px;
+	}
+}
+
+body {
+	.select2-container {
+		z-index: 1000000;
+	}
+}
+
+.customize-control {
+	.select2-container {
+		z-index: 1;
+
+		.select2-selection--single {
+			height: 32px;
+		}
+	}
+
+	.select2-container--default {
+		.select2-selection--single {
+			height: 32px;
+			border-color: #ddd;
+			border-radius: 4px;
+			font-size: 14px;
+
+			.select2-selection__rendered {
+				color: #32373c;
+				line-height: 30px;
+			}
+
+			.select2-selection__arrow {
+				height: 30px;
+			}
+		}
+
+		.select2-results__option--highlighted[aria-selected] {
+			background-color: #0073aa;
+		}
+	}
+
+	.select2-search--dropdown {
+		.select2-search__field {
+			border-color: #ddd;
+			border-radius: 4px;
+		}
+	}
+}

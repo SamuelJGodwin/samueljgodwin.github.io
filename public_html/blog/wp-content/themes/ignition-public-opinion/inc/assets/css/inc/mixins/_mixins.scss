@@ -1,0 +1,31 @@
+@mixin skewed-edge($position: "after", $width: 6px, $offset: 3px, $zindex: 0, $color: currentColor) {
+	position: relative;
+	z-index: 1;
+
+	&::after,
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		width: $width;
+		height: 100%;
+		background-color: $color;
+		transform: skewX(-15deg);
+		z-index: $zindex;
+		display: none;
+	}
+
+	@if $position == "after" or $position == "both" {
+		&::after {
+			display: block;
+			right: -#{$offset};
+		}
+	}
+
+	@if $position == "before" or $position == "both" {
+		&::before {
+			display: block;
+			left: -#{$offset};
+		}
+	}
+}

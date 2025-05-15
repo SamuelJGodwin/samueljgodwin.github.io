@@ -1,0 +1,138 @@
+#wsrw-media-preview,
+.wsrw-current-media-preview {
+	img {
+		max-width: 400px;
+		height: auto;
+	}
+}
+
+.wsrw-media-placeholder {
+	border: 2px dashed var(--wsrw-border-color);
+	width: 400px;
+	min-height: 250px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+	&:hover{
+		background-color: #ffffffa1;
+	}
+	&.dragover{
+		border-color:var(--wsrw-color-primary);
+	}
+
+	.wsrw-media-placeholder-text {
+		font-size: var(--wsrw-font-size-s);
+		span{
+			text-align: center;
+			display: block;
+			&:first-child{
+				font-size: 23px;
+				color: var(--wsrw-button-secondary-text);
+				margin-bottom: 11px;
+			}
+			&:nth-child(2){
+				margin-bottom: 5px;
+			}
+
+
+		}
+	}
+}
+
+.wsrw-media-replace-preview {
+	display: flex;
+	align-items: center;
+	max-width: 750px;
+	margin-bottom: 25px;
+
+	.wsrw-current-media-preview {
+		margin-right: 25px;
+	}
+}
+
+.wsrw-current-media-preview-file {
+
+	.wsrw-media-placeholder {
+		flex-flow: column;
+
+		.wsrw-media-placeholder-text {
+			margin-top: 12px;
+		}
+	}
+}
+
+.wsrw-media-replace-buttons {
+	margin-top: 25px;
+}
+
+.wsrw-media-replace {
+	.wsrw-file-upload {
+		display: flex;
+
+		label {
+			margin-right: 12px;
+		}
+	}
+}
+
+.wsrw-media-list-holder {
+	display: flex;
+	flex-wrap: wrap;
+
+	.wsrw-media-list-item {
+		margin-right: 10px;
+		margin-bottom: 10px;
+		border: 1px solid var(--wsrw-border-color);
+		background: var(--wsrw-background-white);
+		padding: var(--wsrw-space-v);
+		border-radius: 5px;
+		position: relative;
+
+		&:hover {
+			.wsrw-media-list-item-buttons {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.wsrw-media-list-item-image {
+	img {
+		display: block;
+	}
+}
+
+.wsrw-media-list-item-file {
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+
+	span {
+		margin-top: 12px;
+	}
+}
+
+.wsrw-media-list-item-buttons {
+	opacity: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	top: var(--wsrw-space-v);
+	bottom: var(--wsrw-space-v);
+	left: var(--wsrw-space-v);
+	right: var(--wsrw-space-v);
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding-bottom: 10px;
+	transition: opacity 0.3s ease;
+}
+
+.wsrw-media-list {
+	max-width: 1050px;
+}

@@ -1,0 +1,428 @@
+//
+// Variables
+//
+
+$white: #ffffff !default;
+$grey-lightest: #f9f9f9 !default;
+$grey-lighter: #f1f1f1 !default;
+$border-color: #dddddd !default;
+$accent-color: #0073aa !default;
+$text-color: #333333 !default;
+$text-color-light: #949494 !default;
+$text-color-dark: #23282d !default;
+
+$color-warning: #fefff1 !default;
+$color-danger: #ffabab !default;
+$color-info: #f6feff !default;
+
+$color-green: #e5f5ed !default;
+$color-red: #f5e5e6 !default;
+
+$border-radius-base: 3px !default;
+
+@import "../../../custom-fields/controls/side-image/style";
+@import "../../../custom-fields/controls/side-file-select/style";
+@import "../../../custom-fields/controls/separator/style";
+
+.ignition-side-setting-wrap {
+	margin: 0 0 14px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.ignition-side-setting-labels {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.ignition-side-setting-label {
+	display: block;
+}
+
+.ignition-side-setting-description {
+	font-size: .9em;
+	font-style: italic;
+	margin-bottom: 3px;
+	display: inline-block;
+
+	code {
+		font-size: 1em;
+	}
+}
+
+.ignition-side-setting-checkbox-label {
+	padding: 8px 0;
+	display: flex;
+
+	.ignition-side-setting-label {
+		margin-top: -5px;
+	}
+
+	.form-wrap & {
+		display: flex;
+		padding: 8px 0;
+	}
+}
+
+// Overrides for side meta boxes
+.metabox-location-side {
+	[id^="ignition-"] {
+		.handle-order-higher,
+		.handle-order-lower {
+			display: none;
+		}
+
+		.postbox-header {
+			border-bottom-color: #f0f0f0;
+
+			h2.hndle,
+			h3.hndle {
+				border-bottom: 0 !important;
+				font-weight: 500 !important;
+				color: #1e1e1e !important;
+				font-size: 13px !important;
+				cursor: pointer !important;
+			}
+		}
+	}
+}
+
+//
+// Tabs
+//
+
+.inside {
+	> .ignition-meta-tabs {
+		margin-top: 11px;
+	}
+}
+
+.ignition-meta-tabs {
+	overflow: hidden;
+	width: 100%;
+	transition: opacity .25s ease;
+
+	&.loading {
+		opacity: 0.5;
+		pointer-events: none;
+	}
+}
+
+.ignition-meta-tabs-vertical {
+	display: flex;
+}
+
+.ignition-meta-tabs-nav {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	.ignition-meta-tabs-vertical & {
+		flex-direction: column;
+		align-items: flex-start;
+		width: 150px;
+		flex: none;
+	}
+}
+
+.ignition-meta-tabs-nav-item {
+	margin: 0 -1px 0 0;
+
+	a {
+		display: block;
+		padding: 15px 25px;
+		border: 1px solid $border-color;
+		background-color: $white;
+		border-bottom-width: 0;
+		text-decoration: none;
+		color: $text-color;
+	}
+
+	a:hover,
+	a:focus,
+	a:active,
+	&.ignition-meta-tabs-nav-item-active a {
+		background: $grey-lighter;
+		color: $accent-color;
+		outline: none;
+		box-shadow: none;
+	}
+
+	.ignition-meta-tabs-vertical & {
+		width: 100%;
+
+		a {
+			padding: 8px 15px;
+			margin: 0 0 -1px 0;
+			border-bottom-width: 1px;
+		}
+	}
+
+	// Don't show active tabs on loading
+	.loading & {
+		&.ignition-meta-tabs-nav-item-active {
+			a {
+				border: 1px solid $border-color;
+				background-color: $white;
+				color: $text-color;
+			}
+		}
+	}
+}
+
+.ignition-meta-tabs-content {
+	padding: 10px;
+	border: 1px solid $border-color;
+	background: $grey-lightest;
+
+	&:not(:first-of-type) {
+		display: none;
+	}
+
+	.ignition-meta-tabs-vertical & {
+		flex: auto;
+		padding: 30px;
+		min-height: 300px;
+		background: $white;
+		margin-left: -1px;
+	}
+}
+
+.ignition-tab-secondary-section {
+	background: $white;
+	border: 1px solid $border-color;
+	margin-left: -1px;
+	padding: 30px;
+}
+
+//
+// Setting controls
+//
+
+.ignition-setting-wrap {
+	display: flex;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid $grey-lighter;
+}
+
+.ignition-setting-labels {
+	width: 50%;
+	flex: none;
+	padding-right: 15px;
+}
+
+.ignition-setting-label {
+	display: block;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 600;
+	color: $text-color-dark;
+}
+
+.ignition-setting-description {
+	display: block;
+	margin: 0;
+	color: $text-color-light;
+
+	strong {
+		color: $text-color;
+	}
+}
+
+//
+// Setting control form fields
+//
+
+.ignition-setting-control {
+	flex: auto;
+	max-width: 305px;
+
+	> [type="text"],
+	> [type="password"],
+	> [type="number"],
+	> [type="date"],
+	> [type="email"],
+	> [type="url"],
+	> [type="search"],
+	> [type="tel"],
+	> select {
+		width: 100%;
+	}
+
+	textarea,
+	[multiple] {
+		width: 100%;
+		min-height: 90px;
+	}
+
+	[type="checkbox"],
+	[type="radio"] {
+		margin: 0 5px 0 0;
+	}
+}
+
+.ignition-setting-control-checkbox,
+.ignition-setting-control-radio {
+	display: flex;
+	align-items: center;
+	margin: 5px 0;
+}
+
+.ignition-setting-control-checkbox {
+	flex-direction: column;
+	align-items: flex-start;
+	row-gap: 5px;
+
+	.ignition-setting-label {
+		display: inline-block;
+	}
+}
+//
+// Alerts
+//
+
+.ignition-alert {
+	padding: 10px;
+	border-radius: $border-radius-base;
+	background-color: $grey-lightest;
+	border: 1px solid $grey-lighter;
+	margin-bottom: 15px;
+}
+
+.ignition-alert-warning {
+	background-color: $color-warning;
+	border-color: rgba(darken($color-warning, 75%), .2);
+}
+
+.ignition-alert-danger {
+	background-color: $color-danger;
+	border-color: rgba(darken($color-danger, 80%), .2);
+	color: darken($color-danger, 55%);
+}
+
+.ignition-alert-info {
+	background-color: $color-info;
+	border-color: rgba(darken($color-info, 80%), .2);
+	color: darken($color-info, 80%);
+}
+
+//
+// Global section hooks
+//
+
+.ignition-hooks-wrap {
+	margin-bottom: 20px;
+	padding: 30px;
+
+	&:last-of-type {
+		margin: 0;
+		border-bottom: 0;
+	}
+}
+
+.ignition-hooks-inclusions-wrap {
+	background-color: $color-green;
+}
+
+.ignition-hooks-exclusions-wrap {
+	background-color: $color-red;
+}
+
+.ignition-hooks-locations-wrap {
+	background-color: $grey-lightest;
+}
+
+.ignition-hooks-label {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.ignition-hook-row {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.ignition-hook-select {
+	margin-right: 15px;
+	flex: auto;
+	width: 45%;
+
+	select,
+	input {
+		width: 100%;
+	}
+
+	select {
+		&:empty {
+			display: none;
+		}
+	}
+}
+
+.ignition-hook-input-priority {
+	margin-right: 15px;
+	flex: auto;
+	max-width: 100px;
+
+	input {
+		max-width: 100px;
+		width: 100%;
+		display: block;
+	}
+}
+
+.ignition-hook-input-hook {
+	margin-right: 15px;
+	flex: auto;
+
+	input {
+		width: 100%;
+		display: block;
+	}
+}
+
+.ignition-hook-dismiss {
+	padding: 0;
+	margin: 0 0 0 auto;
+	background: none;
+	appearance: none;
+	box-shadow: none;
+	border: 0;
+	line-height: normal;
+	cursor: pointer;
+	flex: none;
+
+	.ignition-hooks-locations-wrap & {
+		margin-top: 18px;
+	}
+}
+
+.ignition-repeatable-template {
+	display: none;
+}
+
+//
+// Map location picker
+//
+
+.gllpLatlonPicker {
+	.gllpSearch {
+		padding-bottom: 20px;
+	}
+	.gllpMap {
+		width: 100%;
+		max-width: 100%;
+		height: 300px;
+	}
+
+	> p {
+		padding-bottom: 20px;
+		border-bottom: 1px solid #f1f1f1;
+	}
+}

@@ -1,0 +1,206 @@
+/* -----------------------------------------
+	Theme Colors
+----------------------------------------- */
+
+/* Global - Primary Color
+========================================= */
+.entry-item-product > a:hover .woocommerce-loop-product__title,
+li.product > a:hover .woocommerce-loop-category__title,
+li.product > a:hover .woocommerce-loop-product__title,
+.single-product div.product .entry-summary .product_meta a:hover,
+.woocommerce-widget-layered-nav li a:hover,
+.widget_product_categories li a:hover,
+.widget_rating_filter li a:hover,
+.woocommerce-MyAccount-navigation-link a:hover,
+.product_list_widget li > a:hover,
+.product_list_widget .widget-product-content-wrap > a:hover,
+li.wc-block-grid__product .wc-block-grid__product-link:hover,
+li.wc-block-grid__product .wc-block-grid__product-title a:hover,
+.wc-block-layout .wc-block-grid .wc-block-components-product-title a:hover,
+.wc-block-attribute-filter .wc-block-attribute-filter-list [type="checkbox"]:checked + label {
+	color: var(--ignition-primary-color);
+}
+
+.woocommerce-checkout-step-done .woocommerce-checkout-step-number,
+.select2-container.select2-container--default .select2-results__option[data-selected=true],
+.select2-container.select2-container--default .select2-results__option--highlighted[data-selected] {
+	background-color: var(--ignition-primary-color);
+}
+
+.woocommerce-checkout-step-active .woocommerce-checkout-step-number,
+.woocommerce-checkout-step-done .woocommerce-checkout-step-number,
+.woocommerce-order-details,
+.ignition-checkout-order,
+.cart-collaterals {
+	border-color: var(--ignition-primary-color);
+}
+
+.wc-block-pagination .wc-block-pagination-page.wc-block-pagination-page--active,
+.wc-block-pagination .wc-block-pagination-page:hover,
+.woocommerce-pagination .page-numbers.current,
+.woocommerce-pagination a.page-numbers:hover {
+	border-color: var(--ignition-primary-color);
+	background-color: var(--ignition-primary-color);
+}
+
+/* Global - Text Color
+========================================= */
+.wc-block-pagination .wc-block-pagination-page,
+.woocommerce-pagination .page-numbers,
+.entry-item-product .woocommerce-loop-product__title,
+li.product .woocommerce-loop-category__title,
+li.product .woocommerce-loop-product__title,
+.single-product div.product .entry-summary .reset_variations,
+.single-product div.product .entry-summary .product_meta a,
+.wc-tabs li.active a,
+.woocommece-cart-form .woocommerce-cart-form__contents a,
+.woocommerce-checkout-step-number,
+.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link a,
+.woocommerce-MyAccount-content mark,
+.woocommerce-Address-title a,
+li.wc-block-grid__product .wc-block-grid__product-title a,
+.wc-block-layout .wc-block-grid .wc-block-components-product-title a,
+.wc-block-review-list-item__text__read_more {
+	color: var(--ignition-text-color);
+}
+
+.wc-tabs a,
+.single-product div.product .entry-summary .product_meta,
+.wc-block-review-list .wc-block-review-list-item__published-date {
+	color: var(--ignition-text-color);
+}
+
+/* Global - Border Color
+========================================= */
+.woocommerce-store-notice,
+.woocommerce-page .shop_table,
+.woocommerce-page .shop_table th,
+.woocommerce-page .shop_table td,
+.single-product div.product .entry-summary .cart,
+.single-product div.product .entry-summary .product_meta,
+.wc-tabs li.active a,
+.wc-tabs a,
+.woocommerce-Tabs-panel,
+.cart_totals > h2,
+.cart_totals .shop_table .cart-subtotal,
+.cart_totals .shop_table .order-total,
+.cart_totals .shop_table .woocommerce-shipping-methods,
+.woocommerce-cart-form .woocommerce-cart-form__contents tbody tr:last-child,
+.ignition-checkout-order > h3,
+.woocommerce-checkout-review-order .woocommerce-checkout-review-order-table thead,
+.woocommerce-checkout-review-order .woocommerce-checkout-review-order-table tbody tr,
+.woocommerce-checkout-review-order .woocommerce-checkout-review-order-table .woocommerce-shipping-methods,
+.woocommerce-bacs-bank-details h2,
+.woocommerce-order-details .woocommerce-order-details__title,
+.woocommerce-order-details .woocommerce-table--order-details thead,
+.woocommerce-order-details .woocommerce-table--order-details tbody tr,
+.woocommerce-form-register,
+.woocommerce-ResetPassword,
+.woocommerce-form-coupon,
+.woocommerce-form-login,
+.woocommerce-checkout-step::after,
+.woocommerce-checkout-step-number,
+.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link a,
+.woocommerce-Address-title > h3,
+.woocommerce-EditAccountForm fieldset,
+.widget_layered_nav_filters a,
+.wc-block-pagination .wc-block-pagination-page,
+.woocommerce-pagination a.page-numbers,
+.woocommerce-mini-cart__empty-message,
+.woocommerce-mini-cart__total {
+	border-color: var(--ignition-border-color);
+}
+
+.price_slider .ui-slider-range {
+	background-color: var(--ignition-border-color);
+}
+
+.wc-block-price-filter .wc-block-price-filter__range-input-wrapper .wc-block-price-filter__range-input-progress {
+	--range-color: var(--ignition-border-color);
+}
+
+/* Global - Forms Background Color
+========================================= */
+.shop-filter-toggle,
+.qty-btn,
+.select2-container.select2-container--default .select2-selection--multiple,
+.select2-container.select2-container--default .select2-selection--single,
+.select2-container .select2-dropdown {
+	background-color: var(--ignition-forms-background-color);
+}
+
+/* Global - Forms Border Color
+========================================= */
+.shop-filter-toggle,
+.shop-filter-toggle:hover,
+.qty-btn,
+.quantity-wrap .qty,
+.quantity-wrap .qty:hover,
+.woocommerce-cart-form .woocommerce-cart-form__contents .product-quantity .quantity .qty,
+.woocommerce-cart-form .woocommerce-cart-form__contents .product-quantity .quantity .qty:hover,
+.woocommerce-cart-form .woocommerce-cart-form__contents .product-quantity .quantity .qty:focus,
+.woocommerce-cart-form .woocommerce-cart-form__contents .product-quantity .quantity .qty:focus,
+.select2-container.select2-container--default .select2-selection--multiple,
+.select2-container.select2-container--default .select2-selection--single,
+.select2-container.select2-container--default.select2-container--open .select2-selection--multiple,
+.select2-container.select2-container--default.select2-container--open .select2-selection--single,
+.select2-container.select2-container--default .select2-search--dropdown .select2-search__field,
+.select2-container .select2-dropdown {
+	border-color: var(--ignition-forms-border-color);
+}
+
+/* Global - Forms Text Color
+========================================= */
+.shop-filter-toggle,
+.shop-filter-toggle:hover,
+.qty-btn,
+.select2-container.select2-container--default .select2-selection--multiple .select2-selection__rendered,
+.select2-container.select2-container--default .select2-selection--single .select2-selection__rendered,
+.select2-container.select2-container--default .select2-selection--single .select2-selection__placeholder,
+.select2-results__option[aria-selected],
+.select2-results__option[data-selected] {
+	color: var(--ignition-forms-text-color);
+}
+
+/* Global - Buttons Colors
+========================================= */
+li.wc-block-grid__product {
+	.wc-block-grid__product-add-to-cart {
+		.wp-block-button__link {
+			border-color: var(--ignition-buttons-border-color);
+		}
+	}
+}
+
+.woocommerce-mini-cart__buttons .button {
+	color: var(--ignition-buttons-text-color);
+
+	&:last-of-type {
+		&:hover {
+			color: var(--ignition-buttons-text-color);
+		}
+	}
+}
+
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error {
+	.button {
+		background-color: var(--ignition-buttons-background-color);
+		color: var(--ignition-buttons-text-color);
+	}
+}
+
+.added_to_cart,
+.added_to_cart:hover {
+	background-color: var(--ignition-buttons-background-color);
+	color: var(--ignition-buttons-text-color);
+	border: 2px solid var(--ignition-buttons-border-color);
+}
+
+/* Footer - Border Color
+========================================= */
+.footer .woocommerce-mini-cart__empty-message,
+.footer .woocommerce-mini-cart__total {
+	border-color: var(--ignition-footer-border-color);
+}

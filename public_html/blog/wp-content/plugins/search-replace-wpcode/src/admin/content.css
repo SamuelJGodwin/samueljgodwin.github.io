@@ -1,0 +1,49 @@
+.wsrw-content {
+	padding: 28px var(--wsrw-space-h);
+
+	* {
+		box-sizing: border-box;
+	}
+
+	h2 {
+		color: var(--wsrw-text-color-heading);
+		font-size: var(--wsrw-font-size-l);
+	}
+
+	p {
+		color: var(--wsrw-text-color-paragraph);
+		font-size: var(--wsrw-font-size-s);
+	}
+
+	.wsrw-add-snippet & {
+		padding-top: 20px;
+	}
+
+	& > hr {
+		margin-bottom: 36px;
+		margin-top: 36px;
+	}
+}
+
+.wsrw-code-textarea {
+	margin-bottom: var(--wsrw-space-h);
+
+	h2 {
+		margin: 12px 0 20px;
+	}
+}
+
+.wrap {
+	margin: 0;
+	padding: 0 var(--wsrw-space-h);
+
+	div.error,
+	div.updated {
+		margin-bottom: 0;
+		position: relative;
+	}
+
+	div:first-child {
+		margin-top: 28px;
+	}
+}

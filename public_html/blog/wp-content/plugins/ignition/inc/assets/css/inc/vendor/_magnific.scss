@@ -1,0 +1,84 @@
+/* -----------------------------------------
+	Magnific Popup Related Styles
+----------------------------------------- */
+
+.mfp-bg {
+	background-color: var(--ignition-colors-white);
+}
+
+.mfp-preloader {
+	color: var(--ignition-colors-black);
+
+	a {
+		color: var(--ignition-colors-black);
+
+		&:hover {
+			color: var(--ignition-colors-black);
+		}
+	}
+}
+
+.mfp-container {
+	&:not(.mfp-s-error) {
+		.mfp-preloader {
+			background-color: transparent;
+			text-indent: -999em;
+			margin: 0 auto;
+		}
+	}
+}
+
+button {
+	&.mfp-close,
+	&.mfp-arrow {
+		border: 0;
+		opacity: 1;
+
+		&:hover {
+			background: none;
+			border: 0;
+		}
+	}
+}
+
+.mfp-close-btn-in {
+	.mfp-close {
+		color: var(--ignition-colors-black);
+	}
+}
+
+.mfp-image-holder,
+.mfp-iframe-holder {
+	.mfp-close {
+		color: var(--ignition-colors-black);
+	}
+}
+
+.mfp-arrow {
+	line-height: .3;
+
+	&::before,
+	&::after {
+		border: 0;
+	}
+
+	&::after {
+		@include ci-icon(\E00C);
+		font-size: 70px;
+		color: var(--ignition-colors-black);
+	}
+}
+
+.mfp-arrow-right {
+	&::after,
+	.mpf-a {
+		content: "\E00C";
+	}
+}
+
+.mfp-arrow-left {
+	&::after,
+	.mpf-a {
+		content: "\E00B";
+	}
+}

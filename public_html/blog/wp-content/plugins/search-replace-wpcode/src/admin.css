@@ -1,0 +1,17 @@
+@import "admin/variables.css";
+@import "admin/header.css";
+@import "admin/buttons.css";
+@import "admin/content.css";
+@import "admin/inputs.css";
+@import "admin/tabs.css";
+@import "admin/search-replace.css";
+@import "admin/replace-media.css";
+@import "admin/modal.css";
+@import 'admin/loading.css';
+@import 'jquery-confirm/dist/jquery-confirm.min.css';
+@import 'admin/jconfirm.css';
+@import 'admin/settings.css';
+@import 'admin/upsells.css';
+@import 'admin/footer.css';
+@import 'admin/notices.css';
+@import 'admin/remove-unused-media.css';

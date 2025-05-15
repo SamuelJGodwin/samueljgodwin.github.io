@@ -1,0 +1,14 @@
+//
+// Editor styles
+//
+// Only include stylesheets which are meant for
+// the blocks' editor (Gutenberg) appearance
+//
+
+@import 'inc/variables';
+
+// Block Styles
+@import '../blocks/taxonomy-terms/editor';
+
+// Component styles
+@import '../components/EntitySelect/style';

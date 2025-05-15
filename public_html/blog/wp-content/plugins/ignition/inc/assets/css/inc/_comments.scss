@@ -1,0 +1,173 @@
+/* -----------------------------------------
+	Comments
+----------------------------------------- */
+
+.comments-title,
+.comment-reply-title {
+	margin-bottom: $element-spacing-base;
+}
+
+.comment-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 50px;
+
+	@include media-breakpoint-down(md) {
+		margin: 0 0 35px;
+	}
+
+	.children {
+		list-style: none;
+
+		@include media-breakpoint-down(sm) {
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	.comment-body {
+		margin-bottom: 30px;
+		padding-top: 30px;
+	}
+
+	> .comment {
+		&:first-child {
+			> .comment-body {
+				border-top: 0;
+				padding-top: 0;
+			}
+		}
+	}
+}
+
+.post-comments {
+	margin: 0 0 45px;
+}
+
+.comment-author {
+	margin-bottom: 5px;
+
+	.fn {
+		font-size: 18px;
+		line-height: normal;
+		font-weight: var(--ignition-font-weight-normal);
+	}
+
+	.avatar {
+		width: 78px;
+		float: left;
+		margin: 0 30px 15px 0;
+		overflow: visible;
+
+		@include media-breakpoint-down(xs) {
+			display: none;
+		}
+	}
+}
+
+.comment-content {
+	overflow: hidden;
+	zoom: 1;
+	font-size: 15px;
+	line-height: 1.5;
+	margin-top: 20px;
+
+	p {
+		margin-bottom: 25px;
+	}
+
+	ul,
+	ol {
+		margin: 30px 0;
+		padding-left: 25px;
+
+		ul, ol {
+			margin: 0;
+		}
+	}
+
+	blockquote {
+		margin: 35px 0 0;
+	}
+}
+
+.comment-metadata {
+	font-size: 0.9rem;
+	margin: 0 0 5px;
+
+	a {
+		color: inherit;
+	}
+
+	.ignition-star-rating {
+		font-size: 11px;
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+}
+
+a.comment-reply-link {
+	font-size: 14px;
+	padding: 4px 14px;
+	margin-left: 107px;
+	height: auto;
+	width: auto;
+
+	@include media-breakpoint-down(sm) {
+		margin: 0;
+	}
+}
+
+.bypostauthor {
+	> article {
+		.fn {
+			&::before {
+				@include ci-icon(\E05F);
+				margin: 0 5px 0 -2px;
+				position: relative;
+				top: -3px;
+				font-size: 11px;
+			}
+		}
+	}
+}
+
+#cancel-comment-reply-link {
+	font-size: 13px;
+	font-weight: var(--ignition-font-weight-normal);
+	margin-left: 5px;
+}
+
+.form-allowed-tags,
+.comment-notes {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0 0 30px;
+}
+
+.form-submit {
+	margin-bottom: 0;
+	margin-top: $element-spacing-base;
+}
+
+.no-comments {
+	border: 1px solid;
+	padding: 15px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.comment-form-cookies-consent {
+	line-height: normal;
+	display: inline-flex;
+	margin: 25px 0 0;
+
+	label {
+		display: inline-block;
+		margin: 0 0 0 8px;
+	}
+
+	input[type="checkbox"] {
+		margin-top: 2px;
+	}
+}

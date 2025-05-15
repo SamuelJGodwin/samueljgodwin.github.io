@@ -1,0 +1,51 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.head-content-slot-end {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.head-intro-inner {
+	.head-content-slot:first-child {
+		.head-content-slot-item:first-child {
+			padding-left: 15px;
+		}
+	}
+}
+
+.news-ticker-controls {
+	flex-direction: row-reverse;
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Archives
+--------------------------------------------------------------*/
+.entry-meta-top-wrap {
+	padding: 0 8px;
+}
+
+.entry-meta-info {
+	transform: none;
+	position: relative;
+}
+
+.entry-meta-category {
+	left: 4px;
+	transform: none;
+}
+
+.entry-item-content,
+[class*=is-style-ignition-public-opinion-layout-] .entry-item .entry-item-content {
+	text-align: right;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.ignition-widget-item-thumb {
+	margin-right: 0;
+	margin-left: 15px;
+}

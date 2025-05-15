@@ -1,0 +1,56 @@
+//
+// Image BG Customizer Control
+//
+.ignition-image-bg-control-wrap {
+	position: relative;
+}
+
+.ignition-image-bg-attachment-view {
+	// Start the view hidden, JS determines what to show
+	display: none;
+}
+
+.ignition-image-bg-control-thumbnail {
+	padding: 5px;
+	border: 1px dashed #028ec2;
+	box-sizing: border-box;
+	max-width: 100%;
+	cursor: pointer;
+	line-height: 0;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.ignition-image-bg-control-placeholder {
+	border: 1px dashed #b4b9be;
+	box-sizing: border-box;
+	cursor: pointer;
+	line-height: 20px;
+	padding: 9px 0;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.ignition-image-bg-control-group-grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px -2px 0;
+	align-items: flex-end;
+
+	.ignition-image-bg-control-group {
+		padding: 0 2px;
+		width: 48%;
+
+		input[type="checkbox"] {
+			margin-bottom: 5px;
+			margin-right: 5px;
+
+			+ label {
+				margin-bottom: 9px;
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+/* -----------------------------------------
+ Footer
+----------------------------------------- */
+.footer-widgets {
+	padding: 80px 0 50px;
+	border-top: 1px solid var(--ignition-footer-border-color);
+
+	.widget-title,
+	.ignition-widget-item {
+		border-color: var(--ignition-footer-border-color);
+	}
+}
+
+.footer-info {
+	border-top: 1px solid;
+	font-size: 13px;
+}

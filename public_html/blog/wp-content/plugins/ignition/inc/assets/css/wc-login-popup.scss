@@ -1,0 +1,41 @@
+/* -----------------------------------------
+    WooCommerce Login Popup
+----------------------------------------- */
+@import "inc/sass-variables";
+@import "inc/mixins/grid";
+
+.ignition-wc-login-popup {
+	&.mfp-bg {
+		background-color: var(--ignition-body-background-color);
+	}
+
+	.mfp-content {
+		max-width: 35vw;
+		background-color: var(--ignition-body-background-color);
+
+		@include media-breakpoint-down(lg) {
+			max-width: 50vw;
+		}
+
+		padding: 30px;
+		border: 1px solid var(--ignition-border-color);
+
+		.ignition-wc-login-notices {
+			margin-bottom: 10px;
+
+			.failure {
+				color: var(--ignition-colors-red);
+			}
+		}
+
+		.woocommerce-form-login {
+			padding: 0;
+			margin: 0;
+			border: none;
+
+			.error {
+				border-color: var(--ignition-colors-red);
+			}
+		}
+	}
+}

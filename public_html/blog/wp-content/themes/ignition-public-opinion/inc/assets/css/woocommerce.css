@@ -1,0 +1,97 @@
+/* -----------------------------------------
+	WooCommerce Styling
+----------------------------------------- */
+
+/* General
+========================================= */
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message,
+.woocommerce-noreviews,
+.woocommerce-thankyou-order-received,
+p.no-comments {
+  background: none;
+  border: 2px solid var(--ignition-border-color);
+}
+
+.woocommerce-error {
+  border-color: var(--ignition-colors-red);
+}
+
+/* Single Product
+========================================= */
+
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__image,
+.single-product div.product .woocommerce-product-gallery .flex-viewport {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.single-product div.product .woocommerce-product-gallery img {
+  padding: 10px;
+  background: var(--ignition-colors-white);
+}
+
+.single-product div.product .woocommerce-product-gallery .flex-control-thumbs img {
+  padding: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+  top: 10px;
+  right: 25px;
+}
+
+.single-product div.product .onsale {
+  top: 10px;
+  left: 25px;
+  right: auto;
+}
+
+/* Shop Listing
+========================================= */
+
+.entry-item-product .woocommerce-loop-product__link .onsale,
+li.product .woocommerce-loop-product__link .onsale {
+  top: 10px;
+  right: 25px;
+  left: auto;
+}
+
+.entry-item-product .woocommerce-loop-product__link .onsale {
+  right: 10px;
+}
+
+/* Checkout Progress/Steps
+========================================= */
+
+.woocommerce-checkout-progress {
+  padding-top: 80px;
+}
+
+/* -----------------------------------------
+ Blocks
+----------------------------------------- */
+
+/* BLOCK: Product Listings
+========================================= */
+
+li.wc-block-grid__product .wc-block-grid__product-onsale {
+  top: 10px !important;
+  right: 25px;
+  left: auto !important;
+}
+
+li.wc-block-grid__product .wc-block-grid__product-add-to-cart .wp-block-button__link {
+  font-size: 14px;
+}
+
+.wc-block-layout .wc-block-components-product-image .wc-block-components-product-sale-badge--alignright {
+  right: 10px;
+}
+
+@media (max-width: 991px) {
+  .woocommerce-checkout-progress {
+    padding-top: 60px;
+  }
+}

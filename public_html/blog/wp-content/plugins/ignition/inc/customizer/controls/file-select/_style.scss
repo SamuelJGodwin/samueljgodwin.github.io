@@ -1,0 +1,28 @@
+//
+// File Select Customizer Control
+//
+
+.ignition-control-file-select-wrap {
+	position: relative;
+}
+
+.ignition-control-file-select {
+	position: relative;
+
+	[type="url"] {
+		padding-right: 90px;
+	}
+
+	.actions {
+		margin: 0;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+
+		.button {
+			margin: 0;
+			height: 100%;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+/*!
+Theme Name: Public Opinion - Ignition
+Theme URI: https://www.cssigniter.com/themes/public-opinion/
+Author: CSSIgniter
+Author URI: https://www.cssigniter.com/
+Description: A magazine theme for WordPress
+Version: 1.3.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ignition-public-opinion
+RequiresIgnition: 2.2.2
+*/
+
+/* -----------------------------------------
+	Table of Contents
+--------------------------------------------
+
+.. General / Base
+.. Main Navigation
+.. Header
+.. Archives
+.. Content
+.. Blocks
+.. Widgets
+.. Footer
+.. News Ticker
+.. Editor Palette
+.. Theme Colors
+*/
+
+@import "inc/assets/css/inc/mixins/breakpoints";
+@import "inc/assets/css/inc/mixins/mixins";
+@import "inc/assets/css/inc/base";
+@import "inc/assets/css/inc/navigation";
+@import "inc/assets/css/inc/header";
+@import "inc/assets/css/inc/archives";
+@import "inc/assets/css/inc/content";
+@import "inc/assets/css/inc/blocks";
+@import "inc/assets/css/inc/widgets";
+@import "inc/assets/css/inc/footer";
+@import "inc/assets/css/inc/news-ticker";
+@import "inc/assets/css/inc/editor-palette";
+@import "inc/assets/css/inc/colors";

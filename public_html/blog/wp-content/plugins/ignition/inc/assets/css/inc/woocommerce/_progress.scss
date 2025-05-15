@@ -1,0 +1,95 @@
+/* -----------------------------------------
+	Progress Steps
+----------------------------------------- */
+
+.woocommerce-checkout-progress {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	line-height: normal;
+}
+
+.woocommerce-checkout-step {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 30px;
+	min-width: 110px;
+	position: relative;
+
+	&::after {
+		content: "";
+		width: 100%;
+		position: absolute;
+		border-bottom: 1px dashed;
+		left: 85px;
+		top: 23px;
+		opacity: .75;
+	}
+
+	&:last-child {
+		&::after {
+			display: none;
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		margin: 0 15px;
+		min-width: 90px;
+
+		&::after {
+			width: 60px;
+			left: 75px;
+		}
+	}
+
+	@include media-breakpoint-down(xs) {
+		margin: 0 5px;
+		min-width: 80px;
+
+		&::after {
+			width: 30px;
+			left: 70px;
+		}
+	}
+}
+
+.woocommerce-checkout-step-number {
+	width: 46px;
+	height: 46px;
+	border: 3px solid;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: .5;
+
+	.woocommerce-checkout-step-done & {
+		opacity: 1;
+		color: var(--ignition-colors-white);
+	}
+
+	.woocommerce-checkout-step-active & {
+		opacity: 1;
+	}
+}
+
+.woocommerce-checkout-step-label {
+	font-size: 20px;
+	opacity: .5;
+
+	.woocommerce-checkout-step-done &,
+	.woocommerce-checkout-step-active & {
+		opacity: 1;
+	}
+
+	@include media-breakpoint-down(sm) {
+		font-size: 16px;
+	}
+
+	@include media-breakpoint-down(sm) {
+		font-size: 15px;
+	}
+}

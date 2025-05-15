@@ -1,0 +1,34 @@
+.ignition-taxonomy-meta {
+  padding: 15px;
+  border: 1px solid #dddddd;
+  background-color: #f9f9f9;
+  margin-top: 30px;
+}
+
+.ignition-taxonomy-meta .ignition-taxonomy-meta-select-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.ignition-taxonomy-meta .ignition-taxonomy-meta-select-wrap > span {
+  display: flex;
+  align-items: center;
+}
+
+.ignition-taxonomy-meta label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.ignition-taxonomy-meta select {
+  display: block;
+  width: 260px;
+  max-width: 100%;
+  margin: 0 10px 0 0;
+  height: 30px;
+}
+
+.ignition-taxonomy-meta .taxonomy-meta-saved {
+  display: none;
+  margin-left: 10px;
+}

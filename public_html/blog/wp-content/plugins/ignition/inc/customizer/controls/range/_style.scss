@@ -1,0 +1,67 @@
+//
+// Range Customizer Control
+//
+
+@mixin range-track {
+	border: inherit;
+	color: transparent;
+	background: transparent;
+}
+
+@mixin range-thumb {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #3498D9;
+	border: 0;
+}
+
+.ignition-control-range-wrap {
+	position: relative;
+}
+
+.ignition-control-range {
+	display: flex;
+	align-items: center;
+
+	.ignition-control-range-input {
+		&[type="number"] {
+			flex: none;
+			width: 60px;
+			margin-left: auto;
+		}
+	}
+
+	.ignition-control-range-slider {
+		margin-right: 15px;
+		flex: auto;
+	}
+
+	input[type="range"] {
+		-webkit-appearance: none;
+		transition: background 0.3s;
+		background-color: rgba(0, 0, 0, 0.1);
+		height: 5px;
+		padding: 0;
+		width: 100%;
+		cursor: pointer;
+
+		&::-webkit-slider-runnable-track { @include range-track; }
+		&::-moz-range-track { @include range-track; }
+		&::-ms-track { @include range-track; }
+
+		&::-webkit-slider-thumb { @include range-thumb; }
+		&::-moz-range-thumb { @include range-thumb; }
+		&::-ms-track { @include range-thumb; }
+
+		&::-ms-fill-lower { background: transparent; }
+		&::-ms-fill-upper { background: transparent; }
+		&::-ms-tooltip { display: none; }
+
+		&:focus {
+			outline: 0;
+			box-shadow: none;
+		}
+	}
+}

@@ -1,0 +1,134 @@
+label[for^=widget-ci-] {
+  display: block;
+}
+
+input[type=checkbox] + label {
+  display: inline-block;
+}
+
+fieldset.ci-collapsible {
+  margin-bottom: 10px;
+}
+
+fieldset.ci-collapsible legend {
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 5px 5px 10px;
+  color: #fff;
+  border-radius: 3px 3px 0 0;
+  background: #87e0fd;
+  /* Old browsers */
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 11.10+ */
+  /* IE10+ */
+  background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 );
+  /* IE6-9 */
+}
+
+fieldset.ci-collapsible .elements {
+  padding-left: 10px;
+  background: #fff;
+  padding: 9px 12px 0 12px;
+  margin-bottom: 15px;
+  border: solid 1px #ddd;
+  border-radius: 2px;
+}
+
+fieldset.ci-collapsible .elements p:first-child {
+  margin-top: 0;
+}
+
+fieldset.ci-collapsible .ci-collapsible-media {
+  position: relative;
+}
+
+fieldset.ci-collapsible .ci-collapsible-media a {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+
+fieldset.ci-collapsible .ci-collapsible-media input.ci-uploaded-url {
+  padding-right: 70px;
+}
+
+.elementor-control fieldset.ci-collapsible {
+  display: none;
+}
+
+.exclude-category {
+  height: 90px;
+  padding: 5px;
+  border: 1px solid #E5E5E5;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.exclude-category ul {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+select[readonly] {
+  background-color: blue;
+}
+
+.elementor-control fieldset.ci-repeating-fields {
+  border: none;
+}
+
+/* Color control */
+
+.wp-color-result span {
+  background: #f1f1f1;
+}
+
+.wp-color-result span.color-alpha {
+  height: 100% !important;
+}
+
+.wp-picker-container input[type=text].wp-color-picker {
+  width: 90px !important;
+  line-height: 17px;
+}
+
+.wp-picker-input-wrap .wp-picker-clear {
+  margin-left: 6px;
+}
+
+.button.wp-color-result {
+  padding: 0 0 0 30px;
+}
+
+.wp-picker-active .button.wp-color-result {
+  margin: 0 10px 15px 0px;
+}
+
+.wp-color-result-text {
+  border-radius: 0 2px 2px 0;
+  border-left: 1px solid #ccc;
+  padding: 0 6px;
+  text-align: center;
+  display: block;
+}
+
+.wp-picker-open + .wp-picker-input-wrap {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Select2 */
+
+.select2-container {
+  max-width: 95%;
+}
+
+@media screen and (max-width: 782px) {
+  .select2-container {
+    max-width: 100%;
+  }
+}

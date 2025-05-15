@@ -1,0 +1,290 @@
+/* -----------------------------------------
+	Account Pages
+----------------------------------------- */
+
+/* Navigation
+========================================= */
+.woocommerce-MyAccount-navigation {
+	margin-bottom: 60px;
+
+	@include media-breakpoint-up(lg) {
+		width: 30%;
+		float: left;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.woocommerce-MyAccount-navigation-link {
+		display: block;
+
+		a {
+			padding: 10px 0;
+			display: block;
+			border-bottom: 1px solid;
+			position: relative;
+
+			&::after {
+				position: absolute;
+				top: 10px;
+				right: 5px;
+			}
+		}
+
+		&.is-active {
+			a {
+				font-weight: var(--ignition-font-weight-bold);
+			}
+		}
+	}
+}
+
+.woocommerce-MyAccount-content {
+	@include media-breakpoint-up(lg) {
+		width: calc(70% - 35px);
+		margin-left: 35px;
+		float: left;
+	}
+}
+
+/* Orders
+========================================= */
+.woocommerce-MyAccount-orders {
+	font-size: 16px;
+
+	.woocommerce-button {
+		@include button-xs;
+		display: block;
+	}
+
+	@include media-breakpoint-down(sm) {
+		display: block;
+		width: 100%;
+
+		thead {
+			display: none;
+		}
+
+		tbody,
+		tr {
+			display: block;
+		}
+
+		tr {
+			border-bottom: 2px solid;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+
+		td {
+			display: block;
+			width: 100%;
+			max-width: 100%;
+
+			&::before {
+				content: attr(data-title);
+				display: block;
+				font-weight: var(--ignition-font-weight-bold);
+			}
+
+			&:last-child {
+				&::before {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.order-number,
+.order-date {
+	font-weight: var(--ignition-font-weight-bold);
+}
+
+.order-status {
+	background-color: var(--ignition-colors-grey);
+	padding: 5px 10px;
+}
+
+/* Downloads
+========================================= */
+.woocommerce-order-downloads {
+	.woocommerce-MyAccount-downloads-file {
+		@include button-xs;
+		width: 100%;
+		display: block;
+	}
+}
+
+
+.woocommerce-table--order-downloads {
+	@include media-breakpoint-down(sm) {
+		display: block;
+		width: 100%;
+
+		thead {
+			display: none;
+		}
+
+		tbody,
+		tr {
+			display: block;
+		}
+
+		tr {
+			border-bottom: 2px solid;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+
+		td {
+			display: block;
+			width: 100%;
+			max-width: 100%;
+
+			&::before {
+				content: attr(data-title);
+				display: block;
+				font-weight: var(--ignition-font-weight-bold);
+			}
+
+			&:last-child {
+				&::before {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+/* Addresses
+========================================= */
+.woocommerce-MyAccount-content {
+	.woocommerce-Addresses {
+		@include make-row;
+
+		.woocommerce-Address {
+			@include make-col-ready;
+			@include make-col(12);
+
+			@include media-breakpoint-up(md) {
+				@include make-col-ready;
+				@include make-col(6);
+			}
+		}
+	}
+}
+
+.woocommerce-Address-title {
+	position: relative;
+
+	> h3 {
+		@include secondary-title;
+	}
+
+	a {
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 12px;
+	}
+}
+
+/* Details
+========================================= */
+.woocommerce-EditAccountForm {
+	fieldset {
+		margin: 35px 0;
+		padding: 25px;
+		border: 2px solid;
+	}
+
+	legend {
+		padding: 0 15px;
+	}
+
+	#account_display_name {
+		margin-bottom: 10px;
+	}
+
+	.woocommerce-form-row {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* Login / Signup Page
+========================================= */
+.woocommerce-account {
+	.woocommerce {
+		> .col2-set {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 -15px;
+
+			[class*="col"] {
+				flex: 0 0 50%;
+				max-width: 50%;
+				padding-left: 15px;
+				padding-right: 15px;
+
+				@include media-breakpoint-down(md) {
+					flex: 0 0 100%;
+					max-width: 100%;
+				}
+			}
+		}
+	}
+}
+
+.woocommerce-LostPassword {
+	margin-bottom: 0;
+}
+
+.woocommerce-password-strength {
+	margin: 10px 0 5px;
+	padding: 4px 10px;
+	font-size: 14px;
+
+	&.short {
+		background-color: var(--ignition-colors-yellow);
+		color: var(--ignition-colors-white);
+	}
+
+	&.bad {
+		background-color: var(--ignition-colors-red);
+		color: var(--ignition-colors-white);
+	}
+
+	&.good {
+		background-color: var(--ignition-colors-blue);
+		color: var(--ignition-colors-white);
+	}
+
+	&.strong {
+		background-color: var(--ignition-colors-green);
+		color: var(--ignition-colors-white);
+	}
+}
+
+.woocommerce-password-hint {
+	display: inline-block;
+}
+
+/* Shortcodes
+========================================= */
+.ignition-wc-login-wrapper {
+	display:none;
+}
+
+.mfp-content .ignition-wc-login-wrapper {
+	display: block;
+}

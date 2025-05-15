@@ -1,0 +1,57 @@
+/* -----------------------------------------
+	Table of Contents
+--------------------------------------------
+
+.. Theme Variables
+.. Normalize
+.. Grid
+.. General / Base
+.. Accessibility
+.. Forms
+.. Layout
+.. Header
+.. Main Navigation
+.. Shortcode Modules
+.. Content
+.. Blocks
+.. Archives
+.. Pagination
+.. Sidebar
+.. Widgets
+.. Comments
+.. Footer
+.. Social Icons
+.. Utility Modules
+.. Vendor
+.. .. GutenBee Plugin
+.. .. Select2 Plugin
+.. .. Magnific Popup
+.. Theme Colors
+*/
+
+@import "inc/sass-variables";
+@import "inc/theme-variables";
+@import "inc/mixins/grid";
+@import "inc/mixins/mixins";
+@import "inc/normalize";
+@import "inc/grid";
+@import "inc/base";
+@import "inc/accessibility";
+@import "inc/forms";
+@import "inc/layout";
+@import "inc/header";
+@import "inc/navigation";
+@import "inc/shortcodes";
+@import "inc/content";
+@import "inc/blocks";
+@import "inc/archives";
+@import "inc/pagination";
+@import "inc/sidebar";
+@import "inc/widgets";
+@import "inc/comments";
+@import "inc/footer";
+@import "inc/socials";
+@import "inc/utilities";
+@import "inc/vendor";
+@import "inc/colors";
+

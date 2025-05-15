@@ -1,0 +1,132 @@
+.wsrw-search-replace {
+	#wpcontent {
+		padding-left: 0 !important;
+		#wpbody-content{
+			margin-bottom: 170px;
+		}
+	}
+
+	#wpwrap {
+		background: var(--wsrw-background-light);
+	}
+}
+
+.wsrw-header-top {
+	align-items: center;
+	background: var(--wsrw-background-gray);
+	display: flex;
+	justify-content: space-between;
+	padding: var(--wsrw-space-v) var(--wsrw-space-h);
+}
+
+.wsrw-header-right {
+
+	button {
+		margin-left: 18px;
+		vertical-align: middle;
+	}
+}
+
+.wsrw-header-left {
+	svg {
+		display: inline-block;
+	}
+}
+
+.wsrw-header-bottom {
+	align-items: center;
+	background: var(--wsrw-background-white);
+	border-color: var(--wsrw-border-color);
+	border-style: solid;
+	border-width: 1px 0;
+	display: flex;
+	justify-content: space-between;
+	min-height: 60px;
+	padding: 0 var(--wsrw-space-h);
+
+	h1 {
+		color: var(--wsrw-text-color-heading);
+		font-size: var(--wsrw-font-size-xl);
+		margin: 0;
+	}
+
+	&.wsrw-sticky {
+		left: 160px;
+		position: fixed;
+		right: 0;
+		top: 32px;
+		z-index: 1055;
+	}
+}
+
+.folded {
+	.wsrw-header-bottom.wsrw-sticky {
+		left: 36px;
+	}
+}
+
+.wsrw-column {
+	align-items: center;
+	display: flex;
+	flex-flow: row;
+
+	.wsrw-button {
+		margin-left: 20px;
+	}
+}
+
+.wsrw-notifications-inbox {
+	position: relative;
+
+	&[data-count]:after {
+		background: var(--wsrw-color-red);
+		border-radius: 50%;
+		bottom: 100%;
+		color: #fff;
+		content: attr(data-count);
+		display: block;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 12px;
+		font-weight: 700;
+		height: 16px;
+		left: 100%;
+		line-height: 18px;
+		min-width: 16px;
+		position: absolute;
+		text-align: center;
+		transform: translate(-50%, 50%);
+	}
+}
+
+.wsrw-header-title {
+	display: block;
+	color: #11293e;
+	font-size: var(--wsrw-font-size-l);
+	margin: 0 0 3px 0;
+	vertical-align: middle;
+	line-height: 1;
+	white-space: pre;
+	font-weight: 500;
+}
+
+.wsrw-logo-text {
+	margin-left: 10px;
+}
+
+.wsrw-logo-with-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.wsrw-icon-logo-text {
+		margin-top: -3px;
+	}
+}
+#wsrw-notice-consider-upgrading {
+	margin: 0;
+	border: 0;
+	box-shadow: none;
+	background-color: #dddddd;
+	color: var(--wpcode-text-color-heading);
+	text-align: center;
+}

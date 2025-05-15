@@ -1,0 +1,271 @@
+/* -----------------------------------------
+	Layout
+----------------------------------------- */
+
+/* -----------------------------------------
+	Header
+----------------------------------------- */
+
+.header-normal .head-mast .head-mast-inner:after {
+  display: none;
+}
+
+.news-ticker {
+  padding: 12px 0;
+}
+
+.news-ticker-title:before,
+.news-ticker-title:after,
+.news-ticker-title:before,
+.news-ticker-title:after,
+.btn-news-ticker-prev:before,
+.btn-news-ticker-prev:after,
+.btn-news-ticker-prev:before,
+.btn-news-ticker-prev:after,
+.btn-news-ticker-next:before,
+.btn-news-ticker-next:after,
+.btn-news-ticker-next:before,
+.btn-news-ticker-next:after {
+  display: none;
+}
+
+.news-ticker-title,
+.btn-news-ticker-prev {
+  margin-right: 0;
+}
+
+.ignition-breadcrumbs {
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+/* -----------------------------------------
+	Navigation
+----------------------------------------- */
+
+/* Main Navigation
+========================================= */
+
+.navigation-main > li:after {
+  content: "";
+  border-top: 3px solid transparent;
+  position: absolute;
+  width: 100%;
+  top: auto;
+  bottom: 0;
+}
+
+.navigation-main > li > a {
+  padding: 12px 20px;
+  border-right: 0;
+}
+
+/* -----------------------------------------
+	Pagination
+----------------------------------------- */
+
+.navigation,
+.woocommerce-pagination {
+  text-align: left;
+}
+
+.navigation a,
+.navigation .page-numbers,
+.woocommerce-pagination a,
+.woocommerce-pagination .page-numbers {
+  padding: 8px 16px;
+}
+
+.page-links .page-number {
+  padding: 8px 16px;
+}
+
+/* -----------------------------------------
+	Archives
+----------------------------------------- */
+
+.entry-meta-top-wrap {
+  padding: 0;
+  background: none;
+  display: flex;
+  column-gap: 5px;
+}
+
+.entry-meta-top-wrap::after {
+  display: none;
+}
+
+.entry-meta-top-wrap .entry-time {
+  color: var(--ignition-colors-black);
+}
+
+.entry-meta-top-wrap .entry-meta-info {
+  background: none;
+}
+
+.entry-meta-top-wrap .entry-meta-info a,
+.entry-meta-top-wrap .entry-meta-info .ignition-icons,
+.entry-meta-top-wrap .entry-meta-info span {
+  color: var(--ignition-colors-black);
+}
+
+.entry-meta-category {
+  bottom: auto;
+  left: auto;
+  transform: none;
+  padding: 4px 8px;
+  font-weight: var(--ignition-font-weight-normal);
+}
+
+.entry-meta-category::after {
+  display: none;
+}
+
+.entry-meta-info {
+  bottom: auto;
+  right: auto;
+  transform: none;
+  position: relative;
+}
+
+.entry-meta-info::before {
+  display: none;
+}
+
+.entry-author-by {
+  top: auto;
+}
+
+.entry-item-related .entry-title {
+  font-size: 18px;
+}
+
+/* -----------------------------------------
+	Block Styles
+----------------------------------------- */
+
+/* Headings
+========================================= */
+
+.is-style-ignition-public-opinion-heading-underline {
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--ignition-text-color);
+}
+
+/* -----------------------------------------
+	GutenBee Blocks
+----------------------------------------- */
+
+/* GutenBee Post Types
+========================================= */
+
+[class*="is-style-ignition-public-opinion-layout-hero-"] .entry-meta-top-wrap .entry-time,
+.is-style-ignition-public-opinion-layout-overlay .entry-meta-top-wrap .entry-time,
+.is-style-ignition-public-opinion-layout-overlay-slideshow .entry-meta-top-wrap .entry-time {
+  color: var(--ignition-colors-white);
+}
+
+[class*="is-style-ignition-public-opinion-layout-hero-"] .entry-meta-top-wrap .entry-meta-info a,
+[class*="is-style-ignition-public-opinion-layout-hero-"] .entry-meta-top-wrap .entry-meta-info .ignition-icons,
+[class*="is-style-ignition-public-opinion-layout-hero-"] .entry-meta-top-wrap .entry-meta-info span,
+.is-style-ignition-public-opinion-layout-overlay .entry-meta-top-wrap .entry-meta-info a,
+.is-style-ignition-public-opinion-layout-overlay .entry-meta-top-wrap .entry-meta-info .ignition-icons,
+.is-style-ignition-public-opinion-layout-overlay .entry-meta-top-wrap .entry-meta-info span,
+.is-style-ignition-public-opinion-layout-overlay-slideshow .entry-meta-top-wrap .entry-meta-info a,
+.is-style-ignition-public-opinion-layout-overlay-slideshow .entry-meta-top-wrap .entry-meta-info .ignition-icons,
+.is-style-ignition-public-opinion-layout-overlay-slideshow .entry-meta-top-wrap .entry-meta-info span {
+  color: var(--ignition-colors-white);
+}
+
+.is-style-ignition-public-opinion-layout-overlay .row-items:not(.no-gutters) > div {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 1230px) {
+  .has-sidebar:not(.layout-reverse) > [class^="col"]:first-child {
+    padding-right: 30px;
+  }
+
+  .is-style-ignition-public-opinion-layout-hero-3 > div > div:not(:first-child) .entry-author,
+  .is-style-ignition-public-opinion-layout-hero-3 > div > div:not(:first-child) .entry-time,
+  .is-style-ignition-public-opinion-layout-hero-3 > div > div:not(:first-child) .entry-meta-info,
+  .is-style-ignition-public-opinion-layout-hero-4 > div > div:not(:first-child) .entry-author,
+  .is-style-ignition-public-opinion-layout-hero-4 > div > div:not(:first-child) .entry-time,
+  .is-style-ignition-public-opinion-layout-hero-4 > div > div:not(:first-child) .entry-meta-info {
+    display: none;
+  }
+
+  .is-style-ignition-public-opinion-layout-hero-3 > div > div:not(:first-child) .entry-meta-category,
+  .is-style-ignition-public-opinion-layout-hero-4 > div > div:not(:first-child) .entry-meta-category {
+    font-size: 10px;
+  }
+
+  .is-style-ignition-public-opinion-layout-hero-3 > div > div:not(:first-child) .entry-title,
+  .is-style-ignition-public-opinion-layout-hero-4 > div > div:not(:first-child) .entry-title {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-4 .entry-author,
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-4 .entry-time,
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-4 .entry-meta-info {
+    display: none;
+  }
+
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-4 .entry-meta-category {
+    font-size: 10px;
+  }
+
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-4 .entry-title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .head-mast-inner {
+    flex-direction: column-reverse;
+  }
+
+  .site-branding {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .head-content-slot {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1229px) {
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-3 .entry-author,
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-3 .entry-time,
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-3 .entry-meta-info {
+    display: none;
+  }
+
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-3 .entry-meta-category {
+    font-size: 10px;
+  }
+
+  .is-style-ignition-public-opinion-layout-overlay .row-columns-3 .entry-title {
+    font-size: 16px;
+  }
+
+  .is-style-ignition-public-opinion-layout-hero-1 > div > div:not(:first-child) .entry-time,
+  .is-style-ignition-public-opinion-layout-hero-1 > div > div:not(:first-child) .entry-meta-info,
+  .is-style-ignition-public-opinion-layout-hero-2 > div > div:not(:first-child) .entry-time,
+  .is-style-ignition-public-opinion-layout-hero-2 > div > div:not(:first-child) .entry-meta-info {
+    display: none;
+  }
+
+  .is-style-ignition-public-opinion-layout-hero-1 > div > div:not(:first-child) .entry-meta-category,
+  .is-style-ignition-public-opinion-layout-hero-2 > div > div:not(:first-child) .entry-meta-category {
+    font-size: 10px;
+  }
+
+  .is-style-ignition-public-opinion-layout-hero-1 > div > div:not(:first-child) .entry-title,
+  .is-style-ignition-public-opinion-layout-hero-2 > div > div:not(:first-child) .entry-title {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}

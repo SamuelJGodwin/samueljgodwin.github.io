@@ -1,0 +1,21 @@
+[2025-05-14 08:52:10 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 08:59:26 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 09:13:36 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 09:58:20 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 09:59:32 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 09:59:53 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 10:02:58 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 10:03:08 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 10:03:27 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 11:50:38 : INFO] - Full Cache Purge triggered by: WPO_Page_Cache::disable 
+[2025-05-14 11:50:38 : INFO] - Pruning the Cache log file 
+[2025-05-14 12:34:28 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 12:40:19 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 12:42:36 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 12:43:20 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 12:43:28 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 12:43:42 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 12:43:42 : INFO] - Full Cache Purge triggered by: WPO_Page_Cache::disable 
+[2025-05-14 12:43:42 : INFO] - Full Cache Purge triggered by: WP_Optimize_Minify_Cache_Functions::purge_others 
+[2025-05-14 12:44:24 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 
+[2025-05-14 12:58:41 : INFO] - Full Cache Purge triggered by: plugin activation/deactivation 

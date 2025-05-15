@@ -1,0 +1,107 @@
+.wp-block-ignition-taxonomy-terms .entry-item {
+  pointer-events: none;
+}
+
+.ignition-entity-select-search-control {
+  position: relative;
+}
+
+.ignition-entity-select-search-control-results {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 1px;
+  z-index: 10;
+  padding: 6px 8px;
+  border: 1px solid #d4d7db;
+  border-radius: 2px;
+  max-height: 200px;
+  overflow-y: scroll;
+  background-color: #fff;
+  width: 100%;
+}
+
+.ignition-entity-select-search-control-results > :last-child {
+  margin-bottom: 0;
+}
+
+.ignition-entity-select-search-control-results-loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ignition-entity-select-search-control-results-item {
+  display: block;
+  padding: 5px 0 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #e2e4e7;
+  text-decoration: none;
+}
+
+.ignition-entity-select-search-control-results-item:last-child {
+  border-bottom: 0;
+}
+
+.ignition-entity-search-values {
+  margin-top: -10px;
+  max-height: 120px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: 1px solid #7e8993;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 3px;
+  position: relative;
+}
+
+.ignition-entity-search-values-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.ignition-entity-search-values-inline .ignition-entity-search-values-item {
+  margin: 0 3px 3px 0;
+}
+
+.ignition-entity-search-values-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #d7dade;
+  border-radius: 2px;
+  background-color: #f9f9f9;
+  padding: 1px 0 1px 8px;
+  margin: 0 0 5px;
+}
+
+.ignition-entity-search-values-item:last-child {
+  margin-bottom: 0;
+}
+
+.ignition-entity-search-values-item .components-button {
+  padding: 4px 3px 4px 8px;
+  font-size: 14px;
+  height: auto;
+  line-height: normal;
+  color: red;
+}
+
+.ignition-entity-search-values-item-title {
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
+  flex: auto;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

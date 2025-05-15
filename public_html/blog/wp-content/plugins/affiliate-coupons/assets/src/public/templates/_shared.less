@@ -1,0 +1,147 @@
+@import "../../shared/common";
+
+.affcoups-coupon {
+    position: relative;
+
+    border-radius: @border-radius;
+}
+
+.affcoups-coupon__header {
+    position: relative;
+}
+
+a.affcoups-coupon__thumbnail {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+img.affcoups-coupon__image {
+    .img-responsive();
+
+    margin: 0;
+    padding: 0;
+
+    border-radius: @border-radius;
+}
+
+.affcoups-coupon--image-border {
+    .affcoups-coupon__thumbnail {
+        //border: 1px solid @coupon-bg-color;
+        //border-bottom: none;
+        //border-top-left-radius: @border-radius;
+        //border-top-right-radius: @border-radius;
+    }
+}
+
+.affcoups-coupon__title {
+    display: block;
+
+    color: @color-font;
+    font-weight: bold;
+}
+
+.affcoups-coupon__content {
+    color: @color-font;
+}
+
+.affcoups-coupon__discount {
+    padding: .5em .8em .4em;
+
+    border-top-right-radius: @border-radius;
+    border-bottom-right-radius: @border-radius;
+
+    background: @color-discount-bg;
+    box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+    color: @color-discount;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.affcoups-coupon__valid-dates {
+    color: @color-font-light;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.affcoups-coupon__types {
+
+    span {
+        color: @color-font-light;
+    }
+}
+
+.affcoups-coupon__button-icon {
+
+}
+
+.affcoups-coupon__button-text {
+}
+
+.affcoups-toggle-desc {
+    margin-left: 3px;
+}
+
+//since ver 1.1.12
+.affcoups-coupon__social-share {
+    text-align:center;
+}
+
+//since ver 1.1.13
+.affcoups-coupon__expiry-counter {
+    color: @color-font-light;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    
+}  
+
+.affcoups-coupon__expired_msg {
+    color: maroon;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;    
+}  
+.affcoups-coupon__original_price {
+    text-align:center;
+    color: maroon;
+    text-decoration: line-through;
+}
+
+.affcoups-coupon__discounted_price {
+    text-align:center;
+    color: green;
+    text-decoration: none;
+    font-size : 1.4em;
+}
+.affcoups-coupon__cost-compare {
+    text-align: center;
+    color: @color-font-light;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.affcoups-vendor__logo_list {
+    position: absolute;
+    height: 40px;
+    z-index: 20;
+    margin-left:5%;
+    
+}
+.affcoups-vendor__logo_grid {
+    position: absolute;
+    height: 40px;
+    z-index: 20;
+    margin-left:75%;
+    margin-top: 50%;    
+}
+.affcoups-vendor__logo_standard {
+    position: absolute;
+    height: 40px;
+    z-index: 20;
+    margin-left:75%;
+    margin-top: 50%; 
+    
+}

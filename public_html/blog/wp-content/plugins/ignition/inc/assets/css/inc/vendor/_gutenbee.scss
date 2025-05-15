@@ -1,0 +1,81 @@
+/* -----------------------------------------
+	GutenBee Plugin Related Styles
+----------------------------------------- */
+
+/* GutenBee theme grid class
+=================================== */
+.theme-grid > .wp-block-gutenbee-container-inner {
+	@include make-container-max-widths($exclude_initial_gutter: true);
+	margin-left: auto;
+	margin-right: auto;
+
+	@include media-breakpoint-down(xs) {
+		padding-left: map_get($grid-gutter-widths, xs) / 2;
+		padding-right: map_get($grid-gutter-widths, xs) / 2;
+	}
+}
+
+.entry-content {
+	> [class^="wp-block-gutenbee"] {
+		margin-top: 0;
+	}
+}
+
+/* Image block
+=================================== */
+.wp-block-gutenbee-image {
+	figure {
+   margin-top: 0;
+ }
+
+	// Block image captions need extra styles as they
+	// can be direct childrens or nested.
+	figcaption {
+		display: block !important;
+		font-size: 14px;
+		margin: 5px 0 0;
+		text-align: center;
+	}
+
+	.aligncenter {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1.5em;
+		text-align: center;
+	}
+
+	&.alignfull,
+	&.alignwide {
+		img {
+			width: 100%;
+		}
+	}
+}
+
+/* Button Block
+=================================== */
+.gutenbee-block-button-link {
+	@include button-md;
+	border-radius: 0;
+}
+
+/* Spacer block
+=================================== */
+// Remove bottom margin of the spacer block
+// but not in a way that you can't override it
+// via the block settings.
+.entry-content {
+	> .wp-block-gutenbee-spacer {
+		margin-bottom: 0;
+	}
+}
+
+/* Food menu block
+=================================== */
+.wp-block-gutenbee-food-menu {
+	.wp-block-gutenbee-food-menu-wrapper {
+		h1, h2, h3, h4, h5, h6 {
+			margin-bottom: 0;
+		}
+	}
+}

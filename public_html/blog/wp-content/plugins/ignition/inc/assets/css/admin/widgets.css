@@ -1,0 +1,15 @@
+label[for^=widget-ci-] {
+  display: block;
+}
+
+input[type=checkbox] + label {
+  display: inline-block;
+}
+
+select[readonly] {
+  background-color: blue;
+}
+
+.elementor-control fieldset.ci-repeating-fields {
+  border: none;
+}

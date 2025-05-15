@@ -1,0 +1,34 @@
+/* -----------------------------------------
+	Contact Form Plugins Styling
+--------------------------------------------
+
+.. Contact Form 7
+*/
+
+@import "inc/sass-variables";
+
+/* -----------------------------------------
+	Contact Form 7
+----------------------------------------- */
+.wpcf7-form-control-wrap {
+	display: block;
+	margin-top: 8px;
+}
+
+span.wpcf7-list-item {
+	margin-left: 0;
+}
+
+.wpcf7 {
+	form {
+		.wpcf7-response-output {
+			margin: $element-spacing-base 0;
+			padding: 15px;
+		}
+	}
+
+	.wpcf7-not-valid-tip {
+		margin-top: 4px;
+	}
+}
+

@@ -1,0 +1,31 @@
+//
+// File Select Custom Field Control
+//
+
+.ignition-side-control-file-select {
+	position: relative;
+
+	.form-field & {
+		width: 95%;
+
+		[type="url"] {
+			width: 100%;
+		}
+	}
+
+	[type="url"] {
+		padding-right: 90px;
+		width: 100%;
+	}
+
+	.actions {
+		margin: 0;
+		position: absolute;
+		top: 0;
+		right: 0;
+
+		.button {
+			margin: 0;
+		}
+	}
+}

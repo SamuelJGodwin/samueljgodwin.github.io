@@ -1,0 +1,58 @@
+/* -----------------------------------------
+	Archives
+----------------------------------------- */
+.entry-meta-top-wrap {
+	padding: 0;
+	background: none;
+	display: flex;
+	column-gap: 5px;
+
+	&::after {
+		display: none;
+	}
+
+	.entry-time {
+		color: var(--ignition-colors-black);
+	}
+
+	.entry-meta-info {
+		background: none;
+
+		a,
+		.ignition-icons,
+		span {
+			color: var(--ignition-colors-black);
+		}
+	}
+}
+
+.entry-meta-category {
+	bottom: auto;
+	left: auto;
+	transform: none;
+	padding: 4px 8px;
+	font-weight: var(--ignition-font-weight-normal);
+
+	&::after {
+		display: none;
+	}
+}
+
+.entry-meta-info {
+	bottom: auto;
+	right: auto;
+	transform: none;
+	position: relative;
+
+	&::before {
+		display: none;
+	}
+}
+
+.entry-author-by {
+    top: auto;
+}
+
+.entry-item-related .entry-title {
+    font-size: 18px;
+}

@@ -1,0 +1,58 @@
+{
+    "packages": [
+        {
+            "name": "wpmetabox/meta-box",
+            "version": "5.10.0",
+            "version_normalized": "5.10.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpmetabox/meta-box.git",
+                "reference": "74b8775adcbc821542bcffa9d01e40250d07b9ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpmetabox/meta-box/zipball/74b8775adcbc821542bcffa9d01e40250d07b9ac",
+                "reference": "74b8775adcbc821542bcffa9d01e40250d07b9ac",
+                "shasum": ""
+            },
+            "time": "2024-08-20T08:04:14+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "MetaBox\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tran Ngoc Tuan Anh",
+                    "email": "anhtnt@elightup.com",
+                    "homepage": "https://metabox.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A powerful, professional developer toolkit to create custom meta boxes and custom fields for WordPress websites.",
+            "homepage": "https://metabox.io",
+            "keywords": [
+                "custom-field",
+                "meta-box",
+                "select2",
+                "ui",
+                "wordpress",
+                "wordpress-plugin",
+                "wp-admin"
+            ],
+            "support": {
+                "issues": "https://github.com/wpmetabox/meta-box/issues",
+                "source": "https://github.com/wpmetabox/meta-box/tree/5.10.0"
+            },
+            "install-path": "../wpmetabox/meta-box"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

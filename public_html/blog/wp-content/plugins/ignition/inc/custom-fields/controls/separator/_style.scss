@@ -1,0 +1,18 @@
+//
+// Separator custom field control
+//
+.ignition-setting-separator {
+	background: $grey-lightest;
+	border: solid 1px $border-color;
+	padding: 10px;
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.ignition-setting-separator-description {
+	display: block;
+	font-weight: normal;
+	font-size: 13px;
+	color: $text-color-light;
+	margin: 0;
+}

@@ -1,0 +1,172 @@
+// Only display content to screen readers
+//
+// See: http://a11yproject.com/posts/how-to-hide-content
+@mixin sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+// Use in conjunction with .sr-only to only display content when it's focused.
+//
+// Useful for "Skip to main content" links; see https://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+//
+// Credit: HTML5 Boilerplate
+@mixin sr-only-focusable {
+  &:active,
+  &:focus {
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
+}
+
+// Text truncate
+// Requires inline-block or block for proper styling
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Button Mixins
+@mixin button-reset {
+	display: inline-block;
+	margin: 0;
+	line-height: normal;
+	border: 0;
+	box-shadow: none;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	white-space: normal;
+	transition: .18s background-color ease,
+	            .18s color ease,
+	            .18s border-color ease;
+	user-select: none;
+	border-radius: 0;
+	width: auto;
+	height: auto;
+	background: none;
+}
+
+@mixin button {
+	@include button-reset;
+	text-transform: none;
+	border: 2px solid transparent;
+
+	&:focus {
+		box-shadow: none;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+@mixin button-disabled {
+	&.disabled,
+	&:disabled {
+		cursor: not-allowed;
+		opacity: .65;
+	}
+}
+
+@mixin button-xs {
+	padding: 5px 20px;
+	font-size: 14px;
+}
+
+@mixin button-sm {
+	padding: 10px 22px;
+	font-size: 14px;
+}
+
+@mixin button-md {
+	padding: 11px 26px;
+	font-size: 16px;
+}
+
+@mixin button-lg {
+	padding: 14px 32px;
+	font-size: 18px;
+}
+
+@mixin ci-icon($char) {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1;
+	font-weight: normal;
+	text-transform: none;
+	font-family: 'ignition-icons';
+	content: unquote("\"#{$char}\"");
+}
+
+// Placeholders
+@mixin placeholder {
+	::-webkit-input-placeholder { @content }
+	:-moz-placeholder { @content }
+	::-moz-placeholder { @content }
+	:-ms-input-placeholder { @content }
+}
+
+@mixin placeholder-at {
+	&::-webkit-input-placeholder { @content }
+	&:-moz-placeholder { @content }
+	&::-moz-placeholder { @content }
+	&:-ms-input-placeholder { @content }
+}
+
+@mixin secondary-title {
+	border-bottom: 1px solid;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 1rem;
+	display: block;
+}
+
+// WooCommerce Price Handles
+
+@mixin wc-price-thumb-focus {
+	background-position-y: 0;
+	filter: none;
+}
+
+@mixin wc-price-thumb {
+	background-color: transparent;
+	background-position: 0 0;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+	cursor: pointer;
+	z-index: 20;
+	pointer-events: auto;
+	transition: transform .2s ease-in-out;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill-rule='nonzero' fill='none'%3E%3Ccircle fill='%23ffffff' cx='10' cy='10' r='8'/%3E%3Cpath d='M12 14.5h-1v-9h1v9zm-3 0H8v-9h1v9z' fill='%231E1E1E'/%3E%3Cpath d='M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10zm0-19c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9z' fill='%231E1E1E'/%3E%3C/g%3E%3C/svg%3E%0A");
+
+	&:hover {
+		background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill-rule='nonzero' fill='none'%3E%3Ccircle fill='%23E0E0E0' cx='10' cy='10' r='8'/%3E%3Cpath d='M12 14.5h-1v-9h1v9zm-3 0H8v-9h1v9z' fill='%231E1E1E'/%3E%3Cpath d='M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10zm0-19c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9z' fill='%231E1E1E'/%3E%3C/g%3E%3C/svg%3E%0A");
+	}
+
+	&:hover {
+		@include wc-price-thumb-focus;
+		transform: scale(1.1);
+	}
+}

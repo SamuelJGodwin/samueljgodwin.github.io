@@ -1,0 +1,86 @@
+/* -----------------------------------------
+ Pagination
+----------------------------------------- */
+
+.navigation,
+.woocommerce-pagination {
+	margin: 60px 0 0;
+	text-align: center;
+
+	@include media-breakpoint-down(sm) {
+		margin-top: 30px;
+	}
+
+	a,
+	.page-numbers {
+		display: inline-block;
+		padding: 12px 21px;
+		font-size: 16px !important;
+		margin-right: 10px;
+		margin-bottom: 3px;
+		border: 2px solid transparent;
+		background: none;
+
+		@include media-breakpoint-down(sm) {
+			padding: 5px 14px;
+			font-size: 12px;
+			margin-right: 3px;
+		}
+	}
+
+	a:hover,
+	.page-numbers.current {
+		color: var(--ignition-colors-white);
+	}
+
+	.nav-links {
+		@include clearfix;
+	}
+
+	.nav-previous {
+		float: left;
+	}
+
+	.nav-next {
+		float: right;
+	}
+}
+
+.comment-navigation {
+	margin: 30px 0;
+}
+
+.page-links {
+	margin: 60px 0 0;
+
+	.page-number {
+		display: inline-block;
+		padding: 12px 21px;
+		font-size: 16px !important;
+		margin-right: 10px;
+		margin-bottom: 3px;
+		border: 2px solid transparent;
+		background: none;
+
+		@include media-breakpoint-down(sm) {
+			padding: 5px 14px;
+			font-size: 12px;
+			margin-right: 3px;
+		}
+
+		&:hover {
+			color: var(--ignition-colors-white);
+		}
+	}
+
+	.current > .page-number {
+		color: var(--ignition-colors-white);
+	}
+
+	> a,
+	> span {
+		&:first-child {
+			margin-left: 10px;
+		}
+	}
+}

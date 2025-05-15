@@ -1,0 +1,23 @@
+const TaxonomyTermsIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+  >
+    <g>
+      <rect y="14" width="10" height="10" fill="#333" />
+      <rect x="12" width="12" height="2" fill="#333" />
+      <rect x="12" y="2" width="10" height="2" fill="#ffd400" />
+      <rect x="12" y="6" width="12" height="2" fill="#333" />
+      <rect x="12" y="8" width="10" height="2" fill="#ffd400" />
+      <rect x="12" y="20" width="12" height="2" fill="#333" />
+      <rect x="12" y="22" width="10" height="2" fill="#ffd400" />
+      <rect x="12" y="14" width="12" height="2" fill="#333" />
+      <rect x="12" y="16" width="10" height="2" fill="#ffd400" />
+      <rect width="10" height="10" fill="#333" />
+    </g>
+  </svg>
+);
+
+export default TaxonomyTermsIcon;

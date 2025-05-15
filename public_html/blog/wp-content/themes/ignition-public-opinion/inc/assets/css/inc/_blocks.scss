@@ -1,0 +1,169 @@
+/* -----------------------------------------
+  WordPress Blocks general styles
+----------------------------------------- */
+
+/* Paragraph Block
+=================================== */
+.has-drop-cap:not(:focus) {
+	&::first-letter {
+		padding: .8rem .2rem .15rem 0;
+		font-size: 3.4rem !important;
+		line-height: .65;
+	}
+}
+
+/* Headings Block
+=================================== */
+.is-style-ignition-public-opinion-heading-alt {
+	@include skewed-edge($position: "before", $color: #000, $width: .7em, $zindex: -1, $offset: 10px);
+	padding: 0.365em 2em 0.365em 0.65em !important;
+	display: inline-block;
+	position: relative;
+	z-index: auto;
+	line-height: 1;
+	margin-right: 1.5em;
+
+	&::before {
+		background-color: inherit;
+		width: 1em;
+		z-index: 0;
+		right: -10px;
+		left: auto;
+	}
+
+	&::after {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		top: -.25em;
+		left: .15em;
+		right: auto;
+		width: calc(100% + .75em);
+		height: 100%;
+		background-color: var(--ignition-colors-grey);
+		z-index: -10 !important;
+	}
+}
+
+/* File Block
+=================================== */
+.wp-block-file__content-wrapper {
+	.wp-block-file__button {
+		font-size: 13px;
+	}
+}
+
+/* Pullquote block
+=================================== */
+.wp-block-pullquote {
+	&.is-style-solid-color {
+		font-size: 1.5rem;
+		line-height: 1.33;
+		position: relative;
+		padding: 30px 30px 30px 80px;
+		border: 0;
+
+		&::before {
+			content: "\00201C";
+			font-style: normal;
+			font-size: 4rem;
+			line-height: 0;
+			position: absolute;
+			left: 30px;
+			top: 64px;
+		}
+
+		blockquote {
+			margin: 0;
+			max-width: 100%;
+
+			p {
+				font-size: 1rem;
+				line-height: 1.56;
+				font-weight: var(--ignition-font-weight-normal);
+			}
+
+			cite {
+				font-size: .875rem;
+				font-weight: var(--ignition-font-weight-normal);
+			}
+		}
+	}
+}
+
+/* Quote block
+=================================== */
+.wp-block-quote {
+	font-size: 1.5rem;
+	line-height: 1.33;
+	position: relative;
+	padding: 0 0 0 50px;
+	border: 0;
+
+	&::before {
+		content: "\00201C";
+		font-style: normal;
+		font-size: 4rem;
+		line-height: 0;
+		position: absolute;
+		left: 0;
+		top: 33px;
+	}
+
+	p {
+		font-size: 1.5rem;
+		line-height: 1.56;
+		font-weight: var(--ignition-font-weight-normal);
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	cite {
+		font-size: .875rem;
+		font-weight: var(--ignition-font-weight-normal);
+	}
+
+	&.is-style-large {
+		padding: 0 0 0 50px;
+
+		p {
+			font-size: 2em;
+		}
+	}
+
+	&.has-text-align-center {
+		padding: 0;
+
+		&::before {
+			display: block;
+			position: static;
+			margin-top: 30px;
+			margin-bottom: 15px;
+		}
+	}
+
+	&.has-text-align-right {
+		padding: 0 50px 0 0;
+
+		&::before {
+			left: auto;
+			right: 0;
+			top: -5px;
+			transform: rotate(180deg);
+		}
+	}
+}
+
+/* -----------------------------------------
+  Gutenbee Plugin Blocks
+----------------------------------------- */
+
+/* Paragraph Block
+=================================== */
+.has-drop-cap:not(:focus) {
+	&::first-letter {
+		font-size: 4.2em;
+	}
+}

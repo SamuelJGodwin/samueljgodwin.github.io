@@ -1,0 +1,8 @@
+.elementor-wc-products ul.products li.product {
+  max-width: 100%;
+}
+
+.elementor-wc-products ul.products li.product .onsale {
+  top: 0;
+  right: 0;
+}

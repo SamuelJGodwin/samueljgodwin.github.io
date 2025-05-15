@@ -1,0 +1,724 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Public Opinion\n"
+"POT-Creation-Date: 2022-03-29 16:59+0300\n"
+"PO-Revision-Date: 2015-10-10 19:53+0300\n"
+"Last-Translator: CSSIgniter Team <team@cssigniter.com>\n"
+"Language-Team: CSSIgniter Team <team@cssigniter.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: plugins\n"
+
+#: functions.php:60
+msgid "Primary color"
+msgstr ""
+
+#: functions.php:65
+msgid "Dark gray"
+msgstr ""
+
+#: functions.php:70
+msgid "Medium gray"
+msgstr ""
+
+#: functions.php:75
+msgid "Light gray"
+msgstr ""
+
+#: functions.php:80
+msgid "White"
+msgstr ""
+
+#. translators: %s is a URL
+#: inc/customizer/customizer.php:56
+#, php-format
+msgid ""
+"You can add text, HTML, and shortcodes.<br/><a href=\"%s\" target=\"_blank"
+"\">Theme Shortcodes</a>"
+msgstr ""
+
+#: inc/customizer/defaults.php:225 inc/customizer/defaults.php:227
+msgid "Text or shortcode"
+msgstr ""
+
+#. translators: %s is the URL to the CSSIgniter website.
+#: inc/customizer/defaults.php:335
+#, php-format
+msgid ""
+"A theme by <a href=\"%s\" rel=\"nofollow\">CSSIgniter</a> - Powered by "
+"WordPress"
+msgstr ""
+
+#: inc/customizer/defaults.php:370
+msgctxt "news ticker title"
+msgid "Breaking"
+msgstr ""
+
+#: inc/customizer/options.php:37
+msgid "Tag slug"
+msgstr ""
+
+#: inc/customizer/options.php:38
+msgid ""
+"Featured sections throughout your website will only show articles that "
+"include this tag. The selected tag will be automatically hidden from tag "
+"lists."
+msgstr ""
+
+#: inc/customizer/options.php:57
+msgid "Enable the news ticker"
+msgstr ""
+
+#: inc/customizer/options.php:68
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/options.php:69
+msgid "The ticker's title appears before all news items."
+msgstr ""
+
+#: inc/customizer/options.php:80
+msgid "Source Category"
+msgstr ""
+
+#: inc/customizer/options.php:81
+msgid "The category from which to display news items."
+msgstr ""
+
+#: inc/customizer/options.php:92
+msgid "Posts limit"
+msgstr ""
+
+#: inc/customizer/options.php:93
+msgid "The maximum number of news items to display."
+msgstr ""
+
+#: inc/customizer/sections/featured-articles.php:10
+msgctxt "customizer section title"
+msgid "Featured Articles"
+msgstr ""
+
+#: inc/customizer/sections/utilities/news-ticker.php:10
+msgctxt "customizer section title"
+msgid "News Ticker"
+msgstr ""
+
+#: inc/default-hooks.php:40
+msgctxt "image size name"
+msgid "Theme - Item"
+msgstr ""
+
+#: inc/default-hooks.php:41
+msgctxt "image size name"
+msgid "Theme - Large Item"
+msgstr ""
+
+#: inc/default-hooks.php:42
+msgctxt "image size name"
+msgid "Theme - Square"
+msgstr ""
+
+#. translators: %d is a number of columns.
+#: inc/featured-articles.php:69
+#, php-format
+msgctxt "featured posts layout"
+msgid "Slideshow - %d Column"
+msgid_plural "Slideshow - %d Columns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/featured-articles.php:73 inc/scripts-styles.php:165
+msgctxt "featured posts layout"
+msgid "1 Left / 2 Right"
+msgstr ""
+
+#: inc/featured-articles.php:79 inc/scripts-styles.php:170
+msgctxt "featured posts layout"
+msgid "2 Left / 1 Right"
+msgstr ""
+
+#: inc/featured-articles.php:85 inc/scripts-styles.php:175
+msgctxt "featured posts layout"
+msgid "1 Left / 4 Right"
+msgstr ""
+
+#: inc/featured-articles.php:91 inc/scripts-styles.php:180
+msgctxt "featured posts layout"
+msgid "4 Left / 1 Right"
+msgstr ""
+
+#: inc/featured-articles.php:201
+msgctxt "tag delimiter"
+msgid ","
+msgstr ""
+
+#: inc/layout.php:24
+msgid "Theme Default"
+msgstr ""
+
+#: inc/onboarding.php:92
+msgid ""
+"You need to install and activate all required and recommended plugins for "
+"the sample content to be imported successfully."
+msgstr ""
+
+#: inc/onboarding.php:98
+msgid "Default"
+msgstr ""
+
+#: inc/onboarding.php:107 inc/theme-variations.php:34
+msgid "Noozbeat"
+msgstr ""
+
+#: inc/onboarding.php:179
+msgid "Ignition Framework"
+msgstr ""
+
+#: inc/onboarding.php:180
+msgid "CSSIgniter themes' core functions."
+msgstr ""
+
+#: inc/onboarding.php:186
+msgid "GutenBee"
+msgstr ""
+
+#: inc/onboarding.php:187
+msgid "Premium blocks for WordPress."
+msgstr ""
+
+#: inc/onboarding.php:191
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/onboarding.php:192
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr ""
+
+#: inc/onboarding.php:197
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/onboarding.php:198
+msgid "Import your demo content, widgets and theme settings with one click."
+msgstr ""
+
+#: inc/onboarding.php:223 inc/onboarding/onboarding.php:1308
+msgid "Download Now"
+msgstr ""
+
+#: inc/onboarding.php:225 inc/onboarding/onboarding.php:1310
+msgid "Learn how to upgrade"
+msgstr ""
+
+#: inc/onboarding.php:229
+msgid ""
+"Thank you for your purchase! Before proceeding with theme setup let's make "
+"sure that you have everything needed installed:"
+msgstr ""
+
+#: inc/onboarding.php:230
+msgid "1. Ignition Framework <sup style=\"color:red\">Required</sup>"
+msgstr ""
+
+#: inc/onboarding.php:231
+msgid ""
+"All <strong>core functionality</strong> (Custom post types, customizer "
+"settings, page templates etc.) is handled by the <strong>Ignition "
+"Framework</strong>. If you decide to switch to a different theme of ours "
+"in the future you don't have to install it again. Just keep it active and "
+"up to date."
+msgstr ""
+
+#. translators: %s is a url.
+#: inc/onboarding.php:234
+#, php-format
+msgid ""
+"To install it simply head over to our <a href=\"%s\"><strong>Downloads "
+"Area</strong></a>, click on the <strong>Ignition Framework</strong> button "
+"to download the zip file and install it like any other WordPress plugin."
+msgstr ""
+
+#: inc/onboarding.php:238
+msgid "2. GutenBee Blocks <sup style=\"color:green\">Optional</sup>"
+msgstr ""
+
+#: inc/onboarding.php:239
+msgid ""
+"GutenBee is a collection of elegant WordPress blocks enhancing your "
+"editing experience in the block editor and vastly extending the potential "
+"of the new editor experience. If you want to replicate our demo website "
+"you need to install it. Simply click on the <strong>Download</strong> "
+"button below and once downloaded <strong>Activate</strong> it."
+msgstr ""
+
+#: inc/onboarding.php:241
+msgid "Support"
+msgstr ""
+
+#. translators: %1$s, %2$s, and %3$s, are urls.
+#: inc/onboarding.php:244
+#, php-format
+msgid ""
+"Got stuck? Don't forget to <a href=\"%1$s\"><strong>read the "
+"documentation</strong></a>, check out our <a href=\"%2$s"
+"\"><strong>knowledge base</strong></a> and as always you can simply <a "
+"href=\"%3$s\"><strong>open a new support ticket</strong></a> and we will "
+"be there for you within 24 hours. Add as many details as possible about "
+"the issue. This will help us provide a meaningful solution in a timely "
+"manner."
+msgstr ""
+
+#: inc/onboarding.php:253
+msgid ""
+"While these plugins are not required for the theme to work, they are "
+"needed to ensure the sample content is correctly imported. You can "
+"deactivate/remove them if you want, after the sample content is imported."
+msgstr ""
+
+#: inc/onboarding.php:255
+msgid "Import our sample content."
+msgstr ""
+
+#: inc/onboarding.php:265
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/onboarding.php:266
+msgid ""
+"If you don't want to import our demo sample content, just visit this page "
+"and learn how to set things up individually."
+msgstr ""
+
+#: inc/onboarding.php:267
+msgid "View Documentation"
+msgstr ""
+
+#: inc/onboarding.php:271
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/onboarding.php:272
+msgid ""
+"Browse our library of step by step how-to articles, tutorials, and guides "
+"to get quick answers."
+msgstr ""
+
+#: inc/onboarding.php:273
+msgid "View Knowledge Base"
+msgstr ""
+
+#: inc/onboarding.php:277 inc/onboarding.php:279
+msgid "Request Support"
+msgstr ""
+
+#: inc/onboarding.php:278
+msgid ""
+"Got stuck? No worries, just visit our support page, submit your ticket and "
+"we will be there for you within 24 hours."
+msgstr ""
+
+#: inc/onboarding.php:283
+msgid "Theme Installation Service"
+msgstr ""
+
+#: inc/onboarding.php:284
+msgid ""
+"We can install the theme for you and set everything up exactly like our "
+"demo website for only $69. Get in touch for more details."
+msgstr ""
+
+#: inc/onboarding.php:285
+msgid "Get in touch"
+msgstr ""
+
+#. translators: %1$s is the theme name. %2$s URL to onboarding page.
+#: inc/onboarding/onboarding.php:250
+#, php-format
+msgid ""
+"The theme requires at least Ignition Framework v<strong>%1$s</strong>, but "
+"currently v<strong>%2$s</strong> is installed. Please update Ignition to "
+"the latest version, to avoid having errors on your website."
+msgstr ""
+
+#. translators: %1$s is the theme name. %2$s URL to onboarding page.
+#: inc/onboarding/onboarding.php:288
+#, php-format
+msgid ""
+"Welcome to %1$s. Check out the <a href=\"%2$s\">onboarding page</a> to get "
+"things started."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:347
+msgid "Activating"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:348 inc/onboarding/onboarding.php:818
+msgid "Activate"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:349
+msgid "Installing..."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:350 inc/onboarding/onboarding.php:657
+msgid "Activate variation"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:351
+msgid "Deleting..."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:352
+msgid "Are you sure you want to delete your theme customizations?"
+msgstr ""
+
+#. translators: %s is the current theme's version.
+#: inc/onboarding/onboarding.php:397
+#, php-format
+msgid "Theme version: <b>%s</b>"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:404
+msgid "A new version is available."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:562
+msgid "Select a theme variation."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:563
+msgid "You can always come back and pick another."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:567
+msgid ""
+"You do not have sufficient permissions to switch theme variations. Please "
+"contact your administrator."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:582
+msgid ""
+"Your existing theme customizations made via the Customizer (theme mods) "
+"may prevent you from viewing the selected variation's defaults correctly. "
+"In this case, you might want to delete your customizations."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:587
+msgid "Never"
+msgstr ""
+
+#. translators: %s is a date, or the word "Never".
+#: inc/onboarding/onboarding.php:590
+#, php-format
+msgid "Latest backup: %s"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:597
+msgid "Backup customizations"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:598
+msgid "Restore from backup"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:599
+msgid "Delete customizations"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:601
+msgid ""
+"Warning: Deleting your customizations cannot be undone. Make sure you keep "
+"a backup before deleting your customizations."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:708
+msgid "Please note:"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:710
+msgid ""
+"You need to install and activate <strong>One Click Demo Import</strong> "
+"before proceeding."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:716
+msgid "Good to go!"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:718
+msgid ""
+"Now you can import the sample content and have your theme set up like the "
+"demo using the One Click Demo Import Plugin."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:725
+msgid "Get Started"
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding.php:790 inc/onboarding/onboarding.php:802
+#, php-format
+msgid "The %s plugin was not found. Click to install."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:794 inc/onboarding/onboarding.php:806
+msgid "Install"
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding.php:814
+#, php-format
+msgid "The %s plugin is installed but not active. Click to activate."
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding.php:826
+#, php-format
+msgid "%s is installed and activated."
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding.php:833
+#, php-format
+msgid "The %s plugin was not found. You need to download and install it."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:836
+msgid "Download"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:935
+msgid ""
+"You do not have sufficient permissions to install plugins on this site."
+msgstr ""
+
+#. translators: %s is a URL.
+#: inc/onboarding/onboarding.php:949
+#, php-format
+msgid "Installing Plugin from URL: %s"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:1068 inc/onboarding/onboarding.php:1097
+#: inc/onboarding/onboarding.php:1133 inc/onboarding/onboarding.php:1169
+msgid ""
+"You do not have sufficient permissions to change theme options on this "
+"site."
+msgstr ""
+
+#: inc/onboarding/onboarding.php:1293 inc/onboarding/onboarding.php:1295
+msgid "Theme options"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:1316
+msgid "Getting Started"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:1317
+msgid "Sample Content"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:1318
+msgid "Theme Variations"
+msgstr ""
+
+#: inc/onboarding/onboarding.php:1422
+msgid "Plugin Title"
+msgstr ""
+
+#: inc/scripts-styles.php:150
+msgctxt "featured posts layout"
+msgid "Compact Posts"
+msgstr ""
+
+#: inc/scripts-styles.php:155
+msgctxt "featured posts layout"
+msgid "Overlaid Posts"
+msgstr ""
+
+#: inc/scripts-styles.php:160
+msgctxt "featured posts layout"
+msgid "Force Media Layout"
+msgstr ""
+
+#: inc/scripts-styles.php:185
+msgctxt "featured posts layout"
+msgid "Slideshow"
+msgstr ""
+
+#: inc/scripts-styles.php:190
+msgctxt "heading style"
+msgid "Theme Style"
+msgstr ""
+
+#. translators: %s is an already translated amount of time, e.g. '10 seconds', '1 hour', '3 days', etc.
+#: inc/template-tags.php:144
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#. translators: 1: Number of comments, 2: Post title.
+#: inc/template-tags.php:176
+#, php-format
+msgid "%1$s <span class=\"screen-reader-text\">comment on %2$s</span>"
+msgid_plural ""
+"%1$s <span class=\"screen-reader-text\">comments on %2$s</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is the post's author name.
+#: inc/template-tags.php:218
+#, php-format
+msgid "<span class=\"entry-author-by\">by</span> %s"
+msgstr ""
+
+#: inc/term-meta.php:33 inc/term-meta.php:76
+msgid "Accent color"
+msgstr ""
+
+#: inc/term-meta.php:34 inc/term-meta.php:82
+msgid ""
+"The accent color is used throughout the theme to color specific parts of "
+"the posts belonging to this category."
+msgstr ""
+
+#: inc/term-meta.php:43 inc/term-meta.php:90
+msgid "Featured Articles Layout"
+msgstr ""
+
+#: inc/term-meta.php:55 inc/term-meta.php:106 inc/term-meta.php:111
+msgid "Hide featured articles from the listing"
+msgstr ""
+
+#: inc/term-meta.php:56 inc/term-meta.php:112
+msgid ""
+"Featured articles will only appear on the category's featured section, "
+"hiding them from the normal date-based flow. This only affects the "
+"specific category's archive page."
+msgstr ""
+
+#: inc/theme-variations.php:30
+msgid "Public Opinion"
+msgstr ""
+
+#: inc/theme-variations.php:31
+msgid "Magazine variation #1"
+msgstr ""
+
+#: inc/theme-variations.php:35
+msgid "Magazine variation #2"
+msgstr ""
+
+#: inc/upgrade/class-ignition-public-opinion-data-upgrade.php:58
+msgid "Updating data..."
+msgstr ""
+
+#: inc/upgrade/class-ignition-public-opinion-data-upgrade.php:77
+msgid "The theme finished upgrading data."
+msgstr ""
+
+#: inc/upgrade/class-ignition-public-opinion-data-upgrade.php:106
+msgid "The theme updates data in the background. Please wait."
+msgstr ""
+
+#. translators: %d is a number of minutes.
+#: inc/upgrade/class-ignition-public-opinion-wp-background-process.php:459
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:26
+msgid "Displays latest posts, optionally from a selected category and tag."
+msgstr ""
+
+#: inc/widgets/latest-posts.php:28
+msgid "Theme - Latest Posts"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:122
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:133
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:146
+msgid "Category (optional):"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:171
+msgid "Tag (optional):"
+msgstr ""
+
+#: template-no-ignition-index.php:15
+msgid "CSSIgniter logo"
+msgstr ""
+
+#: template-no-ignition-index.php:19
+msgid "Oops. One more thing."
+msgstr ""
+
+#: template-no-ignition-index.php:22
+msgid ""
+"This theme requires the Ignition Framework plugin to be installed. If you "
+"have already installed it simply visit your WordPress dashboard > Plugins "
+"and activate it. Otherwise just visit our download area to get it."
+msgstr ""
+
+#: template-no-ignition-index.php:26
+msgid "Download Ignition Framework"
+msgstr ""
+
+#: template-no-ignition-index.php:32
+msgid ""
+"Our administrators are doing some maintenance, and we will be back with "
+"you shortly."
+msgstr ""
+
+#: template-parts/navigation.php:28
+msgid "Previous Article"
+msgstr ""
+
+#: template-parts/navigation.php:35
+msgid "Next Article"
+msgstr ""
+
+#: theme-variations/noozbeat/variation.php:213
+#: theme-variations/noozbeat/variation.php:218
+msgctxt "heading style"
+msgid "Theme Heading"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Public Opinion - Ignition"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.cssigniter.com/themes/public-opinion/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A magazine theme for WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CSSIgniter"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.cssigniter.com/"
+msgstr ""

@@ -1,0 +1,201 @@
+body div.jconfirm .jconfirm-box-container .jconfirm-box .jconfirm-buttons .wsrw-button,
+.wsrw-button {
+	background-color: var(--wsrw-button-primary-bg);
+	border: 1px solid var(--wsrw-button-primary-bg);
+	border-radius: 4px;
+	color: var(--wsrw-button-primary-text);
+	cursor: pointer;
+	display: inline-block;
+	font-size: var(--wsrw-font-size-s);
+	font-weight: 700;
+	line-height: 1;
+	padding: 10px 16px;
+	text-decoration: none;
+
+	&.wsrw-button-icon {
+		align-items: center;
+		display: inline-flex;
+
+		padding-bottom: 10px;
+		padding-top: 10px;
+
+		svg {
+			margin-right: 5px;
+		}
+
+		&.wsrw-copy-target {
+			padding-bottom: 10px;
+			padding-top: 10px;
+		}
+	}
+
+	&.wsrw-button-wide {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	&:hover,
+	&:focus {
+		background-color: var(--wsrw-button-primary-bg-hover);
+		border-color: var(--wsrw-button-primary-bg-hover);
+		color: var(--wsrw-button-primary-text-hover);
+	}
+
+	&.wsrw-button-secondary {
+		background-color: var(--wsrw-button-secondary-bg);
+		border: var(--wsrw-button-secondary-border);
+		color: var(--wsrw-button-secondary-text);
+
+		&:hover,
+		&:focus {
+			background-color: var(--wsrw-button-secondary-bg-hover);
+			color: var(--wsrw-button-secondary-text-hover);
+		}
+
+		&.wsrw-button-secondary-inactive {
+			background-color: var(--wsrw-button-disabled-bg);
+			border-color: var(--wsrw-button-disabled-bg);
+		}
+
+		&.wsrw-button-secondary-selected {
+			border-color: var(--wsrw-button-primary-bg);
+		}
+	}
+
+	&.wsrw-button-orange {
+		background-color: var(--wsrw-button-orange-bg);
+		border-color: var(--wsrw-button-orange-bg);
+		color: var(--wsrw-button-primary-text);
+
+		&:hover,
+		&:focus {
+			background-color: var(--wsrw-button-orange-bg-hover);
+			color: var(--wsrw-button-primary-text);
+		}
+	}
+
+	&.wsrw-button-large {
+		align-items: center;
+		display: inline-flex;
+		font-size: var(--wsrw-font-size-m);
+		height: 56px;
+		justify-content: center;
+		padding-left: var(--wsrw-space-h);
+		padding-right: var(--wsrw-space-h);
+		text-align: center;
+
+		svg {
+			margin-right: 7px;
+		}
+	}
+
+	&.wsrw-button-small {
+		font-size: var(--wsrw-font-size-xs);
+		padding: 9px;
+	}
+
+	&:disabled:hover,
+	&:disabled {
+		background-color: var(--wsrw-button-disabled-bg);
+		border: var(--wsrw-button-disabled-border);
+		color: var(--wsrw-button-disabled-text);
+	}
+}
+
+.wsrw-button-toggle {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	min-width: 424px;
+
+	.wsrw-button {
+		width: calc(50% - 5px);
+		background: var(--wsrw-background-white);
+		color: var(--wsrw-input-text-color);
+	}
+
+	.wsrw-button-secondary {
+		border: 2px solid var(--wsrw-color-primary);
+	}
+}
+
+.wsrw-success-icon {
+	display: none;
+}
+
+.wsrw-show-success-icon {
+	.wsrw-success-icon {
+		display: inline-block;
+	}
+
+	.wsrw-default-icon {
+		display: none;
+	}
+}
+
+.wsrw-button-just-icon {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+
+	.wsrw-icon {
+		display: block;
+	}
+}
+
+.wsrw-text-button-icon {
+	align-items: center;
+	background: none;
+	border: none;
+	color: var(--wsrw-text-color-paragraph);
+	cursor: pointer;
+	display: inline-flex;
+	font-size: var(--wsrw-font-size-s);
+	font-weight: 600;
+	padding: 0;
+
+	&:hover {
+		color: var(--wsrw-text-color-heading);
+
+		path {
+			fill: var(--wsrw-text-color-heading);
+		}
+	}
+
+	.wsrw-icon {
+		margin-right: 5px;
+	}
+}
+
+.wsrw-just-icon-button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+/* Looks like a link but it's actually a button for better accessibility. */
+.wsrw-button-text {
+	background: none;
+	border: none;
+	color: var(--wsrw-text-color-paragraph);
+	cursor: pointer;
+	font-size: var(--wsrw-font-size-xs);
+	padding: 0;
+	text-decoration: underline;
+
+	.wsrw-icon {
+		margin-right: 11px
+	}
+
+	&:focus,
+	&:hover {
+		text-decoration: none;
+		background: none;
+		color: var(--wsrw-text-color-heading);
+
+		svg path {
+			fill: var(--wsrw-text-color-heading);
+		}
+	}
+}

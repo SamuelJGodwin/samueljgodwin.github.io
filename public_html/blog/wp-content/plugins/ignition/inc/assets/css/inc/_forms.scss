@@ -1,0 +1,136 @@
+/* -----------------------------------------
+	Forms Styling
+----------------------------------------- */
+form {
+	> p {
+		margin-bottom: 15px;
+	}
+}
+
+label,
+.label {
+	display: block;
+	margin: 0 0 8px;
+	font-weight: var(--ignition-font-weight-bold);
+	line-height: normal;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="time"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+input[type="color"],
+textarea,
+select {
+	display: inline-block;
+	font-size: 16px;
+	width: 100%;
+	max-width: 100%;
+	height: 50px;
+	padding: 10px 15px;
+	box-shadow: none;
+	line-height: normal;
+	border: 1px solid transparent;
+	background-image: none;
+	border-radius: 0;
+	font-family: inherit;
+	transition: border-color .18s ease, background-color .18s ease;
+	appearance: none;
+
+	&:focus {
+		outline: none;
+	}
+
+	&:hover,
+	&:focus {
+		border-color: currentColor;
+	}
+
+	@include media-breakpoint-down(xs) {
+		width: 100%;
+	}
+}
+
+input[type="file"] {
+	height: auto;
+}
+
+textarea {
+	padding: 20px 20px;
+}
+
+select {
+	appearance: none;
+	background-clip: padding-box;
+	background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+	linear-gradient(135deg, currentColor 50%, transparent 50%);
+	background-position: calc(100% - 20px) 50%, calc(100% - 15px) 50%;
+	background-size: 5px 5px, 5px 5px;
+	background-repeat: no-repeat;
+	max-width: 100%;
+
+	// Unstyle the caret on `<select>`s in IE10+.
+	&::-ms-expand {
+		background-color: transparent;
+		border: 0;
+	}
+}
+
+select {
+	&[size],
+	&[multiple] {
+		height: auto;
+	}
+}
+
+.input-group {
+	margin-bottom: $element-spacing-base;
+	position: relative;
+}
+
+// Restore box-sizing and remove rounded corners
+// from search inputs in iOS
+input[type="search"] {
+	box-sizing: border-box;
+	appearance: none;
+}
+
+textarea {
+	height: auto;
+	resize: vertical;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin: 4px 2px 0 0;
+	line-height: normal;
+	width: auto;
+	height: auto;
+	flex: none;
+}
+
+fieldset {
+	margin: 0 0 $element-spacing-base;
+	padding: 0;
+	border: 0;
+	min-width: 0;
+}
+
+input[type="date"] {
+	appearance: none;
+}
+
+/* Placeholder text color */
+@include placeholder {
+	font-weight: var(--ignition-font-weight-normal);
+	opacity: .5;
+	color: currentColor;
+}

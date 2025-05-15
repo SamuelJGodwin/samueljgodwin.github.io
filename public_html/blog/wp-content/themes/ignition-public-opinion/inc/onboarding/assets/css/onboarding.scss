@@ -1,0 +1,393 @@
+//
+// Variables
+//
+
+$white: #fff !default;
+$black: #000 !default;
+$grey: #f8f8f8 !default;
+$brand-primary-color: #145474 !default;
+$brand-secondary-color: #FFCC00 !default;
+$border-color: #d5d5d5 !default;
+$text-color: #131313 !default;
+$button-bg-color: #0073AA !default;
+
+.ignition-public-opinion-onboarding-wrap {
+	font-size: 16px;
+	line-height: 1.3125;
+	color: $text-color;
+	margin: 0 0 0 -20px;
+	max-width: 1205px;
+	-webkit-font-smoothing: antialiased;
+
+	p {
+		font-size: inherit;
+		line-height: inherit;
+		margin: 0 0 20px;
+	}
+}
+
+//
+// Header
+//
+
+.ignition-public-opinion-onboarding-header {
+	display: flex;
+	align-items: center;
+	padding: 30px;
+	background: $brand-primary-color;
+	color: $white;
+}
+
+.ignition-public-opinion-onboarding-header-title {
+	color: $white;
+	margin: 0;
+	font-weight: normal;
+	font-size: 28px;
+}
+
+.ignition-public-opinion-onboarding-header-logo {
+	margin-left: auto;
+	padding-left: 30px;
+}
+
+.ignition-public-opinion-onboarding-header-meta {
+	a {
+		color: $brand-secondary-color;
+		text-decoration: none;
+		font-weight: bold;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.ignition-public-opinion-onboarding-header-meta-item {
+	&::after {
+		content: "\2013";
+		display: inline-block;
+		margin: 0 3px;
+	}
+
+	&:last-of-type {
+		&::after {
+			display: none;
+		}
+	}
+}
+
+.ignition-public-opinion-onboarding-header-meta-item-separator {
+	opacity: .5;
+	display: inline-block;
+	margin: 0 3px;
+	font-weight: bold;
+}
+
+//
+// Main Content / Tabs
+//
+
+.ignition-public-opinion-onboarding-main-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0 0 30px;
+}
+
+.appearance_page_ignition-starter-link-onboard {
+	.notice {
+		display: none;
+	}
+
+	.ignition-public-opinion-onboarding-main-wrap .notice {
+		display: block;
+	}
+}
+
+.ignition-public-opinion-onboarding-wp-notices {
+	width: 100%;
+	flex-basis: 100%;
+
+	&:empty {
+		display: none;
+	}
+
+	.ignition-public-opinion-onboarding-notice {
+		padding: 15px 0;
+	}
+
+	.notice {
+		margin: 0 0 30px;
+
+		:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.ignition-public-opinion-onboarding-main {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	box-shadow: 0 0 20px rgba($black, .05);
+}
+
+.ignition-public-opinion-onboarding-main-content-nav-header {
+	display: flex;
+	align-items: center;
+	background-color: $grey;
+}
+
+.ignition-public-opinion-onboarding-main-content-nav-link {
+	color: $text-color;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 21px 20px;
+
+	&.is-active {
+		background-color: $white;
+	}
+
+	&:hover {
+		color: $brand-primary-color;
+	}
+}
+
+.ignition-public-opinion-onboarding-main-content {
+	background-color: $white;
+	padding: 20px;
+	flex: auto;
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}
+
+//
+// Sidebar
+//
+
+.ignition-public-opinion-onboarding-main-sidebar {
+	width: 320px;
+	flex: none;
+}
+
+.ignition-public-opinion-onboarding-widget {
+	padding: 20px;
+	margin-bottom: 30px;
+	background: $white;
+	border: 1px solid $border-color;
+
+	&:last-child,
+	> :last-child {
+		margin-bottom: 0;
+	}
+
+	.button {
+		padding: 2px 12px;
+		font-size: 0.875em;
+	}
+}
+
+.ignition-public-opinion-onboarding-widget-title {
+	margin: 0 0 20px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+//
+// Onboarding Item
+//
+
+.ignition-public-opinion-onboarding-item {
+	background: $white;
+	box-shadow: 0 0 10px rgba($black, .05);
+	border: 1px solid rgba($border-color, .4);
+	border-left: solid 4px $white;
+	padding: 15px;
+	margin: 0 0 30px;
+	display: flex;
+	flex-direction: column;
+
+	> :last-child {
+		margin-bottom: 0;
+		margin-top: auto;
+	}
+
+	.ignition-public-opinion-onboarding-item-title {
+		margin: 0 0 5px 0;
+	}
+
+	.ignition-public-opinion-onboarding-item-description {
+		font-size: 14px;
+	}
+
+	.ignition-public-opinion-onboarding-item-meta {
+		> :last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.ignition-public-opinion-onboarding-variations {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 0 20px;
+}
+
+.ignition-public-opinion-variation {
+	width: calc(33.3333% - 10px);
+	box-sizing: border-box;
+	margin: 0 5px 10px;
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+
+	.activate-variation {
+		display: inline-block;
+	}
+
+	&.enabled {
+		border-left: solid 4px green;
+
+		.activate-variation {
+			display: none;
+		}
+	}
+}
+
+.ignition-public-opinion-variation-thumb {
+	margin: 0 0 15px;
+
+	img {
+		max-width: 100%;
+	}
+}
+
+.ignition-public-opinion-onboarding-item-warning {
+	border-left: solid 4px red;
+}
+
+.ignition-public-opinion-onboarding-item-info {
+	border-left: solid 4px orange;
+}
+
+.ignition-public-opinion-onboarding-item-success {
+	border-left: solid 4px green;
+}
+
+.latest-backup-info {
+	font-size: 0.9rem;
+	padding: 5px 7px;
+	border-radius: 3px;
+	background-color: $grey;
+	border: 1px solid darken($grey, 3.5%);
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+//
+// Media queries
+//
+
+@media (max-width: 1024px) {
+	.ignition-public-opinion-onboarding-header {
+		padding: 20px;
+	}
+
+	.ignition-public-opinion-onboarding-header-meta-item {
+		display: block;
+
+		&::after {
+			display: none;
+		}
+	}
+
+	.ignition-public-opinion-onboarding-main-wrap {
+		flex-direction: column;
+		margin: 20px;
+	}
+
+	.ignition-public-opinion-onboarding-main {
+		margin: 0 0 20px;
+	}
+
+	.ignition-public-opinion-onboarding-main-sidebar {
+		width: 100%;
+	}
+}
+
+@media (max-width: 782px) {
+	.ignition-public-opinion-onboarding-wrap {
+		margin-left: -10px;
+		font-size: 14px;
+
+		.wp-responsive-open & {
+			margin-left: -28px;
+		}
+	}
+
+	.ignition-public-opinion-onboarding-header {
+		flex-direction: column;
+	}
+
+	.ignition-public-opinion-onboarding-header-logo {
+		margin: 0 0 10px;
+		padding: 0;
+		order: -1;
+		text-align: left;
+		width: 100%;
+
+		img {
+			width: 126px;
+		}
+	}
+
+	.ignition-public-opinion-onboarding-header-details {
+		width: 100%;
+	}
+
+	.ignition-public-opinion-onboarding-header-title {
+		font-size: 24px;
+	}
+
+	.ignition-public-opinion-onboarding-header-meta-item-separator {
+		display: none;
+	}
+
+	.ignition-public-opinion-onboarding-header-meta-item-links-wrap {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		margin: 10px -2px 0;
+
+		> a {
+			background-color: rgba($white, .1);
+			padding: 12px 5px;
+			flex: 1;
+			margin: 0 2px;
+			text-align: center;
+			white-space: nowrap;
+			font-size: 12px;
+		}
+	}
+
+	.ignition-public-opinion-onboarding-header-meta-item {
+		margin-top: 5px;
+	}
+
+	.ignition-public-opinion-onboarding-widget {
+		margin-bottom: 20px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media (max-width: 665px) {
+	.ignition-public-opinion-variation {
+		width: 100%;
+	}
+}

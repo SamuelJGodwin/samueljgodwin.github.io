@@ -1,0 +1,119 @@
+@keyframes ignition-rotate {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+.ignition-instagram-wrapper {
+	&.ignition-carousel {
+		.ignition-instagram-list {
+			display: none;
+		}
+	}
+
+	&.ignition-static-feed {
+		.ignition-instagram-list {
+			@include media-breakpoint-down(md) {
+				flex-flow: row wrap;
+			}
+
+			.ignition-instagram-list-item {
+				@include media-breakpoint-down(md) {
+					flex-basis: 16.6666%;
+				}
+
+				@include media-breakpoint-down(xs) {
+					flex-basis: 25%;
+				}
+			}
+		}
+	}
+
+	.ignition-instagram-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-flow: row nowrap;
+
+		&.slick-initialized {
+			display: block;
+
+			.slick-arrow {
+				position: absolute;
+				width: 36px;
+				height: 36px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				top: 50%;
+				margin-top: -18px;
+				z-index: 10;
+				color: rgba(255, 255, 255, 0.7);
+				background-color: rgba(255, 255, 255, 0.2);
+				border-radius: 0;
+				border: 0;
+				cursor: pointer;
+
+				&.slick-arrow-prev {
+					left: 0;
+					text-indent: -3px;
+				}
+
+				&.slick-arrow-next {
+					right: 0;
+					text-indent: -1px;
+				}
+
+				svg {
+					width: 28px;
+					height: 28px;
+					fill: #fff;
+				}
+			}
+		}
+
+		.slick-track {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.ignition-instagram-list-item {
+			display: flex;
+			flex: 1 1 100%;
+			float: none;
+			height: auto;
+
+			a {
+				background-size: contain;
+				flex: 1;
+				position: relative;
+				height: 0 !important;
+				padding-bottom: 100%;
+
+				&.loading {
+					&::after {
+						@include ci-icon(\E05A);
+						position: absolute;
+						top: calc(50% - 15px);
+						left: calc(50% - 15px);
+						animation: ignition-rotate .8s infinite linear;
+						font-size: 30px;
+						z-index: -1;
+					}
+				}
+			}
+		}
+	}
+}
+
+.ignition-instagram-feed-error {
+	margin: 0;
+	padding: 30px 0;
+	text-align: center;
+}

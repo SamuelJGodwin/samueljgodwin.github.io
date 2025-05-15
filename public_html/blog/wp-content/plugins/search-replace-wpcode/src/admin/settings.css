@@ -1,0 +1,9 @@
+.wsrw-hide {
+	display: none;
+}
+
+.wsrw-setting-license-wrapper {
+	.wsrw-input-text {
+		max-width: 400px;
+	}
+}

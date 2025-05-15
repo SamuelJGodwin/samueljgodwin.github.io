@@ -1,0 +1,109 @@
+/* -----------------------------------------
+ Theme color overrides
+----------------------------------------- */
+
+/* Global - Primary Color
+========================================= */
+
+/* Global - Secondary Text Color
+========================================= */
+.ignition-breadcrumbs,
+.entry-meta,
+.entry-item-excerpt,
+blockquote cite,
+.entry-item-product .price,
+li.wc-block-grid__product .wc-block-grid__product-price,
+li.product .price,
+[class^="wp-block"] > figcaption,
+.wp-block-image figcaption,
+.wp-block-gutenbee-image figcaption,
+.wp-block-latest-comments .wp-block-latest-comments__comment-date,
+.wp-block-latest-posts .wp-block-latest-posts__post-author,
+.wp-block-latest-posts .wp-block-latest-posts__post-date,
+.contact-form label > span,
+.comment-metadata,
+.form-allowed-tags,
+.comment-notes,
+.widget .rss-date,
+.widget .post-date,
+.wp-block-quote cite {
+	color: var(--ignition-secondary-text-color);
+}
+
+/* Header / Default Colors
+========================================= */
+.header-normal {
+	.head-mast-navigation-inner {
+		color: var(--ignition-header-text-color);
+		border-bottom: 1px solid var(--ignition-header-border-color);
+
+		.navigation-main {
+			ul {
+				background-color: var(--ignition-header-submenu-background-color);
+				color: var(--ignition-header-submenu-text-color);
+			}
+
+			li {
+				li:hover > a,
+				li > a:focus,
+				.current-menu-item > a,
+				.current-menu-parent > a,
+				.current-menu-ancestor > a,
+				.current_page_item > a,
+				.current_page_ancestor > a {
+					color: var(--ignition-header-submenu-text-color-hover, var(--ignition-primary-color));
+					background-color: var(--ignition-header-submenu-background-color-hover);
+				}
+			}
+		}
+	}
+}
+
+/* Header / Sticky Colors
+========================================= */
+.head-mast-navigation.sticky-fixed {
+	.head-mast-navigation-inner {
+		background-color: var(--ignition-header-sticky-background-color);
+		color: var(--ignition-header-sticky-text-color);
+		border-bottom: 1px solid var(--ignition-header-sticky-border-color);
+
+		.navigation-main {
+			ul {
+				background-color: var(--ignition-header-sticky-submenu-background-color);
+				color: var(--ignition-header-sticky-submenu-text-color);
+			}
+
+			li {
+				li:hover > a,
+				li > a:focus,
+				.current-menu-item > a,
+				.current-menu-parent > a,
+				.current-menu-ancestor > a,
+				.current_page_item > a,
+				.current_page_ancestor > a {
+					color: var(--ignition-header-sticky-submenu-text-color-hover, var(--ignition-primary-color));
+					background-color: var(--ignition-header-sticky-submenu-background-color-hover);
+				}
+			}
+		}
+	}
+}
+
+/* Navigation
+========================================= */
+.navigation-main ul,
+.navigation-main > li > a {
+	border-color: var(--ignition-header-border-color);
+}
+
+.navigation-main > li:hover,
+.navigation-main > li > a:focus-within,
+.navigation-main > .current-menu-item,
+.navigation-main > .current-menu-parent,
+.navigation-main > .current-menu-ancestor,
+.navigation-main > .current_page_item,
+.navigation-main > .current_page_ancestor {
+	&::after {
+		border-color: var(--ignition-header-border-color);
+	}
+}

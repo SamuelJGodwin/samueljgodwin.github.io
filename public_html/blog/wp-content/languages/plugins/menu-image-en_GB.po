@@ -1,0 +1,208 @@
+# Translation of Plugins - Menu Image, Icons made easy - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Menu Image, Icons made easy - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-06-04 18:12:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Menu Image, Icons made easy - Stable (latest release)\n"
+
+#: menu-image.php:643
+msgid "Unauthorized Access. Please try again."
+msgstr "Unauthorised Access. Please try again."
+
+#: menu-image.php:1807 menu-image.php:1839
+msgid "Upgrade Now!"
+msgstr "Upgrade Now!"
+
+#: menu-image.php:1756
+msgid "Original Size"
+msgstr "Original Size"
+
+#: menu-image.php:1745
+msgid "Image size"
+msgstr "Image size"
+
+#: menu-image.php:1717
+msgid "Icon"
+msgstr "Icon"
+
+#: menu-image.php:1709
+msgid "Use Icon/image: "
+msgstr "Use Icon/image: "
+
+#: menu-image.php:1689
+msgid "After"
+msgstr "After"
+
+#: menu-image.php:1688
+msgid "Before"
+msgstr "Before"
+
+#: menu-image.php:1687
+msgid "Below"
+msgstr "Below"
+
+#: menu-image.php:1686
+msgid "Above"
+msgstr "Above"
+
+#: menu-image.php:1685
+msgid "Hide"
+msgstr "Hide"
+
+#: menu-image.php:1679
+msgid "Title position"
+msgstr "Title position"
+
+#: menu-image.php:1596
+msgid "<br><br><span>In order to use the FontAwesome icons you need to install the official FontAwesome plugin and select the SVG tecnhonoly. Check <a href=\"https://www.freshlightlab.com/documentation/menu-image-docs/add-icons-to-wordpress-menu/?utm_source=menu-image-settings&utm_medium=user%20website&utm_campaign=install-fontawesome#fontawesome\" target=\"_blank\" >here</a> how to do it."
+msgstr "<br><br><span>In order to use the FontAwesome icons you need to install the official FontAwesome plugin and select the SVG tecnhonoly. Check <a href=\"https://www.freshlightlab.com/documentation/menu-image-docs/add-icons-to-wordpress-menu/?utm_source=menu-image-settings&utm_medium=user%20website&utm_campaign=install-fontawesome#fontawesome\" target=\"_blank\" >here</a> how to do it."
+
+#: menu-image.php:1190
+msgid "Set image on hover"
+msgstr "Set image on hover"
+
+#: menu-image.php:1180
+msgid "Set menu item image on hover"
+msgstr "Set menu item image on hover"
+
+#: menu-image.php:1180
+msgid "Change menu item image on hover"
+msgstr "Change menu item image on hover"
+
+#: menu-image.php:1179
+msgid "Image on hover"
+msgstr "Image on hover"
+
+#: menu-image.php:1171 menu-image.php:1191
+msgid "Remove"
+msgstr "Remove"
+
+#: menu-image.php:1170
+msgid "Set image"
+msgstr "Set image"
+
+#: menu-image.php:1160
+msgid "Set menu item image"
+msgstr "Set menu item image"
+
+#: menu-image.php:1160
+msgid "Change menu item image"
+msgstr "Change menu item image"
+
+#: menu-image.php:1115
+msgid "Select"
+msgstr "Select"
+
+#: menu-image.php:1114
+msgid "Chose menu image"
+msgstr "Chose menu image"
+
+#: menu-image.php:1058
+msgid "<strong>Menu Image - In order to use the FontAwesome icons you need to install the official FontAwesome plugin and select the SVG tecnhonoly. Check <a href=\"https://www.freshlightlab.com/documentation/menu-image-docs/add-icons-to-wordpress-menu/?utm_source=menu-image-settings&utm_medium=user%20website&utm_campaign=install-fontawesome#fontawesome\" target=\"_blank\" >here</a> how to do it.</strong>"
+msgstr "<strong>Menu Image - In order to use the FontAwesome icons you need to install the official FontAwesome plugin and select the SVG tecnhonoly. Check <a href=\"https://www.freshlightlab.com/documentation/menu-image-docs/add-icons-to-wordpress-menu/?utm_source=menu-image-settings&utm_medium=user%20website&utm_campaign=install-fontawesome#fontawesome\" target=\"_blank\" >here</a> how to do it.</strong>"
+
+#: menu-image.php:623 menu-image.php:1159 menu-image.php:1716
+msgid "Image"
+msgstr "Image"
+
+#: menu-image.php:581
+msgid "3rd Menu Image size"
+msgstr "3rd Menu Image size"
+
+#: menu-image.php:574
+msgid "2nd Menu Image size"
+msgstr "2nd Menu Image size"
+
+#: menu-image.php:567
+msgid "1st Menu Image size"
+msgstr "1st Menu Image size"
+
+#: menu-image.php:561
+msgid "Image Sizes"
+msgstr "Image Sizes"
+
+#: menu-image.php:554
+msgid "Menu image Hover"
+msgstr "Menu image Hover"
+
+#: menu-image.php:548
+msgid "General options"
+msgstr "General options"
+
+#: menu-image.php:536
+msgid "Enable the image on hover field"
+msgstr "Enable the image on hover field"
+
+#: menu-image.php:521
+msgid "Use this format (48x48), width and height."
+msgstr "Use this format (48x48), width and height."
+
+#: menu-image.php:507
+msgid "Use this format (36x36), width and height."
+msgstr "Use this format (36x36), width and height."
+
+#: menu-image.php:493
+msgid "Use this format (24x24), width and height."
+msgstr "Use this format (24x24), width and height."
+
+#: menu-image.php:455
+msgid "Support"
+msgstr "Support"
+
+#: menu-image.php:444
+msgid "Menu Image Settings"
+msgstr "Menu Image Settings"
+
+#: menu-image.php:357
+msgid "Sorry, your image size format is not correct. Please try again."
+msgstr "Sorry, your image size format is not correct. Please try again."
+
+#: menu-image.php:349
+msgid "Your Menu Image settings were saved!"
+msgstr "Your Menu Image settings were saved!"
+
+#: menu-image.php:316
+msgid "Sorry, your nonce was not correct. Please try again."
+msgstr "Sorry, your nonce was not correct. Please try again."
+
+#: menu-image.php:85
+msgid "Close"
+msgstr "Close"
+
+#: menu-image.php:85
+msgid "Badges & Bubbles"
+msgstr "Badges & Bubbles"
+
+#: menu-image.php:85
+msgid "Buttons"
+msgstr "Buttons"
+
+#: menu-image.php:85
+msgid "Image & Icon"
+msgstr "Image & Icon"
+
+#. Author URI of the plugin
+msgid "https://www.freshlightlab.com/?utm_source=wprepo-menu-image&utm_medium=wprepo_readme&utm_campaign=Author+URI"
+msgstr "https://www.freshlightlab.com/?utm_source=wprepo-menu-image&utm_medium=wprepo_readme&utm_campaign=Author+URI"
+
+#. Author of the plugin
+msgid "Freshlight Lab"
+msgstr "Freshlight Lab"
+
+#. Description of the plugin
+msgid "Improve your navigation menu items with images, logos, icons, buttons."
+msgstr "Improve your navigation menu items with images, logos, icons, buttons."
+
+#. Plugin URI of the plugin
+msgid "https://www.freshlightlab.com/menu-image-wordpress-plugin/?utm_source=wprepo-menu-image&utm_medium=wprepo_readme&utm_campaign=Plugin+URI"
+msgstr "https://www.freshlightlab.com/menu-image-wordpress-plugin/?utm_source=wprepo-menu-image&utm_medium=wprepo_readme&utm_campaign=Plugin+URI"
+
+#. Plugin Name of the plugin
+msgid "Menu Image"
+msgstr "Menu Image"

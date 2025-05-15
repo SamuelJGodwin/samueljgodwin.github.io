@@ -1,0 +1,20 @@
+/* -----------------------------------------
+	Base CSS Custom Properties (Variables)
+----------------------------------------- */
+
+:root {
+	// Base Colors
+	// =========================================
+	--ignition-colors-white: #fff;
+	--ignition-colors-black: #000;
+	--ignition-colors-grey: #f1f1f1;
+	--ignition-colors-green: #4bbf39;
+	--ignition-colors-red: #d62a29;
+	--ignition-colors-yellow: #ffa500;
+	--ignition-colors-blue: #70a8e4;
+
+	// Typography
+	// =========================================
+	--ignition-font-weight-normal: 400;
+	--ignition-font-weight-bold: 700;
+}

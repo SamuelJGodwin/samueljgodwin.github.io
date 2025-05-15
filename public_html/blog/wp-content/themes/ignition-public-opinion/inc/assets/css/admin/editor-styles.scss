@@ -1,0 +1,373 @@
+/* -----------------------------------------
+Block editor styles
+----------------------------------------- */
+
+@import "../inc/mixins/mixins";
+@import "../inc/mixins/breakpoints";
+@import "../inc/archives";
+
+/* -----------------------------------------
+  WordPress Blocks styles
+----------------------------------------- */
+
+/* Button Block
+=================================== */
+.gutenbee-block-button-link,
+.wp-block-button.is-style-outline .wp-block-button__link:not([class*="has-"]):hover,
+.wp-block-button__link {
+	background-color: var(--ignition-buttons-background-color);
+	color: var(--ignition-buttons-text-color);
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:not([class*="has-"]),
+.gutenbee-block-button-link {
+	border-color: var(--ignition-buttons-background-color);
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:not([class*="has-"]) {
+	color: var(--ignition-buttons-background-color);
+}
+
+/* Paragraph Block
+=================================== */
+.has-drop-cap:not(:focus) {
+	&::first-letter {
+		padding: .1rem .35rem 0 0;
+		font-size: 3.2rem;
+		line-height: .9;
+	}
+}
+
+/* Heading Block
+=================================== */
+.is-style-ignition-public-opinion-heading-alt {
+	@include skewed-edge($position: "before", $color: #000, $width: .7em, $zindex: -1, $offset: 10px);
+	padding: 0.365em 2em 0.365em 0.65em !important;
+	display: block;
+	position: relative;
+	z-index: auto;
+	line-height: 1;
+
+	&::before {
+		background-color: inherit;
+		width: 1em;
+		z-index: 0;
+		right: -10px;
+		left: auto;
+	}
+}
+
+/* Separator Block
+=================================== */
+.wp-block-separator {
+	background-color: var(--ignition-border-color);
+}
+
+/* Pullquote Block
+=================================== */
+.wp-block-pullquote {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+
+	&.is-style-solid-color {
+		font-size: 1rem;
+		line-height: 1.33;
+		position: relative;
+		padding: 30px 30px 30px 80px;
+		border: 0;
+
+		&::before {
+			content: "\00201C";
+			font-style: normal;
+			font-size: 4rem;
+			line-height: 0;
+			position: absolute;
+			left: 30px;
+			top: 57px;
+		}
+
+		blockquote {
+			margin: 0;
+			max-width: 100%;
+
+			p {
+				font-size: 1rem;
+				line-height: 1.56;
+				font-weight: var(--ignition-font-weight-normal);
+			}
+
+			.wp-block-pullquote__citation {
+				font-size: .875rem;
+				font-weight: var(--ignition-font-weight-normal);
+			}
+		}
+	}
+}
+
+/* Quote block
+=================================== */
+.wp-block-quote {
+	font-size: 1rem;
+	line-height: 1.33;
+	position: relative !important;
+	padding: 0 0 0 50px;
+	border: 0;
+
+	&::before {
+		content: "\00201C";
+		display: block;
+		font-style: normal;
+		font-size: 4rem;
+		line-height: 0;
+		position: absolute;
+		left: 0;
+		top: 33px;
+	}
+
+	p {
+		font-size: 1rem;
+		line-height: 1.56;
+		font-weight: var(--ignition-font-weight-normal);
+	}
+
+	cite {
+		font-size: .875rem;
+		font-weight: var(--ignition-font-weight-normal);
+	}
+
+	&.is-style-large {
+		padding: 0 0 0 50px;
+
+		&::before {
+			content: "\00201C";
+			display: block;
+		}
+
+		p {
+			font-size: 24px;
+		}
+	}
+
+	&.has-text-align-center {
+		padding: 0;
+
+		&::before {
+			display: block;
+			position: static;
+			margin-top: 30px;
+			margin-bottom: 15px;
+		}
+	}
+
+	&.has-text-align-right {
+		padding: 0 50px 0 0;
+
+		&::before {
+			left: auto;
+			right: 0;
+			top: -5px;
+			transform: rotate(180deg);
+		}
+	}
+}
+
+/* Global Widget Block Styles
+=================================== */
+.wp-block-rss,
+.wp-block-archives,
+.wp-block-categories {
+	li {
+		a {
+			color: var(--ignition-text-color);
+		}
+	}
+}
+
+/* Tags
+=================================== */
+.tag-cloud-link {
+	color: var(--ignition-text-color);
+}
+
+/* Search Widget Block
+=================================== */
+.wp-block-search {
+	.wp-block-search__button {
+		background: var(--ignition-primary-color);
+		color: var(--ignition-colors-white);
+	}
+}
+
+/* Latest Posts block
+=================================== */
+.wp-block-latest-posts {
+	> li {
+		> a {
+			color: var(--ignition-text-color);
+
+			&:hover {
+				color: var(--ignition-primary-color);
+			}
+		}
+	}
+}
+
+/* File Block
+=================================== */
+.wp-block-file__content-wrapper {
+	.wp-block-file__button {
+		background-color: var(--ignition-primary-color);
+		color: var(--ignition-colors-white);
+	}
+}
+
+/* -----------------------------------------
+  GutenBee Plugin Blocks
+----------------------------------------- */
+
+/* Post Types Block
+=================================== */
+.is-style-ignition-public-opinion-layout-overlay-slideshow {
+	height: 500%;
+
+	.row-items {
+		opacity: 1 !important;
+		flex-wrap: nowrap;
+  	overflow-x: scroll;
+
+		[class*=col] {
+			height: 100%;
+		}
+	}
+}
+.is-style-ignition-public-opinion-layout-overlay {
+	@include media-breakpoint-up(xl) {
+		.row-columns-4 {
+			.entry-author,
+			.entry-meta-top {
+				display: none;
+			}
+
+			.entry-meta-category {
+				font-size: 10px;
+			}
+
+			.entry-title {
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+/* -----------------------------------------
+  WooCommerce Blocks
+----------------------------------------- */
+
+/* WooCommerce - Product Listings
+=================================== */
+.wc-block-grid__products {
+	.wc-block-grid__product {
+		.wc-block-grid__product-link {
+			&:hover {
+				color: var(--ignition-primary-color);
+			}
+		}
+
+		.wc-block-grid__product-title {
+			a {
+				color: var(--ignition-text-color);
+
+				&:hover {
+					color: var(--ignition-primary-color);
+				}
+			}
+		}
+	}
+}
+
+// Pagination
+.wc-block-pagination {
+	.wc-block-pagination-page {
+		border-color: 2px solid var(--ignition-border-color);
+		color: var(--ignition-text-color);
+
+		&.wc-block-pagination-page--active,
+		&:hover {
+			color: var(--ignition-colors-white);
+		}
+	}
+}
+
+/* Reviews block
+========================================= */
+.wc-block-review-list {
+	.wc-block-review-list-item__published-date {
+		color: var(--ignition-secondary-text-color);
+	}
+
+	.wc-block-review-list-item__product {
+		a {
+			color: var(--ignition-text-color);
+		}
+	}
+}
+
+/* Product Categories block
+========================================= */
+.wc-block-product-categories-list {
+	li {
+		a {
+			color: var(--ignition-text-color);
+		}
+	}
+}
+
+.wc-block-product-categories {
+	.wc-block-product-categories__button {
+		border-color: var(--ignition-border-color);
+	}
+}
+
+/* Attribute Filters block
+========================================= */
+.wc-block-attribute-filter {
+	.wc-block-attribute-filter-list {
+		[type="checkbox"] {
+			&:checked + label {
+				color: var(--ignition-primary-color);
+			}
+		}
+
+		label {
+			color: var(--ignition-text-color);
+		}
+	}
+}
+
+/* Active Filters block
+========================================= */
+.wc-block-active-filters {
+	.wc-block-active-filters__list.wc-block-active-filters__list--chips {
+		li.wc-block-active-filters__list-item {
+			color: var(--ignition-text-color);
+		}
+	}
+}
+
+/* Filter by Price block
+========================================= */
+.wc-block-price-filter {
+	.wc-block-price-filter__range-input-wrapper {
+		.wc-block-price-filter__range-input-progress {
+			--range-color: var(--ignition-border-color);
+		}
+	}
+}
+
+/* Sort Select Element block
+========================================= */
+.wc-block-sort-select {
+	.wc-block-sort-select__select {
+		color: var(--ignition-text-color);
+	}
+}

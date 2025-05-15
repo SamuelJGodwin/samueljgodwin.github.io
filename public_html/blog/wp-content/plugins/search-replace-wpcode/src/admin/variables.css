@@ -1,0 +1,70 @@
+:root {
+	/**
+	Background
+	 */
+	--wsrw-background-gray: #F8F8F8;
+	--wsrw-background-highlight: #F6FAFF;
+	--wsrw-background-light: #F3F4F5;
+	--wsrw-background-red: #DF2A35;
+	--wsrw-background-white: #fff;
+	/**
+	Buttons
+	 */
+	--wsrw-border-color: #ddd;
+	--wsrw-button-disabled-bg: #F5F5F5;
+	--wsrw-button-disabled-border: 1px solid #DDDDDD;
+	--wsrw-button-disabled-text: #bbb;
+	--wsrw-button-primary-bg: var(--wsrw-color-primary);
+	--wsrw-button-primary-bg-hover: #397EEB;
+	--wsrw-button-primary-text: #fff;
+	--wsrw-button-primary-text-hover: #fff;
+	--wsrw-button-secondary-bg: #F8F8F8;
+	--wsrw-button-secondary-bg-hover: #fff;
+	--wsrw-button-secondary-border: 1px solid #DDDDDD;
+	--wsrw-button-secondary-text: #777;
+	--wsrw-button-orange-bg: #E06B44;
+	--wsrw-button-orange-bg-hover: #e17f5e;
+	/**
+	Border
+	 */
+	--wsrw-button-secondary-text-hover: #454545;
+	/**
+	Colors
+	*/
+	--wsrw-color-primary: #3568B7;
+	--wsrw-color-red: #DF2A35;
+	--wsrw-color-red-darker: #AB2028;
+	/**
+	Font sizes
+	 */
+	--wsrw-font-size-l: 18px;
+	--wsrw-font-size-m: 16px;
+	--wsrw-font-size-s: 14px;
+	--wsrw-font-size-xl: 22px;
+	--wsrw-font-size-xs: 12px;
+	--wsrw-font-size-xxl: 24px;
+	/**
+	Inputs
+	 */
+	--wsrw-input-border: 1px solid #DDD;
+	--wsrw-input-border-active: #3568B7;
+	--wsrw-input-text-color: #454545;
+	/**
+	Notices
+	 */
+	--wsrw-notice-success-bg: #09A347;
+	--wsrw-notice-success-text: #fff;
+	/**
+	Spacing
+	*/
+	--wsrw-space-h: 36px;
+	--wsrw-space-v: 24px;
+	/**
+	Text
+	*/
+	--wsrw-text-color-heading: #454545;
+	--wsrw-text-color-highlight: #3568B7;
+	--wsrw-text-color-light-bg: #848A8A;
+	--wsrw-text-color-paragraph: #777777;
+	--wsrw-text-color-placeholder: #bbb;
+}

@@ -1,0 +1,4876 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ignition Framework\n"
+"POT-Creation-Date: 2022-03-17 16:57+0200\n"
+"PO-Revision-Date: 2016-08-29 19:22+0300\n"
+"Last-Translator: CSSIgniter Team <team@cssigniter.com>\n"
+"Language-Team: CSSIgniter Team <team@cssigniter.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ignition.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/blocks/blocks.php:26
+msgid "Ignition"
+msgstr ""
+
+#: inc/class-ignition-walker-review.php:40
+msgid "Your review is awaiting moderation."
+msgstr ""
+
+#: inc/class-ignition-walker-review.php:42
+msgid ""
+"Your review is awaiting moderation. This is a preview; your review will be "
+"visible after it has been approved."
+msgstr ""
+
+#. translators: %s: Comment author link.
+#: inc/class-ignition-walker-review.php:63
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#. translators: 1: Comment date, 2: Comment time.
+#: inc/class-ignition-walker-review.php:83
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/class-ignition-walker-review.php:89
+msgid "Edit"
+msgstr ""
+
+#: inc/custom-fields/controls/side-file-select/side-file-select.php:78
+#: inc/customizer/controls/file-select/file-select.php:99
+msgid "Select file"
+msgstr ""
+
+#: inc/custom-fields/controls/side-image/side-image.php:25
+msgid "Set image"
+msgstr ""
+
+#: inc/custom-fields/controls/side-image/side-image.php:26
+#: inc/customizer/controls/image-bg/image-bg.php:123
+msgid "No image selected"
+msgstr ""
+
+#: inc/custom-fields/controls/side-image/side-image.php:27
+msgid "Replace Image"
+msgstr ""
+
+#: inc/custom-fields/controls/side-image/side-image.php:28
+msgid "Remove Image"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:160 inc/term-meta.php:95
+#: inc/term-meta.php:134
+msgid "Page Title Image"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:178
+msgid "Page Settings"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:197
+msgid "Remove top/bottom content padding"
+msgstr ""
+
+#. translators: %s is a post type's singular name, e.g. post, page, event, etc.
+#: inc/custom-fields/custom-fields.php:207
+#, php-format
+msgid "Disable featured image for this %s"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:216 inc/customizer/options.php:897
+msgid "Header Type"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:224 inc/customizer/options.php:1535
+msgid "Show Page Title with Background"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:231 inc/customizer/options.php:1584
+msgid "Show Normal Page Title"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:231 inc/customizer/options.php:1584
+msgid "Show Page Title"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:236 inc/customizer/options.php:1596
+msgid "Show Normal Page Subtitle"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:236 inc/customizer/options.php:1596
+msgid "Show Page Subtitle"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:242 inc/customizer/options.php:1608
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:313 inc/term-meta.php:100
+#: inc/term-meta.php:144
+msgid "Set page title image"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:314
+msgid "Remove page title Image"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:319
+msgid "Background Video"
+msgstr ""
+
+#: inc/custom-fields/custom-fields.php:324 inc/customizer/options.php:1660
+#: inc/term-meta.php:114 inc/term-meta.php:161
+msgid "Disable background video"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:89
+msgid "Standard Fonts"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:93
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:144
+msgid "Inherit"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:145
+msgid "None"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:146
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:147
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:160
+msgid "Thin 100"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:161
+msgid "Thin 100 Italic"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:162
+msgid "Light 200"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:163
+msgid "Light 200 Italic"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:164
+msgid "Book 300"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:165
+msgid "Book 300 Italic"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:166
+msgid "Normal 400"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:167
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:168
+msgid "Medium 500"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:169
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:170
+msgid "Semibold 600"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:171
+msgid "Semibold 600 Italic"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:172
+msgid "Bold 700"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:173
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:174
+msgid "Extra Bold 800"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:175
+msgid "Extra Bold 800 Italic"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:176
+msgid "Heavy 900"
+msgstr ""
+
+#: inc/customizer/class-ignition-fonts-list.php:177
+msgid "Heavy 900 Italic"
+msgstr ""
+
+#: inc/customizer/controls/color-gradient/color-gradient.php:114
+#: inc/scripts-styles.php:272
+msgid "Clear"
+msgstr ""
+
+#: inc/customizer/controls/color-gradient/color-gradient.php:123
+#: inc/customizer/options.php:2328 inc/sanitization.php:1075
+#: inc/scripts-styles.php:274
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/controls/file-select/file-select.php:39
+msgid "Select a file"
+msgstr ""
+
+#: inc/customizer/controls/image-bg/image-bg.php:48
+#: inc/scripts-styles.php:284
+msgid "Select an Image"
+msgstr ""
+
+#: inc/customizer/controls/image-bg/image-bg.php:115
+#: inc/customizer/options.php:2327
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/controls/image-bg/image-bg.php:116
+msgid "Change image"
+msgstr ""
+
+#: inc/customizer/controls/image-bg/image-bg.php:128
+msgid "Select image"
+msgstr ""
+
+#: inc/customizer/controls/image-bg/image-bg.php:138
+msgid "Image repeat"
+msgstr ""
+
+#: inc/customizer/controls/image-bg/image-bg.php:152
+msgid "Image position"
+msgstr ""
+
+#: inc/customizer/controls/image-bg/image-bg.php:166
+msgid "Image attachment"
+msgstr ""
+
+#: inc/customizer/controls/image-bg/image-bg.php:180
+msgid "Image size"
+msgstr ""
+
+#: inc/customizer/controls/range/range.php:95
+msgctxt "device"
+msgid "Desktop"
+msgstr ""
+
+#: inc/customizer/controls/range/range.php:98
+msgctxt "device"
+msgid "Tablet"
+msgstr ""
+
+#: inc/customizer/controls/range/range.php:101
+msgctxt "device"
+msgid "Mobile"
+msgstr ""
+
+#: inc/customizer/controls/spacing/spacing.php:98
+#: inc/customizer/controls/typography/typography.php:134
+msgid "Desktop"
+msgstr ""
+
+#: inc/customizer/controls/spacing/spacing.php:101
+#: inc/customizer/controls/typography/typography.php:137
+msgid "Tablet"
+msgstr ""
+
+#: inc/customizer/controls/spacing/spacing.php:104
+#: inc/customizer/controls/typography/typography.php:140
+msgid "Mobile"
+msgstr ""
+
+#: inc/customizer/controls/spacing/spacing.php:115
+msgid "Top"
+msgstr ""
+
+#: inc/customizer/controls/spacing/spacing.php:131 inc/sanitization.php:1118
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/controls/spacing/spacing.php:147
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer/controls/spacing/spacing.php:163 inc/sanitization.php:1116
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/controls/typography/typography.php:161
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer/controls/typography/typography.php:196
+msgid "Font Variant"
+msgstr ""
+
+#: inc/customizer/controls/typography/typography.php:226
+msgid "Font Size (px)"
+msgstr ""
+
+#: inc/customizer/controls/typography/typography.php:246
+msgid "Line Height"
+msgstr ""
+
+#: inc/customizer/controls/typography/typography.php:267
+msgid "Text Transform"
+msgstr ""
+
+#: inc/customizer/controls/typography/typography.php:288
+msgid "Letter Spacing (em)"
+msgstr ""
+
+#: inc/customizer/customizer.php:38
+msgctxt "customizer section title"
+msgid "Site Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:60
+msgctxt "customizer section title"
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/customizer.php:97
+msgctxt "customizer section title"
+msgid "Utilities"
+msgstr ""
+
+#: inc/customizer/customizer.php:215
+msgid "You can add text, HTML, and shortcodes."
+msgstr ""
+
+#: inc/customizer/options.php:80 inc/customizer/options.php:92
+msgid "Site layout"
+msgstr ""
+
+#: inc/customizer/options.php:104
+msgid "Blog layout"
+msgstr ""
+
+#: inc/customizer/options.php:116
+msgid "Single blog post layout"
+msgstr ""
+
+#: inc/customizer/options.php:128
+msgid "Header width (px)"
+msgstr ""
+
+#: inc/customizer/options.php:155
+msgid "Site width (px)"
+msgstr ""
+
+#: inc/customizer/options.php:198
+msgid "Content width (columns)"
+msgstr ""
+
+#: inc/customizer/options.php:199 inc/customizer/options.php:217
+msgid "The sum of the content and sidebar columns should be 12."
+msgstr ""
+
+#: inc/customizer/options.php:216
+msgid "Sidebar width (columns)"
+msgstr ""
+
+#: inc/customizer/options.php:248
+msgid "Body background color"
+msgstr ""
+
+#: inc/customizer/options.php:268
+msgid "Body background image"
+msgstr ""
+
+#: inc/customizer/options.php:283
+msgid "Primary color"
+msgstr ""
+
+#: inc/customizer/options.php:297
+msgid "Secondary color"
+msgstr ""
+
+#: inc/customizer/options.php:311 inc/customizer/options.php:818
+#: inc/customizer/options.php:860 inc/customizer/options.php:1122
+#: inc/customizer/options.php:1178 inc/customizer/options.php:1257
+#: inc/customizer/options.php:1313 inc/customizer/options.php:1392
+#: inc/customizer/options.php:1448 inc/customizer/options.php:1498
+#: inc/customizer/options.php:1976 inc/customizer/options.php:2032
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer/options.php:325 inc/customizer/options.php:1699
+msgid "Secondary Text color"
+msgstr ""
+
+#: inc/customizer/options.php:339
+msgid "Headings color"
+msgstr ""
+
+#: inc/customizer/options.php:353
+msgid "Borders color"
+msgstr ""
+
+#: inc/customizer/options.php:367
+msgid "Forms Background color"
+msgstr ""
+
+#: inc/customizer/options.php:381
+msgid "Forms Border color"
+msgstr ""
+
+#: inc/customizer/options.php:395
+msgid "Forms Text color"
+msgstr ""
+
+#: inc/customizer/options.php:409
+msgid "Buttons Background color"
+msgstr ""
+
+#: inc/customizer/options.php:423
+msgid "Buttons Text color"
+msgstr ""
+
+#: inc/customizer/options.php:437
+msgid "Buttons Border color"
+msgstr ""
+
+#: inc/customizer/options.php:459
+msgid "Disable Google Fonts"
+msgstr ""
+
+#: inc/customizer/options.php:478
+msgid "Primary font"
+msgstr ""
+
+#: inc/customizer/options.php:496
+msgid "Secondary font"
+msgstr ""
+
+#: inc/customizer/options.php:515
+msgid "Navigation font"
+msgstr ""
+
+#: inc/customizer/options.php:537
+msgid "Page title"
+msgstr ""
+
+#: inc/customizer/options.php:554
+msgid "H1 font"
+msgstr ""
+
+#: inc/customizer/options.php:572
+msgid "H2 font"
+msgstr ""
+
+#: inc/customizer/options.php:590
+msgid "H3 font"
+msgstr ""
+
+#: inc/customizer/options.php:608
+msgid "H4 font"
+msgstr ""
+
+#: inc/customizer/options.php:626
+msgid "H5 font"
+msgstr ""
+
+#: inc/customizer/options.php:644
+msgid "H6 font"
+msgstr ""
+
+#: inc/customizer/options.php:662
+msgid "Widget title font"
+msgstr ""
+
+#: inc/customizer/options.php:680
+msgid "Widget text font"
+msgstr ""
+
+#: inc/customizer/options.php:698
+msgid "Button font"
+msgstr ""
+
+#: inc/customizer/options.php:738
+msgid "Show top bar"
+msgstr ""
+
+#: inc/customizer/options.php:750
+msgid "Top bar visibility"
+msgstr ""
+
+#: inc/customizer/options.php:763 inc/customizer/options.php:1991
+msgid "Left content area"
+msgstr ""
+
+#: inc/customizer/options.php:777
+msgid "Middle content area"
+msgstr ""
+
+#: inc/customizer/options.php:791 inc/customizer/options.php:2005
+msgid "Right content area"
+msgstr ""
+
+#: inc/customizer/options.php:804 inc/customizer/options.php:846
+#: inc/customizer/options.php:1079 inc/customizer/options.php:1150
+#: inc/customizer/options.php:1214 inc/customizer/options.php:1285
+#: inc/customizer/options.php:1349 inc/customizer/options.php:1420
+#: inc/customizer/options.php:1484 inc/customizer/options.php:1620
+#: inc/customizer/options.php:1919 inc/customizer/options.php:2018
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer/options.php:832 inc/customizer/options.php:874
+#: inc/customizer/options.php:1136 inc/customizer/options.php:1271
+#: inc/customizer/options.php:1406 inc/customizer/options.php:1512
+#: inc/customizer/options.php:1948 inc/customizer/options.php:2060
+msgid "Border color"
+msgstr ""
+
+#. translators: %1$s is the URL to the Header Colors section.
+#: inc/customizer/options.php:900
+#, php-format
+msgid ""
+"If you select the <strong>Transparent</strong> option make sure to adjust "
+"the <a href=\"%1$s\">Header colors</a> accordingly."
+msgstr ""
+
+#: inc/customizer/options.php:921
+msgid "Full width header"
+msgstr ""
+
+#: inc/customizer/options.php:932
+msgid "Sticky menu"
+msgstr ""
+
+#: inc/customizer/options.php:944
+msgid "Fixed header"
+msgstr ""
+
+#: inc/customizer/options.php:945
+msgid ""
+"When enabled, the header will not scroll with the rest of the content."
+msgstr ""
+
+#: inc/customizer/options.php:956
+msgid "Menu layout"
+msgstr ""
+
+#: inc/customizer/options.php:969
+msgid "Mobile menu slides in from the left."
+msgstr ""
+
+#: inc/customizer/options.php:980
+msgid "Display mobile menu when viewport size is less than (px)"
+msgstr ""
+
+#: inc/customizer/options.php:1040
+msgid "Content area"
+msgstr ""
+
+#: inc/customizer/options.php:1042
+msgid ""
+"Added content will appear next or opposite your menu, depending on the "
+"<strong>Menu Layout</strong> selected."
+msgstr ""
+
+#: inc/customizer/options.php:1056
+msgid "Mobile content area"
+msgstr ""
+
+#: inc/customizer/options.php:1058
+msgid "Added content will only appear on mobile viewports."
+msgstr ""
+
+#: inc/customizer/options.php:1093 inc/customizer/options.php:1228
+#: inc/customizer/options.php:1363 inc/customizer/options.php:1634
+#: inc/customizer/options.php:1933
+msgid "Background image"
+msgstr ""
+
+#: inc/customizer/options.php:1108 inc/customizer/options.php:1243
+#: inc/customizer/options.php:1378 inc/customizer/options.php:1671
+msgid "Overlay color"
+msgstr ""
+
+#: inc/customizer/options.php:1164 inc/customizer/options.php:1299
+#: inc/customizer/options.php:1434
+msgid "Background color active & hover"
+msgstr ""
+
+#: inc/customizer/options.php:1192 inc/customizer/options.php:1327
+#: inc/customizer/options.php:1462
+msgid "Text color active & hover"
+msgstr ""
+
+#: inc/customizer/options.php:1546
+msgid "Page Title Height (px)"
+msgstr ""
+
+#: inc/customizer/options.php:1571
+msgid "Page Title Horizontal alignment"
+msgstr ""
+
+#: inc/customizer/options.php:1648
+msgid "Background video"
+msgstr ""
+
+#: inc/customizer/options.php:1685
+msgid "Primary Text color"
+msgstr ""
+
+#: inc/customizer/options.php:1725
+msgid "Posts layout type"
+msgstr ""
+
+#: inc/customizer/options.php:1738
+msgid "Excerpt length (words)"
+msgstr ""
+
+#: inc/customizer/options.php:1750 inc/customizer/options.php:1801
+msgid "Show date"
+msgstr ""
+
+#: inc/customizer/options.php:1762 inc/customizer/options.php:1813
+msgid "Show categories"
+msgstr ""
+
+#: inc/customizer/options.php:1774 inc/customizer/options.php:1825
+msgid "Show author"
+msgstr ""
+
+#: inc/customizer/options.php:1786 inc/customizer/options.php:1837
+msgid "Show comments"
+msgstr ""
+
+#: inc/customizer/options.php:1849
+msgid "Show author box"
+msgstr ""
+
+#: inc/customizer/options.php:1861
+msgid "Show comments section"
+msgstr ""
+
+#: inc/customizer/options.php:1873
+msgid "Related posts"
+msgstr ""
+
+#: inc/customizer/options.php:1895
+msgid "Show footer"
+msgstr ""
+
+#: inc/customizer/options.php:1907
+msgid "Widgets Layout Type"
+msgstr ""
+
+#: inc/customizer/options.php:1962
+msgid "Titles color"
+msgstr ""
+
+#: inc/customizer/options.php:2046
+msgid "Link color"
+msgstr ""
+
+#: inc/customizer/options.php:2084
+msgid "API Key"
+msgstr ""
+
+#. translators: %s is a URL to the OpenWeatherMap.org AppID page.
+#: inc/customizer/options.php:2086
+#, php-format
+msgid ""
+"In order to use the weather feature, you need a free API key from <a href="
+"\"%s\" target=\"_blank\">OpenWeatherMap.org</a>"
+msgstr ""
+
+#: inc/customizer/options.php:2099
+msgid "Location ID"
+msgstr ""
+
+#. translators: %1$s is the URL to openweathermap.com. %2$s is an non-linked example URL. %3$s is a location ID.
+#: inc/customizer/options.php:2101
+#, php-format
+msgid ""
+"Enter the location ID number of your city. The location ID number can be "
+"found by visiting <a href=\"%1$s\" target=\"_blank\">OpenWeatherMap.org</"
+"a> and searching for your city. Once you are on your city's page, the "
+"location ID is the last numeric part of the URL. For example, the URL for "
+"London, UK is <code>%2$s</code> and the location ID is <code>%3$s</code>."
+msgstr ""
+
+#: inc/customizer/options.php:2116
+msgid "Units"
+msgstr ""
+
+#: inc/customizer/options.php:2137
+msgid "Enable lightbox"
+msgstr ""
+
+#: inc/customizer/options.php:2157
+msgid "Enable dark mode in the block editor"
+msgstr ""
+
+#: inc/customizer/options.php:2158
+msgid ""
+"Enable this setting when your website has a dark background to improve the "
+"block editor experience."
+msgstr ""
+
+#: inc/customizer/options.php:2177
+msgid "Show in posts"
+msgstr ""
+
+#: inc/customizer/options.php:2188
+msgid "Show in products"
+msgstr ""
+
+#: inc/customizer/options.php:2199
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/options.php:2210
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/options.php:2221
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer/options.php:2251
+msgid "Enable back to top button"
+msgstr ""
+
+#: inc/customizer/options.php:2252
+msgid ""
+"The Back to Top Button will always be visible in the customizer if it is "
+"enabled. On your normal site it will become visible after a certain amount "
+"of scrolling."
+msgstr ""
+
+#: inc/customizer/options.php:2272
+msgid "Enable Block Widgets support"
+msgstr ""
+
+#: inc/customizer/options.php:2273
+msgid ""
+"Enable this setting if you want to use Blocks as widgets. Please note that "
+"after changing and publishing this setting, you need to refresh the "
+"Customizer page for the option to take effect."
+msgstr ""
+
+#: inc/customizer/options.php:2292
+msgid "Google Maps API key"
+msgstr ""
+
+#. translators: %1$s and %2$s are URLs.
+#: inc/customizer/options.php:2294
+#, php-format
+msgid ""
+"Paste here your Google Maps API Key. Maps will <strong>not</strong> be "
+"displayed without an API key. You need to issue a key from <a href=\"%1$s"
+"\" target=\"_blank\">Google Accounts</a>, and make sure the <strong>Google "
+"Maps JavaScript API</strong> is enabled. For instructions on issuing an "
+"API key, <a href=\"%2$s\" target=\"_blank\">read this article</a>."
+msgstr ""
+
+#: inc/customizer/options.php:2318
+msgid "Alternative Logo"
+msgstr ""
+
+#: inc/customizer/options.php:2319
+msgid ""
+"Set this if you need a differently styled logo to appear when the header "
+"is transparent (i.e. appears over the content)."
+msgstr ""
+
+#: inc/customizer/options.php:2325 inc/customizer/options.php:2330
+msgid "Select logo"
+msgstr ""
+
+#: inc/customizer/options.php:2326
+msgid "Change logo"
+msgstr ""
+
+#: inc/customizer/options.php:2329
+msgid "No logo selected"
+msgstr ""
+
+#: inc/customizer/options.php:2331
+msgid "Choose logo"
+msgstr ""
+
+#: inc/customizer/options.php:2344
+msgid "Show site title"
+msgstr ""
+
+#: inc/customizer/options.php:2356
+msgid "Show site tagline"
+msgstr ""
+
+#: inc/customizer/options.php:2375
+msgid "Shop layout"
+msgstr ""
+
+#: inc/customizer/options.php:2387
+msgid "Show alternate image on hover."
+msgstr ""
+
+#: inc/customizer/options.php:2388
+msgid ""
+"When enabled, the first image from the product's gallery (if available) "
+"will be displayed on hover."
+msgstr ""
+
+#: inc/customizer/options.php:2399
+msgid "Show the percentage of discount on the sale badge."
+msgstr ""
+
+#: inc/customizer/options.php:2400
+msgid "Applies to product listings and single product pages."
+msgstr ""
+
+#: inc/customizer/options.php:2412
+msgid "Products per row (mobile)"
+msgstr ""
+
+#: inc/customizer/options.php:2428
+msgid ""
+"Always show the Page Title/Subtitle on product taxonomies (categories, "
+"tags)."
+msgstr ""
+
+#: inc/customizer/options.php:2440
+msgid "Up-sells columns"
+msgstr ""
+
+#: inc/customizer/options.php:2441
+msgid ""
+"Up-sells are products that you recommend instead of the currently viewed "
+"product, and are displayed in single product pages."
+msgstr ""
+
+#: inc/customizer/options.php:2458
+msgid "Related columns"
+msgstr ""
+
+#: inc/customizer/options.php:2459
+msgid ""
+"Related products are other products from your store, that share one or "
+"more tags or categories with the currently viewed product."
+msgstr ""
+
+#: inc/customizer/options.php:2476
+msgid "Cross-sells columns"
+msgstr ""
+
+#: inc/customizer/options.php:2477
+msgid ""
+"Cross-sells are products that you promote in the cart, based on the "
+"current product."
+msgstr ""
+
+#: inc/customizer/options.php:2501
+msgid "Product images layout"
+msgstr ""
+
+#: inc/customizer/sections/blog.php:10
+msgctxt "customizer section title"
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/sections/blog.php:24
+msgid "▸ Archives"
+msgstr ""
+
+#: inc/customizer/sections/blog.php:61
+msgid "▸ Single Post"
+msgstr ""
+
+#: inc/customizer/sections/footer.php:10
+msgctxt "customizer section title"
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/sections/footer.php:27
+msgid "▸ Layout"
+msgstr ""
+
+#: inc/customizer/sections/footer.php:38
+msgid "▸ Color"
+msgstr ""
+
+#: inc/customizer/sections/footer.php:66
+msgid "▸ Credits content"
+msgstr ""
+
+#: inc/customizer/sections/footer.php:83
+msgid "▸ Credits color"
+msgstr ""
+
+#: inc/customizer/sections/header/colors-mobile-nav.php:10
+msgctxt "customizer section title"
+msgid "Mobile Nav Colors"
+msgstr ""
+
+#: inc/customizer/sections/header/colors-sticky.php:10
+msgctxt "customizer section title"
+msgid "Sticky Colors"
+msgstr ""
+
+#: inc/customizer/sections/header/colors-sticky.php:42
+#: inc/customizer/sections/header/colors-transparent.php:42
+#: inc/customizer/sections/header/colors.php:42
+msgid "▸ Submenu colors"
+msgstr ""
+
+#: inc/customizer/sections/header/colors-transparent.php:10
+msgctxt "customizer section title"
+msgid "Transparent Colors"
+msgstr ""
+
+#: inc/customizer/sections/header/colors.php:10
+msgctxt "customizer section title"
+msgid "Normal Colors"
+msgstr ""
+
+#: inc/customizer/sections/header/content.php:10
+msgctxt "customizer section title"
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/sections/header/layout.php:10
+#: inc/customizer/sections/site/layout.php:10
+msgctxt "customizer section title"
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/sections/page-title.php:10
+msgctxt "customizer section title"
+msgid "Page Title"
+msgstr ""
+
+#: inc/customizer/sections/page-title.php:51
+msgid "▸ Colors"
+msgstr ""
+
+#: inc/customizer/sections/site/colors.php:10 inc/side-header.php:147
+msgctxt "customizer section title"
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/sections/site/colors.php:60
+msgid "▸ Forms"
+msgstr ""
+
+#: inc/customizer/sections/site/colors.php:80
+msgid "▸ Buttons"
+msgstr ""
+
+#: inc/customizer/sections/site/typography.php:10
+msgctxt "customizer section title"
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/sections/top-bar.php:10
+msgctxt "customizer section title"
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/sections/top-bar.php:32
+msgid "▸ Content"
+msgstr ""
+
+#: inc/customizer/sections/top-bar.php:55
+msgid "▸ Normal Colors"
+msgstr ""
+
+#. translators: %1$s is the URL to the Header Layout section.
+#: inc/customizer/sections/top-bar.php:58
+#, php-format
+msgid ""
+"Colors that will be applied on the top bar when the <a href=\"%1$s"
+"\">header is <strong>normal</strong></a>."
+msgstr ""
+
+#: inc/customizer/sections/top-bar.php:80
+msgid "▸ Transparent Colors"
+msgstr ""
+
+#. translators: %1$s is the URL to the Header Layout section.
+#: inc/customizer/sections/top-bar.php:83
+#, php-format
+msgid ""
+"Colors that will be applied on the top bar when the <a href=\"%1$s"
+"\">header is <strong>transparent</strong></a>."
+msgstr ""
+
+#: inc/customizer/sections/utilities/block-editor.php:10
+msgctxt "customizer section title"
+msgid "Block Editor"
+msgstr ""
+
+#: inc/customizer/sections/utilities/button-top.php:10
+msgctxt "customizer section title"
+msgid "Back to Top button"
+msgstr ""
+
+#: inc/customizer/sections/utilities/google-maps.php:10
+msgctxt "customizer section title"
+msgid "Google Maps"
+msgstr ""
+
+#: inc/customizer/sections/utilities/lightbox.php:10
+msgctxt "customizer section title"
+msgid "Lightbox"
+msgstr ""
+
+#: inc/customizer/sections/utilities/social-sharing.php:10
+msgctxt "customizer section title"
+msgid "Social Sharing"
+msgstr ""
+
+#: inc/customizer/sections/utilities/social-sharing.php:29
+msgid "▸ Icons"
+msgstr ""
+
+#: inc/customizer/sections/utilities/weather.php:10
+msgctxt "customizer section title"
+msgid "Weather"
+msgstr ""
+
+#. translators: %1$s and %2$s are code fragments, e.g.: <code>[shortcode]</code>
+#: inc/customizer/sections/utilities/weather.php:14
+#, php-format
+msgid ""
+"The following settings set the defaults that the weather shortcode will "
+"use, but they may be overridden later. You can display the current weather "
+"conditions with the shortcode %1$s, and optionally provide a different "
+"location ID, e.g. %2$s"
+msgstr ""
+
+#: inc/customizer/sections/utilities/widgets.php:10
+msgctxt "customizer section title"
+msgid "Widgets"
+msgstr ""
+
+#: inc/customizer/sections/woocommerce/single-product.php:10
+msgctxt "customizer section title"
+msgid "Single Product"
+msgstr ""
+
+#: inc/default-hooks.php:123
+msgid "Pages:"
+msgstr ""
+
+#: inc/default-hooks.php:188
+msgid "Skip to the content"
+msgstr ""
+
+#: inc/helpers.php:362
+msgid "Home"
+msgstr ""
+
+#: inc/helpers.php:363
+msgid "Set primary menu"
+msgstr ""
+
+#: inc/helpers.php:420
+msgid "Set secondary menu"
+msgstr ""
+
+#: inc/helpers.php:634
+msgctxt "social network name"
+msgid "500px"
+msgstr ""
+
+#: inc/helpers.php:639
+msgctxt "social network name"
+msgid "Bandcamp"
+msgstr ""
+
+#: inc/helpers.php:644
+msgctxt "social network name"
+msgid "Behance"
+msgstr ""
+
+#: inc/helpers.php:649
+msgctxt "social network name"
+msgid "CodePen"
+msgstr ""
+
+#: inc/helpers.php:654
+msgctxt "social network name"
+msgid "DeviantArt"
+msgstr ""
+
+#: inc/helpers.php:659
+msgctxt "social network name"
+msgid "Dribbble"
+msgstr ""
+
+#: inc/helpers.php:664
+msgctxt "social network name"
+msgid "Etsy"
+msgstr ""
+
+#: inc/helpers.php:669
+msgctxt "social network name"
+msgid "Facebook"
+msgstr ""
+
+#: inc/helpers.php:674
+msgctxt "social network name"
+msgid "Flickr"
+msgstr ""
+
+#: inc/helpers.php:679
+msgctxt "social network name"
+msgid "Foursquare"
+msgstr ""
+
+#: inc/helpers.php:684
+msgctxt "social network name"
+msgid "GitHub"
+msgstr ""
+
+#: inc/helpers.php:689
+msgctxt "social network name"
+msgid "Goodreads"
+msgstr ""
+
+#: inc/helpers.php:694
+msgctxt "social network name"
+msgid "Hacker News"
+msgstr ""
+
+#: inc/helpers.php:699
+msgctxt "social network name"
+msgid "Instagram"
+msgstr ""
+
+#: inc/helpers.php:704
+msgctxt "social network name"
+msgid "Last.fm"
+msgstr ""
+
+#: inc/helpers.php:709
+msgctxt "social network name"
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/helpers.php:714
+msgctxt "social network name"
+msgid "Medium"
+msgstr ""
+
+#: inc/helpers.php:719
+msgctxt "social network name"
+msgid "Mixcloud"
+msgstr ""
+
+#: inc/helpers.php:724
+msgctxt "social network name"
+msgid "Pinterest"
+msgstr ""
+
+#: inc/helpers.php:729
+msgctxt "social network name"
+msgid "Reddit"
+msgstr ""
+
+#: inc/helpers.php:734
+msgctxt "social network name"
+msgid "Snapchat"
+msgstr ""
+
+#: inc/helpers.php:739
+msgctxt "social network name"
+msgid "SoundCloud"
+msgstr ""
+
+#: inc/helpers.php:744
+msgctxt "social network name"
+msgid "Spotify"
+msgstr ""
+
+#: inc/helpers.php:749
+msgctxt "social network name"
+msgid "Steam"
+msgstr ""
+
+#: inc/helpers.php:754
+msgctxt "social network name"
+msgid "StumbleUpon"
+msgstr ""
+
+#: inc/helpers.php:759
+msgctxt "social network name"
+msgid "TripAdvisor"
+msgstr ""
+
+#: inc/helpers.php:764
+msgctxt "social network name"
+msgid "Tumblr"
+msgstr ""
+
+#: inc/helpers.php:769
+msgctxt "social network name"
+msgid "Twitch"
+msgstr ""
+
+#: inc/helpers.php:774
+msgctxt "social network name"
+msgid "Twitter"
+msgstr ""
+
+#: inc/helpers.php:779
+msgctxt "social network name"
+msgid "Vimeo"
+msgstr ""
+
+#: inc/helpers.php:784
+msgctxt "social network name"
+msgid "Yelp"
+msgstr ""
+
+#: inc/helpers.php:789
+msgctxt "social network name"
+msgid "YouTube"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:17
+msgctxt "post type general name"
+msgid "Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:18
+#: inc/modules/accommodation/module.php:34
+msgctxt "post type singular name"
+msgid "Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:19
+msgctxt "admin menu"
+msgid "Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:20
+msgctxt "add new on admin bar"
+msgid "Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:21
+msgctxt "accommodation"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:22
+msgid "Add New Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:23
+msgid "Edit Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:24
+msgid "New Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:25
+msgid "View Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:26
+msgid "Search Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:27
+msgid "No Accommodation found"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:28
+msgid "No Accommodation found in the trash"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:29
+msgid "Parent Accommodation:"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:40
+msgctxt "post type slug"
+msgid "accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:50
+msgctxt "taxonomy general name"
+msgid "Accommodation Categories"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Accommodation Category"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:52
+msgid "Search Accommodation Categories"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:53
+msgid "All Accommodation Categories"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:54
+msgid "Parent Accommodation Category"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:55
+msgid "Parent Accommodation Category:"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:56
+msgid "Edit Accommodation Category"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:57
+msgid "Update Accommodation Category"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:58
+msgid "Add New Accommodation Category"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:59
+msgid "New Accommodation Category Name"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:60 inc/modules/agent/module.php:60
+#: inc/modules/discography/module.php:60 inc/modules/event/module.php:60
+#: inc/modules/package/module.php:83 inc/modules/podcast/module.php:60
+#: inc/modules/portfolio/module.php:60 inc/modules/service/module.php:60
+#: inc/modules/team/module.php:60
+msgid "Categories"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:61
+msgid "View Accommodation Category"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:62
+msgid "Popular Accommodation Categories"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:68
+msgctxt "taxonomy slug"
+msgid "accommodation-category"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:138 inc/shortcodes.php:641
+msgid "Accommodation"
+msgstr ""
+
+#: inc/modules/accommodation/module.php:140
+msgid "Widgets added here will appear on accommodation pages."
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:15
+msgid "Agent Settings"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:33
+#: inc/modules/property/custom-fields.php:33
+msgctxt "metabox tab title"
+msgid "Details"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:36
+msgctxt "metabox tab title"
+msgid "Contact"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:37
+msgctxt "metabox tab title"
+msgid "Social"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:121
+msgid "Landline phone number"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:125
+msgid "Cell phone number"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:129
+msgid "FAX number"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:133
+msgid "Email address"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:137
+msgid "Website / URL"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:141
+#: inc/modules/property/custom-fields.php:305
+msgid "Address"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:145
+msgid "Contact form shortcode"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:146
+msgid ""
+"Pasting the shortcode of a dedicated contact form for the specific agent, "
+"allows visitors to communicate directly with the agent."
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:166
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:170
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/modules/agent/custom-fields.php:174
+msgid "LinkedIn URL"
+msgstr ""
+
+#: inc/modules/agent/module.php:17
+msgctxt "post type general name"
+msgid "Agents"
+msgstr ""
+
+#: inc/modules/agent/module.php:18 inc/modules/agent/module.php:34
+msgctxt "post type singular name"
+msgid "Agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:19
+msgctxt "admin menu"
+msgid "Agents"
+msgstr ""
+
+#: inc/modules/agent/module.php:20
+msgctxt "add new on admin bar"
+msgid "Agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:21
+msgctxt "agent"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/agent/module.php:22 inc/modules/agent/module.php:82
+msgid "Add New Agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:23 inc/modules/agent/module.php:80
+msgid "Edit Agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:24
+msgid "New Agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:25 inc/modules/agent/module.php:85
+msgid "View Agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:26 inc/modules/agent/module.php:76
+msgid "Search Agents"
+msgstr ""
+
+#: inc/modules/agent/module.php:27
+msgid "No Agents found"
+msgstr ""
+
+#: inc/modules/agent/module.php:28
+msgid "No Agents found in the trash"
+msgstr ""
+
+#: inc/modules/agent/module.php:29 inc/modules/agent/module.php:79
+msgid "Parent Agent:"
+msgstr ""
+
+#: inc/modules/agent/module.php:40
+msgctxt "post type slug"
+msgid "agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:50
+msgctxt "taxonomy general name"
+msgid "Agent Categories"
+msgstr ""
+
+#: inc/modules/agent/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Agent Category"
+msgstr ""
+
+#: inc/modules/agent/module.php:52
+msgid "Search Agent Categories"
+msgstr ""
+
+#: inc/modules/agent/module.php:53
+msgid "All Agent Categories"
+msgstr ""
+
+#: inc/modules/agent/module.php:54
+msgid "Parent Agent Category"
+msgstr ""
+
+#: inc/modules/agent/module.php:55
+msgid "Parent Agent Category:"
+msgstr ""
+
+#: inc/modules/agent/module.php:56
+msgid "Edit Agent Category"
+msgstr ""
+
+#: inc/modules/agent/module.php:57
+msgid "Update Agent Category"
+msgstr ""
+
+#: inc/modules/agent/module.php:58
+msgid "Add New Agent Category"
+msgstr ""
+
+#: inc/modules/agent/module.php:59
+msgid "New Agent Category Name"
+msgstr ""
+
+#: inc/modules/agent/module.php:61
+msgid "View Agent Category"
+msgstr ""
+
+#: inc/modules/agent/module.php:62
+msgid "Popular Agent Categories"
+msgstr ""
+
+#: inc/modules/agent/module.php:68
+msgctxt "taxonomy slug"
+msgid "agent-category"
+msgstr ""
+
+#: inc/modules/agent/module.php:74
+msgctxt "taxonomy general name"
+msgid "Agents"
+msgstr ""
+
+#: inc/modules/agent/module.php:75
+msgctxt "taxonomy singular name"
+msgid "Agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:77
+msgid "All Agents"
+msgstr ""
+
+#: inc/modules/agent/module.php:78
+msgid "Parent Agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:81
+msgid "Update Agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:83
+msgid "New Agent Name"
+msgstr ""
+
+#: inc/modules/agent/module.php:84 inc/modules/agent/module.php:164
+msgid "Agents"
+msgstr ""
+
+#: inc/modules/agent/module.php:86
+msgid "Popular Agents"
+msgstr ""
+
+#: inc/modules/agent/module.php:93
+msgctxt "taxonomy slug"
+msgid "property-agent"
+msgstr ""
+
+#: inc/modules/agent/module.php:166
+msgid "Widgets added here will appear on agent pages."
+msgstr ""
+
+#: inc/modules/agent/module.php:208
+msgid "Agent Info"
+msgstr ""
+
+#: inc/modules/agent/module.php:227
+msgid "Contact Shortcode"
+msgstr ""
+
+#: inc/modules/discography/module.php:17
+msgctxt "post type general name"
+msgid "Discography"
+msgstr ""
+
+#: inc/modules/discography/module.php:18
+#: inc/modules/discography/module.php:34
+msgctxt "post type singular name"
+msgid "Discography Item"
+msgstr ""
+
+#: inc/modules/discography/module.php:19
+msgctxt "admin menu"
+msgid "Discography"
+msgstr ""
+
+#: inc/modules/discography/module.php:20
+msgctxt "add new on admin bar"
+msgid "Discography"
+msgstr ""
+
+#: inc/modules/discography/module.php:21
+msgctxt "discography"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/discography/module.php:22
+msgid "Add New Discography Item"
+msgstr ""
+
+#: inc/modules/discography/module.php:23
+msgid "Edit Discography Item"
+msgstr ""
+
+#: inc/modules/discography/module.php:24
+msgid "New Discography Item"
+msgstr ""
+
+#: inc/modules/discography/module.php:25
+msgid "View Discography Item"
+msgstr ""
+
+#: inc/modules/discography/module.php:26
+msgid "Search Discography Items"
+msgstr ""
+
+#: inc/modules/discography/module.php:27
+msgid "No Discography Items found"
+msgstr ""
+
+#: inc/modules/discography/module.php:28
+msgid "No Discography Items found in the trash"
+msgstr ""
+
+#: inc/modules/discography/module.php:29
+msgid "Parent Discography Item:"
+msgstr ""
+
+#: inc/modules/discography/module.php:40
+msgctxt "post type slug"
+msgid "discography"
+msgstr ""
+
+#: inc/modules/discography/module.php:50
+msgctxt "taxonomy general name"
+msgid "Discography Categories"
+msgstr ""
+
+#: inc/modules/discography/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Discography Category"
+msgstr ""
+
+#: inc/modules/discography/module.php:52
+msgid "Search Discography Categories"
+msgstr ""
+
+#: inc/modules/discography/module.php:53
+msgid "All Discography Categories"
+msgstr ""
+
+#: inc/modules/discography/module.php:54
+msgid "Parent Discography Category"
+msgstr ""
+
+#: inc/modules/discography/module.php:55
+msgid "Parent Discography Category:"
+msgstr ""
+
+#: inc/modules/discography/module.php:56
+msgid "Edit Discography Category"
+msgstr ""
+
+#: inc/modules/discography/module.php:57
+msgid "Update Discography Category"
+msgstr ""
+
+#: inc/modules/discography/module.php:58
+msgid "Add New Discography Category"
+msgstr ""
+
+#: inc/modules/discography/module.php:59
+msgid "New Discography Category Name"
+msgstr ""
+
+#: inc/modules/discography/module.php:61
+msgid "View Discography Category"
+msgstr ""
+
+#: inc/modules/discography/module.php:62
+msgid "Popular Discography Categories"
+msgstr ""
+
+#: inc/modules/discography/module.php:68
+msgctxt "taxonomy slug"
+msgid "discography-category"
+msgstr ""
+
+#: inc/modules/discography/module.php:138
+msgid "Discography"
+msgstr ""
+
+#: inc/modules/discography/module.php:140
+msgid "Widgets added here will appear on discography pages."
+msgstr ""
+
+#: inc/modules/discography/module.php:181
+msgid "Discography Info"
+msgstr ""
+
+#: inc/modules/discography/module.php:199
+msgid "Release Date"
+msgstr ""
+
+#: inc/modules/discography/module.php:200 inc/modules/event/module.php:222
+msgid ""
+"Make sure the date follows the <em>yyyy-mm-dd</em> format. It will be "
+"automatically re-formatted according to your locale settings."
+msgstr ""
+
+#: inc/modules/discography/module.php:205
+msgid "Catalog Number"
+msgstr ""
+
+#: inc/modules/discography/module.php:209
+msgid "Label"
+msgstr ""
+
+#: inc/modules/discography/module.php:213
+msgid "Producers"
+msgstr ""
+
+#: inc/modules/event/module.php:17
+msgctxt "post type general name"
+msgid "Events"
+msgstr ""
+
+#: inc/modules/event/module.php:18 inc/modules/event/module.php:34
+msgctxt "post type singular name"
+msgid "Event"
+msgstr ""
+
+#: inc/modules/event/module.php:19
+msgctxt "admin menu"
+msgid "Events"
+msgstr ""
+
+#: inc/modules/event/module.php:20
+msgctxt "add new on admin bar"
+msgid "Event"
+msgstr ""
+
+#: inc/modules/event/module.php:21
+msgctxt "event"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/event/module.php:22
+msgid "Add New Event"
+msgstr ""
+
+#: inc/modules/event/module.php:23
+msgid "Edit Event"
+msgstr ""
+
+#: inc/modules/event/module.php:24
+msgid "New Event"
+msgstr ""
+
+#: inc/modules/event/module.php:25
+msgid "View Event"
+msgstr ""
+
+#: inc/modules/event/module.php:26
+msgid "Search Events"
+msgstr ""
+
+#: inc/modules/event/module.php:27
+msgid "No Events found"
+msgstr ""
+
+#: inc/modules/event/module.php:28
+msgid "No Events found in the trash"
+msgstr ""
+
+#: inc/modules/event/module.php:29
+msgid "Parent Event:"
+msgstr ""
+
+#: inc/modules/event/module.php:40
+msgctxt "post type slug"
+msgid "event"
+msgstr ""
+
+#: inc/modules/event/module.php:50
+msgctxt "taxonomy general name"
+msgid "Event Categories"
+msgstr ""
+
+#: inc/modules/event/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Event Category"
+msgstr ""
+
+#: inc/modules/event/module.php:52
+msgid "Search Event Categories"
+msgstr ""
+
+#: inc/modules/event/module.php:53
+msgid "All Event Categories"
+msgstr ""
+
+#: inc/modules/event/module.php:54
+msgid "Parent Event Category"
+msgstr ""
+
+#: inc/modules/event/module.php:55
+msgid "Parent Event Category:"
+msgstr ""
+
+#: inc/modules/event/module.php:56
+msgid "Edit Event Category"
+msgstr ""
+
+#: inc/modules/event/module.php:57
+msgid "Update Event Category"
+msgstr ""
+
+#: inc/modules/event/module.php:58
+msgid "Add New Event Category"
+msgstr ""
+
+#: inc/modules/event/module.php:59
+msgid "New Event Category Name"
+msgstr ""
+
+#: inc/modules/event/module.php:61
+msgid "View Event Category"
+msgstr ""
+
+#: inc/modules/event/module.php:62
+msgid "Popular Event Categories"
+msgstr ""
+
+#: inc/modules/event/module.php:68
+msgctxt "taxonomy slug"
+msgid "event-category"
+msgstr ""
+
+#: inc/modules/event/module.php:138
+msgid "Events"
+msgstr ""
+
+#: inc/modules/event/module.php:140
+msgid "Widgets added here will appear on event pages."
+msgstr ""
+
+#: inc/modules/event/module.php:181
+msgid "Event Settings"
+msgstr ""
+
+#: inc/modules/event/module.php:199
+msgid "Event is recurring"
+msgstr ""
+
+#. translators: %s is a multipart recurrence string example.
+#: inc/modules/event/module.php:207
+#, php-format
+msgid ""
+"The theme displays the event date with a special format. You can wrap part "
+"of the text in the event's recurrence with a &lt;span&gt; in order to "
+"display it in a similar fashion. E.g.: <code>%s</code>"
+msgstr ""
+
+#: inc/modules/event/module.php:208
+msgctxt "multipart recurrent event example"
+msgid "<span>Every Other</span> Tuesday"
+msgstr ""
+
+#: inc/modules/event/module.php:214
+msgid "Event recurrence"
+msgstr ""
+
+#: inc/modules/event/module.php:221
+msgid "Event Date"
+msgstr ""
+
+#: inc/modules/event/module.php:228
+msgid "Event Time"
+msgstr ""
+
+#: inc/modules/event/module.php:232
+msgid "Event Location"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:15
+msgid "Global Section Settings"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:33
+msgctxt "metabox tab title"
+msgid "Display"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:36
+msgctxt "metabox tab title"
+msgid "Conditions"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:37
+msgctxt "metabox tab title"
+msgid "Shortcode"
+msgstr ""
+
+#. translators: %1$s is a URL. %2$s is an example query parameter prepended by a question mark, e.g.: ?show_hooks
+#: inc/modules/gsection/custom-fields.php:100
+#, php-format
+msgid ""
+"You can see a visual map of the available blog's hooks <a href=\"%1$s\" "
+"target=\"_blank\">here</a>. You may also append <code>%2$s</code> in any "
+"URL to see that page's hooks."
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:119
+#: inc/modules/property/module.php:129
+msgid "Locations"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:137
+#: inc/modules/gsection/custom-fields.php:167
+msgid "Location name"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:144
+#: inc/modules/gsection/custom-fields.php:174
+msgid "Hook name"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:149
+#: inc/modules/gsection/custom-fields.php:179
+msgid "Priority"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:154
+#: inc/modules/gsection/custom-fields.php:184
+msgid "Remove location"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:162
+msgid "Add location"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:194
+msgid "Inclusions"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:207
+msgid "Add inclusion rule"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:212
+#: inc/modules/gsection/custom-fields.php:252
+#: inc/modules/gsection/custom-fields.php:295
+msgid "Select rule type"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:219
+#: inc/modules/gsection/custom-fields.php:259
+#: inc/modules/gsection/custom-fields.php:302
+msgid "Refine rule type"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:234
+msgid "Exclusions"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:247
+msgid "Add exclusion rule"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:338
+#: inc/modules/gsection/custom-fields.php:368
+msgid "Shortcode"
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:339
+msgid ""
+"To display this section's content, copy this shortcode and paste it in any "
+"place of your website that supports shortcodes."
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:369
+msgid ""
+"Alternatively, you can use this shortcode form as it helps you better "
+"understand what is being displayed."
+msgstr ""
+
+#: inc/modules/gsection/custom-fields.php:386
+msgid ""
+"You need to set a title and save this Global Section before you get the "
+"slug-based shortcode."
+msgstr ""
+
+#: inc/modules/gsection/functions.php:156
+msgctxt "hook category name"
+msgid "Global"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:159
+msgctxt "hook name"
+msgid "Global (before)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:163
+msgctxt "hook name"
+msgid "Global (after)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:169
+msgctxt "hook category name"
+msgid "Footer"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:172
+msgctxt "hook name"
+msgid "Before footer"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:176
+msgctxt "hook name"
+msgid "After footer"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:180
+msgctxt "hook name"
+msgid "Footer (before)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:184
+msgctxt "hook name"
+msgid "Footer (after)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:188
+msgctxt "hook name"
+msgid "Before footer content"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:192
+msgctxt "hook name"
+msgid "After footer content"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:198
+msgctxt "hook category name"
+msgid "Content"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:201
+msgctxt "hook name"
+msgid "Before main"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:205
+msgctxt "hook name"
+msgid "After main"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:209
+msgctxt "hook name"
+msgid "Main container (before)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:213
+msgctxt "hook name"
+msgid "Main container (after)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:217
+msgctxt "hook name"
+msgid "Before entry"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:221
+msgctxt "hook name"
+msgid "After entry"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:225
+msgctxt "hook name"
+msgid "Sidebar (before)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:229
+msgctxt "hook name"
+msgid "Sidebar (after)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:245
+msgctxt "hook name"
+msgid "Header"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:254
+msgctxt "hook name"
+msgid "Sidebar"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:263
+msgctxt "hook name"
+msgid "Footer"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:274
+msgctxt "hook category name"
+msgid "Section Replacement"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:318
+msgid "Select location..."
+msgstr ""
+
+#: inc/modules/gsection/functions.php:339
+msgid "Custom hook..."
+msgstr ""
+
+#: inc/modules/gsection/functions.php:360
+msgid "Select..."
+msgstr ""
+
+#: inc/modules/gsection/functions.php:366
+msgid "Global (sitewide)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:372
+msgid "Singular (any post/page/etc)"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:378
+msgid "Homepage"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:384 inc/sidebars-widgets.php:42
+#: inc/template-tags.php:457
+msgid "Blog"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:390
+msgid "Search page"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:396
+msgid "404 page"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:402
+msgid "All archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:408
+msgid "Author archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:415
+msgid "All authors"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:423
+msgid "Date archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:429
+msgid "All date archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:433
+msgid "Yearly archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:437
+msgid "Monthly archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:441
+msgid "Daily archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:447
+msgid "Post Type archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:454
+msgid "All post types"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:462
+msgid "Taxonomy archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:469
+msgid "All taxonomies"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:507
+msgid "Page Templates"
+msgstr ""
+
+#. translators: %1$s is a post type name, e.g. All Pages. Use %2$s for singular if required.
+#: inc/modules/gsection/functions.php:526
+#, php-format
+msgctxt "all post type items"
+msgid "All %1$s"
+msgstr ""
+
+#. translators:
+#: inc/modules/gsection/functions.php:551
+#, php-format
+msgctxt "taxonomy and post types"
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#. translators: %1$s is a taxonomy name, e.g. All Categories. Use %2$s for singular if required.
+#: inc/modules/gsection/functions.php:559
+#, php-format
+msgctxt "all taxonomy items"
+msgid "All %1$s"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:585
+msgid "General"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:586
+msgid "Archives"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:587
+msgid "Post types"
+msgstr ""
+
+#: inc/modules/gsection/functions.php:588
+msgid "Taxonomies"
+msgstr ""
+
+#: inc/modules/gsection/module.php:17
+msgctxt "post type general name"
+msgid "Global Sections"
+msgstr ""
+
+#: inc/modules/gsection/module.php:18 inc/modules/gsection/module.php:34
+msgctxt "post type singular name"
+msgid "Global Section"
+msgstr ""
+
+#: inc/modules/gsection/module.php:19
+msgctxt "admin menu"
+msgid "Global Sections"
+msgstr ""
+
+#: inc/modules/gsection/module.php:20
+msgctxt "add new on admin bar"
+msgid "Global Section"
+msgstr ""
+
+#: inc/modules/gsection/module.php:21
+msgctxt "global section"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/gsection/module.php:22
+msgid "Add New Global Section"
+msgstr ""
+
+#: inc/modules/gsection/module.php:23
+msgid "Edit Global Section"
+msgstr ""
+
+#: inc/modules/gsection/module.php:24
+msgid "New Global Section"
+msgstr ""
+
+#: inc/modules/gsection/module.php:25
+msgid "View Global Section"
+msgstr ""
+
+#: inc/modules/gsection/module.php:26
+msgid "Search Global Sections"
+msgstr ""
+
+#: inc/modules/gsection/module.php:27
+msgid "No Global Sections found"
+msgstr ""
+
+#: inc/modules/gsection/module.php:28
+msgid "No Global Sections found in the trash"
+msgstr ""
+
+#: inc/modules/gsection/module.php:29
+msgid "Parent Global Section:"
+msgstr ""
+
+#: inc/modules/gsection/module.php:40
+msgctxt "post type slug"
+msgid "gsection"
+msgstr ""
+
+#: inc/modules/gsection/shortcodes.php:56
+msgid "Cannot show non-public or non-published Global Sections."
+msgstr ""
+
+#: inc/modules/package/module.php:17
+msgctxt "post type general name"
+msgid "Packages"
+msgstr ""
+
+#: inc/modules/package/module.php:18 inc/modules/package/module.php:34
+msgctxt "post type singular name"
+msgid "Package"
+msgstr ""
+
+#: inc/modules/package/module.php:19
+msgctxt "admin menu"
+msgid "Packages"
+msgstr ""
+
+#: inc/modules/package/module.php:20
+msgctxt "add new on admin bar"
+msgid "Package"
+msgstr ""
+
+#: inc/modules/package/module.php:21
+msgctxt "package"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/package/module.php:22
+msgid "Add New Package"
+msgstr ""
+
+#: inc/modules/package/module.php:23
+msgid "Edit Package"
+msgstr ""
+
+#: inc/modules/package/module.php:24
+msgid "New Package"
+msgstr ""
+
+#: inc/modules/package/module.php:25
+msgid "View Package"
+msgstr ""
+
+#: inc/modules/package/module.php:26
+msgid "Search Packages"
+msgstr ""
+
+#: inc/modules/package/module.php:27
+msgid "No Packages found"
+msgstr ""
+
+#: inc/modules/package/module.php:28
+msgid "No Packages found in the trash"
+msgstr ""
+
+#: inc/modules/package/module.php:29
+msgid "Parent Package:"
+msgstr ""
+
+#: inc/modules/package/module.php:40
+msgctxt "post type slug"
+msgid "package"
+msgstr ""
+
+#: inc/modules/package/module.php:50
+msgctxt "taxonomy general name"
+msgid "Destinations"
+msgstr ""
+
+#: inc/modules/package/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Destination"
+msgstr ""
+
+#: inc/modules/package/module.php:52
+msgid "Search Destinations"
+msgstr ""
+
+#: inc/modules/package/module.php:53
+msgid "All Destinations"
+msgstr ""
+
+#: inc/modules/package/module.php:54
+msgid "Parent Destination"
+msgstr ""
+
+#: inc/modules/package/module.php:55
+msgid "Parent Destination:"
+msgstr ""
+
+#: inc/modules/package/module.php:56
+msgid "Edit Destination"
+msgstr ""
+
+#: inc/modules/package/module.php:57
+msgid "Update Destination"
+msgstr ""
+
+#: inc/modules/package/module.php:58
+msgid "Add New Destination"
+msgstr ""
+
+#: inc/modules/package/module.php:59
+msgid "New Destination Name"
+msgstr ""
+
+#: inc/modules/package/module.php:60
+msgid "Destinations"
+msgstr ""
+
+#: inc/modules/package/module.php:61
+msgid "View Destination"
+msgstr ""
+
+#: inc/modules/package/module.php:62
+msgid "Popular Destinations"
+msgstr ""
+
+#: inc/modules/package/module.php:68
+msgctxt "taxonomy slug"
+msgid "destination"
+msgstr ""
+
+#: inc/modules/package/module.php:73
+msgctxt "taxonomy general name"
+msgid "Package Categories"
+msgstr ""
+
+#: inc/modules/package/module.php:74
+msgctxt "taxonomy singular name"
+msgid "Package Category"
+msgstr ""
+
+#: inc/modules/package/module.php:75
+msgid "Search Package Categories"
+msgstr ""
+
+#: inc/modules/package/module.php:76
+msgid "All Package Categories"
+msgstr ""
+
+#: inc/modules/package/module.php:77
+msgid "Parent Package Category"
+msgstr ""
+
+#: inc/modules/package/module.php:78
+msgid "Parent Package Category:"
+msgstr ""
+
+#: inc/modules/package/module.php:79
+msgid "Edit Package Category"
+msgstr ""
+
+#: inc/modules/package/module.php:80
+msgid "Update Package Category"
+msgstr ""
+
+#: inc/modules/package/module.php:81
+msgid "Add New Package Category"
+msgstr ""
+
+#: inc/modules/package/module.php:82
+msgid "New Package Category Name"
+msgstr ""
+
+#: inc/modules/package/module.php:84
+msgid "View Package Category"
+msgstr ""
+
+#: inc/modules/package/module.php:85
+msgid "Popular Package Categories"
+msgstr ""
+
+#: inc/modules/package/module.php:91
+msgctxt "taxonomy slug"
+msgid "package-category"
+msgstr ""
+
+#: inc/modules/package/module.php:179
+msgid "Packages"
+msgstr ""
+
+#: inc/modules/package/module.php:181
+msgid "Widgets added here will appear on package pages."
+msgstr ""
+
+#: inc/modules/podcast/module.php:17
+msgctxt "post type general name"
+msgid "Podcasts"
+msgstr ""
+
+#: inc/modules/podcast/module.php:18 inc/modules/podcast/module.php:34
+msgctxt "post type singular name"
+msgid "Podcast"
+msgstr ""
+
+#: inc/modules/podcast/module.php:19
+msgctxt "admin menu"
+msgid "Podcasts"
+msgstr ""
+
+#: inc/modules/podcast/module.php:20
+msgctxt "add new on admin bar"
+msgid "Podcast"
+msgstr ""
+
+#: inc/modules/podcast/module.php:21
+msgctxt "podcast"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/podcast/module.php:22
+msgid "Add New Podcast"
+msgstr ""
+
+#: inc/modules/podcast/module.php:23
+msgid "Edit Podcast"
+msgstr ""
+
+#: inc/modules/podcast/module.php:24
+msgid "New Podcast"
+msgstr ""
+
+#: inc/modules/podcast/module.php:25
+msgid "View Podcast"
+msgstr ""
+
+#: inc/modules/podcast/module.php:26
+msgid "Search Podcasts"
+msgstr ""
+
+#: inc/modules/podcast/module.php:27
+msgid "No Podcasts found"
+msgstr ""
+
+#: inc/modules/podcast/module.php:28
+msgid "No Podcasts found in the trash"
+msgstr ""
+
+#: inc/modules/podcast/module.php:29
+msgid "Parent Podcast:"
+msgstr ""
+
+#: inc/modules/podcast/module.php:40
+msgctxt "post type slug"
+msgid "podcast"
+msgstr ""
+
+#: inc/modules/podcast/module.php:50
+msgctxt "taxonomy general name"
+msgid "Podcast Categories"
+msgstr ""
+
+#: inc/modules/podcast/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Podcast Category"
+msgstr ""
+
+#: inc/modules/podcast/module.php:52
+msgid "Search Podcast Categories"
+msgstr ""
+
+#: inc/modules/podcast/module.php:53
+msgid "All Podcast Categories"
+msgstr ""
+
+#: inc/modules/podcast/module.php:54
+msgid "Parent Podcast Category"
+msgstr ""
+
+#: inc/modules/podcast/module.php:55
+msgid "Parent Podcast Category:"
+msgstr ""
+
+#: inc/modules/podcast/module.php:56
+msgid "Edit Podcast Category"
+msgstr ""
+
+#: inc/modules/podcast/module.php:57
+msgid "Update Podcast Category"
+msgstr ""
+
+#: inc/modules/podcast/module.php:58
+msgid "Add New Podcast Category"
+msgstr ""
+
+#: inc/modules/podcast/module.php:59
+msgid "New Podcast Category Name"
+msgstr ""
+
+#: inc/modules/podcast/module.php:61
+msgid "View Podcast Category"
+msgstr ""
+
+#: inc/modules/podcast/module.php:62
+msgid "Popular Podcast Categories"
+msgstr ""
+
+#: inc/modules/podcast/module.php:68
+msgctxt "taxonomy slug"
+msgid "podcast-category"
+msgstr ""
+
+#: inc/modules/podcast/module.php:138
+msgid "Podcasts"
+msgstr ""
+
+#: inc/modules/podcast/module.php:140
+msgid "Widgets added here will appear on podcast pages."
+msgstr ""
+
+#: inc/modules/portfolio/module.php:17
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:18 inc/modules/portfolio/module.php:34
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:19
+msgctxt "admin menu"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:20
+msgctxt "add new on admin bar"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:21
+msgctxt "portfolio"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:22
+msgid "Add New Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:23
+msgid "Edit Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:24
+msgid "New Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:25
+msgid "View Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:26
+msgid "Search Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:27
+msgid "No Portfolio Items found"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:28
+msgid "No Portfolio Items found in the trash"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:29
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:40
+msgctxt "post type slug"
+msgid "portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:50
+msgctxt "taxonomy general name"
+msgid "Portfolio Categories"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Portfolio Category"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:52
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:53
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:54
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:55
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:56
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:57
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:58
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:59
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:61
+msgid "View Portfolio Category"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:62
+msgid "Popular Portfolio Categories"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:68
+msgctxt "taxonomy slug"
+msgid "portfolio-category"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:138
+msgid "Portfolio"
+msgstr ""
+
+#: inc/modules/portfolio/module.php:140
+msgid "Widgets added here will appear on portfolio pages."
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:15
+msgid "Property Settings"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:36
+msgctxt "metabox tab title"
+msgid "Attributes"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:37
+msgctxt "metabox tab title"
+msgid "Address"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:38
+msgctxt "metabox tab title"
+msgid "Pricing"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:39
+msgctxt "metabox tab title"
+msgid "Useful Data"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:232
+msgid "Property ID"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:236
+msgid "Area"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:245
+msgid "Area Unit"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:250
+msgid "Bedrooms"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:258
+msgid "Bathrooms"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:266
+msgid "Garages"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:301
+msgid "Open House"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:306
+#: inc/modules/property/custom-fields.php:311
+msgid "Publicly viewable"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:310
+msgid "ZIP / Post code"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:315
+msgid "Map"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:316
+msgid ""
+"Enter a place or address and press <em>Search place/address</em> to "
+"automatically create a point on the map. Alternatively, you can drag the "
+"marker to the desired position, or double click on the map to set a new "
+"location."
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:323
+msgid "Search place/address"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:325
+msgid "Google Maps"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:334
+msgid "Location Latitude"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:340
+msgid "Location Longitude"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:345
+msgid "Update map from coordinates"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:350
+msgid "Hide exact location"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:351
+msgid ""
+"You can conceal the exact location of the property by checking this box. "
+"Instead of a marker, a circular area (radius 200m) will be highlighted "
+"with the property placed unmarked someplace randomly within that area. For "
+"optimal results, the map's zoom level is set automatically."
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:371
+msgid "Price Prefix"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:372
+msgid "Optional. Text to display before the price."
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:376
+msgid "Price"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:377
+msgid ""
+"Required. Do not enter any currency symbols or thousand separators. You "
+"may use decimal numbers with a dot <code>.</code> as the decimal point. "
+"Price will be formatted properly according to your locale."
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:386
+msgid "Price Suffix"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:387
+msgid "Optional. Text to display after the price."
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:391
+msgid "Previous Price"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:392
+msgid ""
+"Optional. Entering both the current and the previous price, allows for "
+"calculating special labels and percentages such as <strong>Reduced</"
+"strong>, <strong>Increased</strong>, etc."
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:401
+msgid "Free text"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:402
+msgid ""
+"Optional. You may provide a one-liner (e.g. <code>Call for price</code>) "
+"to be displayed instead of the specially formatted price-related texts "
+"above. Overrides all price-related texts."
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:422
+msgid "Crime rate"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:423
+#: inc/modules/property/custom-fields.php:432
+#: inc/modules/property/custom-fields.php:441
+msgid "0% - 100%"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:431
+msgid "Noise"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:440
+msgid "Pollution"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:449
+msgid "Distance from city center"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:453
+msgid "Distance from hospital"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:457
+msgid "Distance from shops"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:461
+msgid "Distance from police station"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:465
+msgid "Distance from schools"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:469
+msgid "Distance from bus station"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:473
+msgid "Distance from train station"
+msgstr ""
+
+#: inc/modules/property/custom-fields.php:477
+msgid "Distance from airport"
+msgstr ""
+
+#: inc/modules/property/module.php:17
+msgctxt "post type general name"
+msgid "Properties"
+msgstr ""
+
+#: inc/modules/property/module.php:18 inc/modules/property/module.php:34
+msgctxt "post type singular name"
+msgid "Property"
+msgstr ""
+
+#: inc/modules/property/module.php:19
+msgctxt "admin menu"
+msgid "Properties"
+msgstr ""
+
+#: inc/modules/property/module.php:20
+msgctxt "add new on admin bar"
+msgid "Property"
+msgstr ""
+
+#: inc/modules/property/module.php:21
+msgctxt "property"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/property/module.php:22
+msgid "Add New Property"
+msgstr ""
+
+#: inc/modules/property/module.php:23
+msgid "Edit Property"
+msgstr ""
+
+#: inc/modules/property/module.php:24
+msgid "New Property"
+msgstr ""
+
+#: inc/modules/property/module.php:25
+msgid "View Property"
+msgstr ""
+
+#: inc/modules/property/module.php:26
+msgid "Search Properties"
+msgstr ""
+
+#: inc/modules/property/module.php:27
+msgid "No Properties found"
+msgstr ""
+
+#: inc/modules/property/module.php:28
+msgid "No Properties found in the trash"
+msgstr ""
+
+#: inc/modules/property/module.php:29
+msgid "Parent Property:"
+msgstr ""
+
+#: inc/modules/property/module.php:40
+msgctxt "post type slug"
+msgid "property"
+msgstr ""
+
+#: inc/modules/property/module.php:50
+msgctxt "taxonomy general name"
+msgid "Property Types"
+msgstr ""
+
+#: inc/modules/property/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Property Type"
+msgstr ""
+
+#: inc/modules/property/module.php:52
+msgid "Search Types"
+msgstr ""
+
+#: inc/modules/property/module.php:53
+msgid "All Types"
+msgstr ""
+
+#: inc/modules/property/module.php:54
+msgid "Parent Type"
+msgstr ""
+
+#: inc/modules/property/module.php:55
+msgid "Parent Type:"
+msgstr ""
+
+#: inc/modules/property/module.php:56
+msgid "Edit Type"
+msgstr ""
+
+#: inc/modules/property/module.php:57
+msgid "Update Type"
+msgstr ""
+
+#: inc/modules/property/module.php:58
+msgid "Add New Type"
+msgstr ""
+
+#: inc/modules/property/module.php:59
+msgid "New Type Name"
+msgstr ""
+
+#: inc/modules/property/module.php:60
+msgid "Types"
+msgstr ""
+
+#: inc/modules/property/module.php:61
+msgid "View Type"
+msgstr ""
+
+#: inc/modules/property/module.php:62
+msgid "Popular Types"
+msgstr ""
+
+#: inc/modules/property/module.php:68
+msgctxt "taxonomy slug"
+msgid "property-type"
+msgstr ""
+
+#: inc/modules/property/module.php:73
+msgctxt "taxonomy general name"
+msgid "Property Statuses"
+msgstr ""
+
+#: inc/modules/property/module.php:74
+msgctxt "taxonomy singular name"
+msgid "Property Status"
+msgstr ""
+
+#: inc/modules/property/module.php:75
+msgid "Search Statuses"
+msgstr ""
+
+#: inc/modules/property/module.php:76
+msgid "All Statuses"
+msgstr ""
+
+#: inc/modules/property/module.php:77
+msgid "Parent Status"
+msgstr ""
+
+#: inc/modules/property/module.php:78
+msgid "Parent Status:"
+msgstr ""
+
+#: inc/modules/property/module.php:79
+msgid "Edit Status"
+msgstr ""
+
+#: inc/modules/property/module.php:80
+msgid "Update Status"
+msgstr ""
+
+#: inc/modules/property/module.php:81
+msgid "Add New Status"
+msgstr ""
+
+#: inc/modules/property/module.php:82
+msgid "New Status Name"
+msgstr ""
+
+#: inc/modules/property/module.php:83
+msgid "Statuses"
+msgstr ""
+
+#: inc/modules/property/module.php:84
+msgid "View Status"
+msgstr ""
+
+#: inc/modules/property/module.php:85
+msgid "Popular Statuses"
+msgstr ""
+
+#: inc/modules/property/module.php:91
+msgctxt "taxonomy slug"
+msgid "property-status"
+msgstr ""
+
+#: inc/modules/property/module.php:96
+msgctxt "taxonomy general name"
+msgid "Property Amenities"
+msgstr ""
+
+#: inc/modules/property/module.php:97
+msgctxt "taxonomy singular name"
+msgid "Property Amenity"
+msgstr ""
+
+#: inc/modules/property/module.php:98
+msgid "Search Amenities"
+msgstr ""
+
+#: inc/modules/property/module.php:99
+msgid "All Amenities"
+msgstr ""
+
+#: inc/modules/property/module.php:100
+msgid "Parent Amenity"
+msgstr ""
+
+#: inc/modules/property/module.php:101
+msgid "Parent Amenity:"
+msgstr ""
+
+#: inc/modules/property/module.php:102
+msgid "Edit Amenity"
+msgstr ""
+
+#: inc/modules/property/module.php:103
+msgid "Update Amenity"
+msgstr ""
+
+#: inc/modules/property/module.php:104
+msgid "Add New Amenity"
+msgstr ""
+
+#: inc/modules/property/module.php:105
+msgid "New Amenity Name"
+msgstr ""
+
+#: inc/modules/property/module.php:106
+msgid "Amenities"
+msgstr ""
+
+#: inc/modules/property/module.php:107
+msgid "View Amenity"
+msgstr ""
+
+#: inc/modules/property/module.php:108
+msgid "Popular Amenities"
+msgstr ""
+
+#: inc/modules/property/module.php:114
+msgctxt "taxonomy slug"
+msgid "property-amenity"
+msgstr ""
+
+#: inc/modules/property/module.php:119
+msgctxt "taxonomy general name"
+msgid "Property Locations"
+msgstr ""
+
+#: inc/modules/property/module.php:120
+msgctxt "taxonomy singular name"
+msgid "Property Location"
+msgstr ""
+
+#: inc/modules/property/module.php:121
+msgid "Search Locations"
+msgstr ""
+
+#: inc/modules/property/module.php:122
+msgid "All Locations"
+msgstr ""
+
+#: inc/modules/property/module.php:123
+msgid "Parent Location"
+msgstr ""
+
+#: inc/modules/property/module.php:124
+msgid "Parent Location:"
+msgstr ""
+
+#: inc/modules/property/module.php:125
+msgid "Edit Location"
+msgstr ""
+
+#: inc/modules/property/module.php:126
+msgid "Update Location"
+msgstr ""
+
+#: inc/modules/property/module.php:127
+msgid "Add New Location"
+msgstr ""
+
+#: inc/modules/property/module.php:128
+msgid "New Location Name"
+msgstr ""
+
+#: inc/modules/property/module.php:130
+msgid "View Location"
+msgstr ""
+
+#: inc/modules/property/module.php:131
+msgid "Popular Locations"
+msgstr ""
+
+#: inc/modules/property/module.php:137
+msgctxt "taxonomy slug"
+msgid "property-location"
+msgstr ""
+
+#: inc/modules/property/module.php:142
+msgctxt "taxonomy general name"
+msgid "Extra Attributes"
+msgstr ""
+
+#: inc/modules/property/module.php:143
+msgctxt "taxonomy singular name"
+msgid "Extra Attribute"
+msgstr ""
+
+#: inc/modules/property/module.php:144
+msgid "Search Attributes"
+msgstr ""
+
+#: inc/modules/property/module.php:145
+msgid "All Attributes"
+msgstr ""
+
+#: inc/modules/property/module.php:146
+msgid "Parent Attribute"
+msgstr ""
+
+#: inc/modules/property/module.php:147
+msgid "Parent Attribute:"
+msgstr ""
+
+#: inc/modules/property/module.php:148
+msgid "Edit Attribute"
+msgstr ""
+
+#: inc/modules/property/module.php:149
+msgid "Update Attribute"
+msgstr ""
+
+#: inc/modules/property/module.php:150
+msgid "Add New Attribute"
+msgstr ""
+
+#: inc/modules/property/module.php:151
+msgid "New Attribute Name"
+msgstr ""
+
+#: inc/modules/property/module.php:152
+msgid "Attributes"
+msgstr ""
+
+#: inc/modules/property/module.php:153
+msgid "View Attribute"
+msgstr ""
+
+#: inc/modules/property/module.php:154
+msgid "Popular Attributes"
+msgstr ""
+
+#: inc/modules/property/module.php:164
+msgctxt "taxonomy slug"
+msgid "property-attribute"
+msgstr ""
+
+#: inc/modules/property/module.php:169
+msgctxt "taxonomy general name"
+msgid "Extra Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:170
+msgctxt "taxonomy singular name"
+msgid "Extra Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:171
+msgid "Search Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:172
+msgid "All Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:173
+msgid "Parent Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:174
+msgid "Parent Useful Data:"
+msgstr ""
+
+#: inc/modules/property/module.php:175
+msgid "Edit Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:176
+msgid "Update Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:177
+msgid "Add New Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:178
+msgid "New Useful Data Name"
+msgstr ""
+
+#: inc/modules/property/module.php:179
+msgid "Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:180
+msgid "View Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:181
+msgid "Popular Useful Data"
+msgstr ""
+
+#: inc/modules/property/module.php:191
+msgctxt "taxonomy slug"
+msgid "property-useful-data"
+msgstr ""
+
+#: inc/modules/property/module.php:261
+msgid "Properties"
+msgstr ""
+
+#: inc/modules/property/module.php:263
+msgid "Widgets added here will appear on property pages."
+msgstr ""
+
+#: inc/modules/property/module.php:306
+msgid "Text"
+msgstr ""
+
+#: inc/modules/property/module.php:307
+msgid "HTML"
+msgstr ""
+
+#: inc/modules/property/module.php:308
+msgid "Number (integer)"
+msgstr ""
+
+#: inc/modules/property/module.php:309
+msgid "Number (decimal)"
+msgstr ""
+
+#: inc/modules/property/module.php:310
+msgid "Percentage (0-100%)"
+msgstr ""
+
+#: inc/modules/property/module.php:311
+msgid "Progress bar (0-100%)"
+msgstr ""
+
+#: inc/modules/property/module.php:350
+msgid "Integer, e.g. <em>5</em>"
+msgstr ""
+
+#: inc/modules/property/module.php:357
+msgid "Decimal, e.g. <em>5.67</em> - up to two decimal places."
+msgstr ""
+
+#: inc/modules/property/module.php:367
+msgid "Progress 0-100, e.g. <em>52</em>"
+msgstr ""
+
+#: inc/modules/property/module.php:378
+msgid "Percentage 0-100, e.g. <em>52</em>"
+msgstr ""
+
+#. translators: %s is a property's field name, e.g. Garages or Crime Rate
+#: inc/modules/property/module.php:456
+#, php-format
+msgctxt "property field name"
+msgid "%s:"
+msgstr ""
+
+#: inc/modules/property/term-meta.php:59
+#: inc/modules/property/term-meta.php:82
+msgid "Field type"
+msgstr ""
+
+#: inc/modules/service/module.php:17
+msgctxt "post type general name"
+msgid "Services"
+msgstr ""
+
+#: inc/modules/service/module.php:18 inc/modules/service/module.php:34
+msgctxt "post type singular name"
+msgid "Service"
+msgstr ""
+
+#: inc/modules/service/module.php:19
+msgctxt "admin menu"
+msgid "Services"
+msgstr ""
+
+#: inc/modules/service/module.php:20
+msgctxt "add new on admin bar"
+msgid "Service"
+msgstr ""
+
+#: inc/modules/service/module.php:21
+msgctxt "service"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/service/module.php:22
+msgid "Add New Service"
+msgstr ""
+
+#: inc/modules/service/module.php:23
+msgid "Edit Service"
+msgstr ""
+
+#: inc/modules/service/module.php:24
+msgid "New Service"
+msgstr ""
+
+#: inc/modules/service/module.php:25
+msgid "View Service"
+msgstr ""
+
+#: inc/modules/service/module.php:26
+msgid "Search Services"
+msgstr ""
+
+#: inc/modules/service/module.php:27
+msgid "No Services found"
+msgstr ""
+
+#: inc/modules/service/module.php:28
+msgid "No Services found in the trash"
+msgstr ""
+
+#: inc/modules/service/module.php:29
+msgid "Parent Service:"
+msgstr ""
+
+#: inc/modules/service/module.php:40
+msgctxt "post type slug"
+msgid "service"
+msgstr ""
+
+#: inc/modules/service/module.php:50
+msgctxt "taxonomy general name"
+msgid "Service Categories"
+msgstr ""
+
+#: inc/modules/service/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Service Category"
+msgstr ""
+
+#: inc/modules/service/module.php:52
+msgid "Search Service Categories"
+msgstr ""
+
+#: inc/modules/service/module.php:53
+msgid "All Service Categories"
+msgstr ""
+
+#: inc/modules/service/module.php:54
+msgid "Parent Service Category"
+msgstr ""
+
+#: inc/modules/service/module.php:55
+msgid "Parent Service Category:"
+msgstr ""
+
+#: inc/modules/service/module.php:56
+msgid "Edit Service Category"
+msgstr ""
+
+#: inc/modules/service/module.php:57
+msgid "Update Service Category"
+msgstr ""
+
+#: inc/modules/service/module.php:58
+msgid "Add New Service Category"
+msgstr ""
+
+#: inc/modules/service/module.php:59
+msgid "New Service Category Name"
+msgstr ""
+
+#: inc/modules/service/module.php:61
+msgid "View Service Category"
+msgstr ""
+
+#: inc/modules/service/module.php:62
+msgid "Popular Service Categories"
+msgstr ""
+
+#: inc/modules/service/module.php:68
+msgctxt "taxonomy slug"
+msgid "service-category"
+msgstr ""
+
+#: inc/modules/service/module.php:138
+msgid "Services"
+msgstr ""
+
+#: inc/modules/service/module.php:140
+msgid "Widgets added here will appear on service pages."
+msgstr ""
+
+#: inc/modules/team/module.php:17
+msgctxt "post type general name"
+msgid "Team"
+msgstr ""
+
+#: inc/modules/team/module.php:18 inc/modules/team/module.php:34
+msgctxt "post type singular name"
+msgid "Team Member"
+msgstr ""
+
+#: inc/modules/team/module.php:19
+msgctxt "admin menu"
+msgid "Team"
+msgstr ""
+
+#: inc/modules/team/module.php:20
+msgctxt "add new on admin bar"
+msgid "Team Member"
+msgstr ""
+
+#: inc/modules/team/module.php:21
+msgctxt "team"
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/team/module.php:22
+msgid "Add New Team Member"
+msgstr ""
+
+#: inc/modules/team/module.php:23
+msgid "Edit Team Member"
+msgstr ""
+
+#: inc/modules/team/module.php:24
+msgid "New Team Member"
+msgstr ""
+
+#: inc/modules/team/module.php:25
+msgid "View Team Member"
+msgstr ""
+
+#: inc/modules/team/module.php:26
+msgid "Search Team Members"
+msgstr ""
+
+#: inc/modules/team/module.php:27
+msgid "No Team Members found"
+msgstr ""
+
+#: inc/modules/team/module.php:28
+msgid "No Team Members found in the trash"
+msgstr ""
+
+#: inc/modules/team/module.php:29
+msgid "Parent Team Member:"
+msgstr ""
+
+#: inc/modules/team/module.php:40
+msgctxt "post type slug"
+msgid "team"
+msgstr ""
+
+#: inc/modules/team/module.php:50
+msgctxt "taxonomy general name"
+msgid "Team Categories"
+msgstr ""
+
+#: inc/modules/team/module.php:51
+msgctxt "taxonomy singular name"
+msgid "Team Category"
+msgstr ""
+
+#: inc/modules/team/module.php:52
+msgid "Search Team Categories"
+msgstr ""
+
+#: inc/modules/team/module.php:53
+msgid "All Team Categories"
+msgstr ""
+
+#: inc/modules/team/module.php:54
+msgid "Parent Team Category"
+msgstr ""
+
+#: inc/modules/team/module.php:55
+msgid "Parent Team Category:"
+msgstr ""
+
+#: inc/modules/team/module.php:56
+msgid "Edit Team Category"
+msgstr ""
+
+#: inc/modules/team/module.php:57
+msgid "Update Team Category"
+msgstr ""
+
+#: inc/modules/team/module.php:58
+msgid "Add New Team Category"
+msgstr ""
+
+#: inc/modules/team/module.php:59
+msgid "New Team Category Name"
+msgstr ""
+
+#: inc/modules/team/module.php:61
+msgid "View Team Category"
+msgstr ""
+
+#: inc/modules/team/module.php:62
+msgid "Popular Team Categories"
+msgstr ""
+
+#: inc/modules/team/module.php:68
+msgctxt "taxonomy slug"
+msgid "team-category"
+msgstr ""
+
+#: inc/modules/team/module.php:138
+msgid "Team"
+msgstr ""
+
+#: inc/modules/team/module.php:140
+msgid "Widgets added here will appear on team pages."
+msgstr ""
+
+#: inc/modules/team/module.php:182
+msgid "Team Member Info"
+msgstr ""
+
+#: inc/modules/team/module.php:201
+msgid "Location"
+msgstr ""
+
+#: inc/modules/team/module.php:205
+msgid "Genre"
+msgstr ""
+
+#: inc/modules/team/module.php:209
+msgid "Booking Notice"
+msgstr ""
+
+#: inc/nav-menus.php:15
+msgid "Main Menu"
+msgstr ""
+
+#: inc/nav-menus.php:16
+msgid "Main Menu - Left"
+msgstr ""
+
+#: inc/reviews.php:23
+msgid "Rate this by clicking on a star below:"
+msgstr ""
+
+#. translators: %d is a number.
+#: inc/reviews.php:31
+#, php-format
+msgid "%d star"
+msgid_plural "%d stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/reviews.php:55
+msgid "<strong>Error</strong>: Please select a rating."
+msgstr ""
+
+#: inc/reviews.php:56
+msgid "Comment Submission Failure"
+msgstr ""
+
+#: inc/reviews.php:166
+msgctxt "rating text"
+msgid "Bad"
+msgstr ""
+
+#: inc/reviews.php:168
+msgctxt "rating text"
+msgid "Poor"
+msgstr ""
+
+#: inc/reviews.php:170
+msgctxt "rating text"
+msgid "Average"
+msgstr ""
+
+#: inc/reviews.php:172
+msgctxt "rating text"
+msgid "Good"
+msgstr ""
+
+#: inc/reviews.php:174
+msgctxt "rating text"
+msgid "Excellent"
+msgstr ""
+
+#: inc/sanitization.php:186
+msgid "No repeat"
+msgstr ""
+
+#: inc/sanitization.php:187
+msgid "Tile"
+msgstr ""
+
+#: inc/sanitization.php:188
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/sanitization.php:189
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/sanitization.php:234
+msgid "Top Left"
+msgstr ""
+
+#: inc/sanitization.php:235
+msgid "Top Center"
+msgstr ""
+
+#: inc/sanitization.php:236
+msgid "Top Right"
+msgstr ""
+
+#: inc/sanitization.php:237
+msgid "Center Left"
+msgstr ""
+
+#: inc/sanitization.php:238
+msgid "Center Center"
+msgstr ""
+
+#: inc/sanitization.php:239
+msgid "Center Right"
+msgstr ""
+
+#: inc/sanitization.php:240
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/sanitization.php:241
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/sanitization.php:242
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/sanitization.php:288
+msgid "Scroll"
+msgstr ""
+
+#: inc/sanitization.php:289
+msgid "Fixed"
+msgstr ""
+
+#: inc/sanitization.php:334
+msgid "Cover"
+msgstr ""
+
+#: inc/sanitization.php:335
+msgid "Contain"
+msgstr ""
+
+#: inc/sanitization.php:336
+msgid "Auto"
+msgstr ""
+
+#: inc/sanitization.php:528 inc/sanitization.php:605
+msgid "Respect Customizer setting"
+msgstr ""
+
+#: inc/sanitization.php:529
+msgid "Show"
+msgstr ""
+
+#: inc/sanitization.php:530 inc/sanitization.php:1025
+msgid "Hide"
+msgstr ""
+
+#: inc/sanitization.php:561
+msgid "Normal"
+msgstr ""
+
+#: inc/sanitization.php:565
+msgid "Transparent"
+msgstr ""
+
+#: inc/sanitization.php:648
+msgid "Menu Left"
+msgstr ""
+
+#: inc/sanitization.php:656
+msgid "Menu Center"
+msgstr ""
+
+#: inc/sanitization.php:664
+msgid "Menu Right"
+msgstr ""
+
+#: inc/sanitization.php:672
+msgid "Menu Split"
+msgstr ""
+
+#: inc/sanitization.php:735
+msgid "Off"
+msgstr ""
+
+#: inc/sanitization.php:736
+msgid "On - Reveal on scroll up"
+msgstr ""
+
+#: inc/sanitization.php:737
+msgid "On - Permanent"
+msgstr ""
+
+#: inc/sanitization.php:783
+msgid "2 equal areas"
+msgstr ""
+
+#: inc/sanitization.php:791
+msgid "3 equal areas"
+msgstr ""
+
+#: inc/sanitization.php:799
+msgid "4 equal areas"
+msgstr ""
+
+#: inc/sanitization.php:865
+msgid "Content / Sidebar"
+msgstr ""
+
+#: inc/sanitization.php:866
+msgid "Sidebar / Content"
+msgstr ""
+
+#: inc/sanitization.php:867
+msgid "Full width boxed"
+msgstr ""
+
+#: inc/sanitization.php:868
+msgid "Full width narrow"
+msgstr ""
+
+#: inc/sanitization.php:942
+msgid "Boxed site - Centered"
+msgstr ""
+
+#: inc/sanitization.php:943
+msgid "Full width site - Boxed content"
+msgstr ""
+
+#: inc/sanitization.php:944
+msgid "Full width site - Left-aligned content"
+msgstr ""
+
+#: inc/sanitization.php:945
+msgid "Full width site - Full width content"
+msgstr ""
+
+#. translators: %d is a number of columns.
+#: inc/sanitization.php:976 inc/sanitization.php:1022
+#, php-format
+msgid "%d Column"
+msgid_plural "%d Columns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/sanitization.php:979
+msgid "1 Column horizontal"
+msgstr ""
+
+#: inc/sanitization.php:1076
+msgid "List"
+msgstr ""
+
+#: inc/sanitization.php:1077
+msgid "Thumbnails Left"
+msgstr ""
+
+#: inc/sanitization.php:1078
+msgid "Thumbnails Right"
+msgstr ""
+
+#: inc/sanitization.php:1117
+msgid "Center"
+msgstr ""
+
+#: inc/sanitization.php:1532
+msgid "All Devices"
+msgstr ""
+
+#: inc/sanitization.php:1533
+msgid "Desktop Only"
+msgstr ""
+
+#: inc/sanitization.php:1534
+msgid "Desktop & Tablets"
+msgstr ""
+
+#: inc/sanitization.php:1535
+msgid "Tablets & Mobile Devices"
+msgstr ""
+
+#: inc/sanitization.php:1536
+msgid "Mobile Devices"
+msgstr ""
+
+#: inc/scripts-styles.php:114
+msgid "No products match your query."
+msgstr ""
+
+#: inc/scripts-styles.php:231
+msgid "Expand submenu"
+msgstr ""
+
+#: inc/scripts-styles.php:273
+msgid "Clear color"
+msgstr ""
+
+#: inc/scripts-styles.php:275
+msgid "Select default color"
+msgstr ""
+
+#: inc/scripts-styles.php:276
+msgid "Select Color"
+msgstr ""
+
+#: inc/scripts-styles.php:277
+msgid "Color value"
+msgstr ""
+
+#: inc/scripts-styles.php:289
+msgid "Select a File"
+msgstr ""
+
+#: inc/shortcodes.php:38 template-files/template-parts/searchform.php:16
+msgid "Search for:"
+msgstr ""
+
+#: inc/shortcodes.php:39
+msgctxt "search box placeholder"
+msgid "Type and hit enter to search"
+msgstr ""
+
+#: inc/shortcodes.php:41
+msgid "Search"
+msgstr ""
+
+#: inc/shortcodes.php:60
+msgid "Expand search form"
+msgstr ""
+
+#: inc/shortcodes.php:162
+msgid "Cart"
+msgstr ""
+
+#: inc/shortcodes.php:168
+msgid "View Cart"
+msgstr ""
+
+#: inc/shortcodes.php:169
+msgid "Checkout"
+msgstr ""
+
+#: inc/shortcodes.php:239
+msgid ""
+"Set your API key and Location in Customize &rarr; Utilities &rarr; Weather"
+msgstr ""
+
+#: inc/shortcodes.php:265
+msgctxt "language"
+msgid "English"
+msgstr ""
+
+#: inc/shortcodes.php:269
+msgid ""
+"You can use WPML or Polylang and their language switchers in this area."
+msgstr ""
+
+#: inc/shortcodes.php:346
+msgid "Email address:"
+msgstr ""
+
+#: inc/shortcodes.php:347
+msgid "E-mail"
+msgstr ""
+
+#: inc/shortcodes.php:348
+msgid "Subscribe"
+msgstr ""
+
+#: inc/shortcodes.php:484
+msgid ""
+"Username error. Connect your Instagram account or add a default username "
+"under Settings > Instagram Widget and/or add a username to the shortcode "
+"using the username attribute."
+msgstr ""
+
+#: inc/shortcodes.php:617
+msgid ""
+"No action URL found for the form, please use the url shortcode parameter "
+"to add one."
+msgstr ""
+
+#: inc/shortcodes.php:624 inc/shortcodes.php:625
+msgid "Arrival"
+msgstr ""
+
+#: inc/shortcodes.php:628 inc/shortcodes.php:629
+msgid "Departure"
+msgstr ""
+
+#: inc/shortcodes.php:632 inc/shortcodes.php:634
+msgid "Persons"
+msgstr ""
+
+#: inc/shortcodes.php:650
+msgid "Book now"
+msgstr ""
+
+#: inc/side-header.php:29
+msgid "Content layout"
+msgstr ""
+
+#: inc/side-header.php:30
+msgid "Content Sidebar width (columns)"
+msgstr ""
+
+#: inc/side-header.php:146
+msgctxt "customizer section title"
+msgid "Side Header"
+msgstr ""
+
+#: inc/side-header.php:179
+msgid "Menu on the side"
+msgstr ""
+
+#: inc/side-header.php:233
+msgid "Full width"
+msgstr ""
+
+#: inc/side-header.php:279
+msgid "Header"
+msgstr ""
+
+#: inc/side-header.php:281
+msgid ""
+"Widgets added here will appear on the side header, after the main menu."
+msgstr ""
+
+#: inc/side-header.php:288
+msgid "Header - Bottom"
+msgstr ""
+
+#: inc/side-header.php:290
+msgid "Widgets added here will appear on the bottom of the side header."
+msgstr ""
+
+#: inc/sidebars-widgets.php:44
+msgid "Widgets added here will appear on the blog section."
+msgstr ""
+
+#: inc/sidebars-widgets.php:51
+msgid "Page"
+msgstr ""
+
+#: inc/sidebars-widgets.php:53
+msgid "Widgets added here will appear on the static pages."
+msgstr ""
+
+#: inc/sidebars-widgets.php:64
+msgid "Shop"
+msgstr ""
+
+#: inc/sidebars-widgets.php:66
+msgid "Widgets added here will appear on the shop page."
+msgstr ""
+
+#: inc/sidebars-widgets.php:104
+msgid "Footer - 1st column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:106
+msgid "Widgets added here will appear on the first footer column."
+msgstr ""
+
+#: inc/sidebars-widgets.php:113
+msgid "Footer - 2nd column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:115
+msgid "Widgets added here will appear on the second footer column."
+msgstr ""
+
+#: inc/sidebars-widgets.php:122
+msgid "Footer - 3rd column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:124
+msgid "Widgets added here will appear on the third footer column."
+msgstr ""
+
+#: inc/sidebars-widgets.php:131
+msgid "Footer - 4th column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:133
+msgid "Widgets added here will appear on the fourth footer column."
+msgstr ""
+
+#. translators: %d is a number of search results.
+#: inc/template-tags.php:477
+#, php-format
+msgid "%d result found."
+msgid_plural "%d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Yearly archive title. 1: Year
+#: inc/template-tags.php:481
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#. translators: Monthly archive title. 1: Month name and year
+#: inc/template-tags.php:484
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#. translators: Daily archive title. 1: Date
+#: inc/template-tags.php:487
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:490
+msgid "Not Found (404)"
+msgstr ""
+
+#: inc/template-tags.php:1016
+msgid "Featured"
+msgstr ""
+
+#. translators: %s is the author's name.
+#: inc/template-tags.php:1105
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:1134
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:1191
+msgid "Tags: "
+msgstr ""
+
+#: inc/template-tags.php:1425
+msgctxt "previous post"
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:1426
+msgctxt "next post"
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:1427
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:1503
+msgctxt "social sharing icon text"
+msgid "Facebook"
+msgstr ""
+
+#: inc/template-tags.php:1513
+msgctxt "social sharing icon text"
+msgid "Twitter"
+msgstr ""
+
+#: inc/template-tags.php:1525
+msgctxt "social sharing icon text"
+msgid "Pinterest"
+msgstr ""
+
+#: inc/term-meta.php:101 inc/term-meta.php:145
+msgid "Remove page title image"
+msgstr ""
+
+#: inc/term-meta.php:107 inc/term-meta.php:152
+msgid "Page Title Video"
+msgstr ""
+
+#: inc/term-meta.php:245 inc/term-meta.php:272
+msgid "Cover Image"
+msgstr ""
+
+#: inc/term-meta.php:250 inc/term-meta.php:282
+msgid "Set cover image"
+msgstr ""
+
+#: inc/term-meta.php:251 inc/term-meta.php:283
+msgid "Remove cover image"
+msgstr ""
+
+#. translators: %d is a number of posts.
+#: inc/upgrade.php:88
+#, php-format
+msgid "Upgrading events. %d remaining..."
+msgstr ""
+
+#: inc/upgrade/class-ignition-data-upgrade.php:58
+msgid "Updating data..."
+msgstr ""
+
+#: inc/upgrade/class-ignition-data-upgrade.php:79
+msgid "Ignition finished upgrading data."
+msgstr ""
+
+#: inc/upgrade/class-ignition-data-upgrade.php:108
+msgid "The Ignition plugin updates data in the background. Please wait."
+msgstr ""
+
+#. translators: %d is a number of minutes.
+#: inc/upgrade/class-ignition-wp-background-process.php:459
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: inc/user-meta.php:37
+msgid "Social Networks"
+msgstr ""
+
+#. translators: %s is a social network's name, e.g. Facebook
+#: inc/user-meta.php:47
+#, php-format
+msgctxt "social network url"
+msgid "%s URL"
+msgstr ""
+
+#: inc/vendor/openweathermap.php:21
+msgid "Invalid nonce."
+msgstr ""
+
+#: inc/vendor/openweathermap.php:33 inc/vendor/openweathermap.php:159
+msgid "Missing weather location."
+msgstr ""
+
+#: inc/vendor/openweathermap.php:73
+msgid "Celsius"
+msgstr ""
+
+#: inc/vendor/openweathermap.php:74
+msgid "Fahrenheit"
+msgstr ""
+
+#: inc/vendor/openweathermap.php:75
+msgid "Kelvin"
+msgstr ""
+
+#: inc/vendor/openweathermap.php:107
+msgctxt "Temperature unit symbol (Kelvin)"
+msgid "K"
+msgstr ""
+
+#: inc/vendor/openweathermap.php:108
+msgctxt "Temperature unit symbol (Fahrenheit)"
+msgid "F"
+msgstr ""
+
+#: inc/vendor/openweathermap.php:109
+msgctxt "Temperature unit symbol (Celsius)"
+msgid "C"
+msgstr ""
+
+#: inc/vendor/openweathermap.php:161
+msgid "Missing weather API key."
+msgstr ""
+
+#: inc/vendor/openweathermap.php:197
+msgid "OpenWeatherData.org Error"
+msgstr ""
+
+#. translators:  %1$s is a location name, %2$s is a country code. E.g. London, UK
+#: inc/vendor/openweathermap.php:225
+#, php-format
+msgctxt "location"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-login-popup.php:85
+#, php-format
+msgid ""
+"\"My account\" page is not set. Navigate to <a href=\"%s\">WooCommerce "
+"Settings</a> to set it."
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-login-popup.php:110
+#: inc/vendor/woocommerce/wc-login-popup.php:139
+msgid "Login"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-login-popup.php:140
+#: template-files/woocommerce/checkout/thankyou.php:40
+msgid "My account"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-login-popup.php:141
+msgid "Please fill all required fields."
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-login-popup.php:142
+msgid "Logging in. Please wait..."
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-login-popup.php:143
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-login-popup.php:144
+msgid "Oops, something went wrong! Please try again."
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-search.php:45
+msgid "Expand product search form"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-search.php:59
+msgid "Category name"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-search.php:60
+msgid "Search products:"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-search.php:61
+msgid "Search all categories"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-search.php:62
+msgid "What are you looking for?"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-search.php:63
+msgid "Search result item thumbnail"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-search.php:64
+#: template-files/template-parts/searchform.php:18
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-search.php:233
+msgid "Search term too short"
+msgstr ""
+
+#: inc/vendor/woocommerce/wc-search.php:267
+msgid "No products match the search term"
+msgstr ""
+
+#: inc/vendor/woocommerce/woocommerce.php:154
+msgid "Filters"
+msgstr ""
+
+#: inc/vendor/woocommerce/woocommerce.php:171
+#: template-files/woocommerce/global/sidebar.php:35
+msgid "Close drawer"
+msgstr ""
+
+#. translators: %1$d is a discount percentage. E.g. -60%
+#: inc/vendor/woocommerce/woocommerce.php:457
+#, php-format
+msgctxt "product discount"
+msgid "-%1$d%%"
+msgstr ""
+
+#. translators: The whole string is a discount range. %1$d is the minimum discount percentage, %2$d is the maximum discount percentage. E.g. -10% / -60%
+#: inc/vendor/woocommerce/woocommerce.php:460
+#, php-format
+msgctxt "product discount"
+msgid "-%1$d%% / -%2$d%%"
+msgstr ""
+
+#: inc/vendor/woocommerce/woocommerce.php:526
+msgctxt "checkout step"
+msgid "Your Cart"
+msgstr ""
+
+#: inc/vendor/woocommerce/woocommerce.php:531
+msgctxt "checkout step"
+msgid "Checkout"
+msgstr ""
+
+#: inc/vendor/woocommerce/woocommerce.php:536
+msgctxt "checkout step"
+msgid "Confirmation"
+msgstr ""
+
+#: inc/vendor/woocommerce/woocommerce.php:715
+#: template-files/woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: inc/vendor/woocommerce/woocommerce.php:781
+msgid "Continue Shopping"
+msgstr ""
+
+#: inc/widgets/buttons.php:24
+msgid "A list of buttons."
+msgstr ""
+
+#: inc/widgets/buttons.php:26
+msgid "Ignition - Buttons"
+msgstr ""
+
+#: inc/widgets/buttons.php:109 inc/widgets/buttons.php:123
+#: inc/widgets/buttons.php:147 inc/widgets/callout.php:97
+#: inc/widgets/latest-post-type.php:110
+#: inc/widgets/page-children-menu.php:112 inc/widgets/tabular-data.php:107
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/buttons.php:114 inc/widgets/tabular-data.php:117
+msgid ""
+"Add as many items as you want by pressing the \"Add Item\" button. Remove "
+"any item by selecting \"Remove me\"."
+msgstr ""
+
+#: inc/widgets/buttons.php:127 inc/widgets/buttons.php:151
+msgid "Subtitle:"
+msgstr ""
+
+#: inc/widgets/buttons.php:131 inc/widgets/buttons.php:155
+msgid "Link URL:"
+msgstr ""
+
+#: inc/widgets/buttons.php:135 inc/widgets/buttons.php:159
+#: inc/widgets/tabular-data.php:134 inc/widgets/tabular-data.php:154
+msgid "Remove me"
+msgstr ""
+
+#: inc/widgets/buttons.php:162 inc/widgets/tabular-data.php:157
+msgid "Add Item"
+msgstr ""
+
+#: inc/widgets/callout.php:27
+msgid "Callout widget with custom call to action button."
+msgstr ""
+
+#: inc/widgets/callout.php:29
+msgid "Ignition - Callout"
+msgstr ""
+
+#: inc/widgets/callout.php:92
+msgid "Widget Title:"
+msgstr ""
+
+#: inc/widgets/callout.php:101
+msgid "Text:"
+msgstr ""
+
+#: inc/widgets/callout.php:106
+msgid "Button Text:"
+msgstr ""
+
+#: inc/widgets/callout.php:110
+msgid "Button URL:"
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:25
+msgid "Displays the latest items from a selected post type."
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:27
+msgid "Ignition - Latest Post Type"
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:121
+msgid "Post type:"
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:128
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/page-children-menu.php:25
+msgid "Displays the current page's hierarchy as a menu."
+msgstr ""
+
+#: inc/widgets/page-children-menu.php:27
+msgid "Ignition - Page Children Menu"
+msgstr ""
+
+#: inc/widgets/page-children-menu.php:117
+msgid "Show hierarchy."
+msgstr ""
+
+#: inc/widgets/page-children-menu.php:122
+msgid "Show the first page of the hierarchy."
+msgstr ""
+
+#: inc/widgets/page-children-menu.php:126
+msgid ""
+"This widget only displays something when the page currently viewed is part "
+"of a hierarchy (either has children or is a child of another page itself). "
+"In all other cases, it displays nothing."
+msgstr ""
+
+#: inc/widgets/tabular-data.php:25
+msgid "Display tabular data e.g. timetables, pricelists etc."
+msgstr ""
+
+#: inc/widgets/tabular-data.php:27
+msgid "Ignition - Tabular Data"
+msgstr ""
+
+#: inc/widgets/tabular-data.php:112
+msgid "Text (accepts HTML):"
+msgstr ""
+
+#: inc/widgets/tabular-data.php:126 inc/widgets/tabular-data.php:146
+msgid "Label:"
+msgstr ""
+
+#: inc/widgets/tabular-data.php:130 inc/widgets/tabular-data.php:150
+msgid "Data:"
+msgstr ""
+
+#: template-files/404.php:53
+msgid "Oops! The page can't be found."
+msgstr ""
+
+#: template-files/404.php:57
+msgid ""
+"It looks like nothing was found at this location. Navigate our website or "
+"try searching instead."
+msgstr ""
+
+#: template-files/template-parts/article-ignition-discography.php:10
+#: template-files/template-parts/article-ignition-event.php:10
+#: template-files/template-parts/article-ignition-portfolio.php:10
+#: template-files/template-parts/article-media-ignition-discography.php:10
+#: template-files/template-parts/article-media-ignition-event.php:10
+#: template-files/template-parts/article-media-ignition-portfolio.php:10
+#: template-files/template-parts/article-media-post.php:10
+#: template-files/template-parts/article-media.php:10
+#: template-files/template-parts/article-post.php:10
+#: template-files/template-parts/article.php:10
+#: template-files/template-parts/item-post.php:10
+msgid "Read More"
+msgstr ""
+
+#: template-files/template-parts/article-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %1$s is a URL.
+#: template-files/template-parts/article-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-files/template-parts/article-none.php:29
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-files/template-parts/article-none.php:34
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-files/template-parts/authorbox.php:29
+msgid "View articles"
+msgstr ""
+
+#: template-files/template-parts/comments-reviews.php:35
+msgid "No Reviews"
+msgstr ""
+
+#: template-files/template-parts/comments-reviews.php:35
+msgid "1 Review"
+msgstr ""
+
+#: template-files/template-parts/comments-reviews.php:35
+msgid "% Reviews"
+msgstr ""
+
+#: template-files/template-parts/comments-reviews.php:101
+#: template-files/template-parts/comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: template-files/template-parts/comments-reviews.php:105
+msgid "Your Review"
+msgstr ""
+
+#: template-files/template-parts/comments-reviews.php:106
+msgid "Submit Review"
+msgstr ""
+
+#: template-files/template-parts/footer/navigation-mobile.php:11
+msgid "Close Menu"
+msgstr ""
+
+#. translators: %d is a number in the range 1-4
+#: template-files/template-parts/footer/widgets-equal.php:20
+#, php-format
+msgid ""
+"To display widgets it this position, assign them to the \"Footer - %d\" "
+"widget area."
+msgstr ""
+
+#: template-files/template-parts/header/navigation-mobile-trigger.php:14
+msgid "Menu"
+msgstr ""
+
+#: template-files/template-parts/item-ignition-discography.php:10
+#: template-files/template-parts/item-ignition-event.php:10
+#: template-files/template-parts/item-ignition-podcast.php:10
+#: template-files/template-parts/item-ignition-portfolio.php:10
+#: template-files/template-parts/item.php:10
+msgid "Learn More"
+msgstr ""
+
+#: template-files/template-parts/meta/single-ignition-event.php:9
+#: template-files/template-parts/meta/single-ignition-event.php:10
+#: template-files/template-parts/single/sidebar-image-meta/sidebar-ignition-event.php:13
+#: template-files/template-parts/single/sidebar-image-meta/sidebar-ignition-event.php:14
+msgctxt "event meta label"
+msgid "Date"
+msgstr ""
+
+#: template-files/template-parts/meta/single-ignition-event.php:11
+#: template-files/template-parts/single/sidebar-image-meta/sidebar-ignition-event.php:15
+msgctxt "event meta label"
+msgid "Time"
+msgstr ""
+
+#: template-files/template-parts/meta/single-ignition-event.php:12
+#: template-files/template-parts/single/sidebar-image-meta/sidebar-ignition-event.php:16
+msgctxt "event meta label"
+msgid "Location"
+msgstr ""
+
+#: template-files/template-parts/related.php:38
+msgid "You might be interested in &hellip;"
+msgstr ""
+
+#: template-files/template-parts/searchform.php:17
+msgctxt "search box placeholder"
+msgid "Search"
+msgstr ""
+
+#: template-files/template-parts/single/sidebar-image-meta/meta-ignition-team-artist.php:10
+msgctxt "team meta label"
+msgid "Location"
+msgstr ""
+
+#: template-files/template-parts/single/sidebar-image-meta/meta-ignition-team-artist.php:11
+msgctxt "team meta label"
+msgid "Genre"
+msgstr ""
+
+#: template-files/template-parts/single/sidebar-image-meta/meta-ignition-team-artist.php:12
+msgctxt "team meta label"
+msgid "Booking Notice"
+msgstr ""
+
+#: template-files/template-parts/single/sidebar-image-meta/sidebar-ignition-discography.php:12
+msgctxt "discography meta label"
+msgid "Release Date"
+msgstr ""
+
+#: template-files/template-parts/single/sidebar-image-meta/sidebar-ignition-discography.php:13
+msgctxt "discography meta label"
+msgid "Catalog #"
+msgstr ""
+
+#: template-files/template-parts/single/sidebar-image-meta/sidebar-ignition-discography.php:14
+msgctxt "discography meta label"
+msgid "Label"
+msgstr ""
+
+#: template-files/template-parts/single/sidebar-image-meta/sidebar-ignition-discography.php:15
+msgctxt "discography meta label"
+msgid "Producers"
+msgstr ""
+
+#: template-files/woocommerce/cart/mini-cart.php:96
+msgid "No products in the cart."
+msgstr ""
+
+#: template-files/woocommerce/checkout/thankyou.php:35
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: template-files/woocommerce/checkout/thankyou.php:38
+msgid "Pay"
+msgstr ""
+
+#: template-files/woocommerce/checkout/thankyou.php:46
+#: template-files/woocommerce/checkout/thankyou.php:107
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: template-files/woocommerce/checkout/thankyou.php:53
+msgid "Order number:"
+msgstr ""
+
+#: template-files/woocommerce/checkout/thankyou.php:58
+msgid "Date:"
+msgstr ""
+
+#: template-files/woocommerce/checkout/thankyou.php:64
+msgid "Email:"
+msgstr ""
+
+#: template-files/woocommerce/checkout/thankyou.php:70
+msgid "Total:"
+msgstr ""
+
+#: template-files/woocommerce/checkout/thankyou.php:76
+msgid "Payment method:"
+msgstr ""
+
+#: template-files/woocommerce/content-widget-reviews.php:35
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: template-files/woocommerce/order/order-details.php:46
+msgid "Order details"
+msgstr ""
+
+#: template-files/woocommerce/order/order-details.php:52
+msgid "Product"
+msgstr ""
+
+#: template-files/woocommerce/order/order-details.php:53
+msgid "Total"
+msgstr ""
+
+#: template-files/woocommerce/order/order-details.php:94
+msgid "Note:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ignition Framework"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.cssigniter.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "CSSIgniter themes' core functions."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CSSIgniter"
+msgstr ""

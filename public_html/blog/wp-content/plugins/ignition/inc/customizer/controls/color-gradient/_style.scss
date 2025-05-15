@@ -1,0 +1,20 @@
+#lc-color-picker {
+	&.lccp-shown {
+		z-index: 999999 !important;
+		transform: translate3d(0, calc((100% + 38px) * -1), 0) !important;
+		left: 3px !important;
+	}
+}
+
+.ignition-color-gradient-picker-wrapper {
+	display: flex;
+	align-items: center;
+
+	.lccp-el-wrap {
+		max-width: 160px;
+	}
+
+	.button {
+		margin-left: 3px
+	}
+}
